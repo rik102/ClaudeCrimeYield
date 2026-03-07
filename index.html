@@ -312,7 +312,13 @@
       map: null,
       beatLayer: null,
       geojson: null,
-      beatMetricByNorm: new Map()
+      beatMetricByNorm: new Map(),
+      datasets: {
+        summary: null,
+        beats: [],
+        reasons: [],
+        searches: []
+      }
     };
 
     const toNum = (v) => {
@@ -341,6 +347,20 @@
       const res = await fetch(url);
       if (!res.ok) throw new Error(`API failed: ${url}`);
       return res.json();
+    }
+
+    function sortRows(rows, sort, metricKey = 'yield') {
+      const out = [...rows];
+      if (sort === `${metricKey}_asc`) {
+        out.sort((a, b) => toNum(a[metricKey]) - toNum(b[metricKey]));
+      } else if (sort === 'stops_desc') {
+        out.sort((a, b) => toNum(b.stops) - toNum(a.stops));
+      } else if (sort === 'searches_desc') {
+        out.sort((a, b) => toNum(b.searches) - toNum(a.searches));
+      } else {
+        out.sort((a, b) => toNum(b[metricKey]) - toNum(a[metricKey]));
+      }
+      return out;
     }
 
     async function loadGeoJson() {
@@ -550,13 +570,22 @@
       const limitRows = Math.max(3, Math.min(40, toNum(document.getElementById('limitRows').value)));
       const beatSort = document.getElementById('beatSort').value;
       const reasonSort = document.getElementById('reasonSort').value;
-
-      const [summary, beats, reasons, searches] = await Promise.all([
-        getJson('/api/summary'),
-        getJson(`/api/yield/beat?min_stops=${minStops}&sort=${beatSort}&limit=${limitRows}`),
-        getJson(`/api/yield/reason?min_stops=${minStops}&sort=${reasonSort}&limit=${limitRows}`),
-        getJson(`/api/yield/search?min_searches=${minSearches}&sort=search_yield_desc&limit=${limitRows}`)
-      ]);
+      const summary = state.datasets.summary;
+      const beats = sortRows(
+        state.datasets.beats.filter((r) => toNum(r.stops) >= minStops),
+        beatSort,
+        'yield'
+      ).slice(0, limitRows);
+      const reasons = sortRows(
+        state.datasets.reasons.filter((r) => toNum(r.stops) >= minStops),
+        reasonSort,
+        'yield'
+      ).slice(0, limitRows);
+      const searches = sortRows(
+        state.datasets.searches.filter((r) => toNum(r.searches) >= minSearches),
+        'search_yield_desc',
+        'search_yield'
+      ).slice(0, limitRows);
 
       state.rows.beats = beats;
       state.rows.reasons = reasons;
@@ -597,7 +626,18 @@
     }
 
     async function init() {
-      state.geojson = await loadGeoJson();
+      const [geo, summaryRows, beats, reasons, searches] = await Promise.all([
+        loadGeoJson(),
+        getJson('/output/overall_summary.json'),
+        getJson('/output/yield_by_beat.json'),
+        getJson('/output/yield_by_stop_reason.json'),
+        getJson('/output/search_yield_by_reason.json')
+      ]);
+      state.geojson = geo;
+      state.datasets.summary = (summaryRows && summaryRows[0]) ? summaryRows[0] : {};
+      state.datasets.beats = beats || [];
+      state.datasets.reasons = reasons || [];
+      state.datasets.searches = searches || [];
       await draw();
     }
 
@@ -608,7 +648,7 @@
     document.getElementById('presetBalanced').addEventListener('click', () => { applyPreset('balanced'); draw().catch((e) => alert(e.message)); });
 
     init().catch((e) => {
-      document.body.innerHTML = `<pre style="padding:20px;color:#991b1b">${e.message}\n\nRun: python analyze_ripa.py\nThen: python server.py</pre>`;
+      document.body.innerHTML = `<pre style="padding:20px;color:#991b1b">${e.message}\n\nExpected static files:\n/output/overall_summary.json\n/output/yield_by_beat.json\n/output/yield_by_stop_reason.json\n/output/search_yield_by_reason.json\n\nIf local: run python analyze_ripa.py first.</pre>`;
     });
   </script>
 </body>
