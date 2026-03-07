@@ -1,0 +1,146 @@
+[
+  {
+    "search_reason": "Incident to arrest",
+    "stops": "26800",
+    "success": "5304",
+    "yield": "0.1979",
+    "contraband_discoveries": "5304",
+    "searches": "26800",
+    "search_yield": "0.1979"
+  },
+  {
+    "search_reason": "Condition of parole / probation/ PRCS / mandatory supervision",
+    "stops": "5157",
+    "success": "1184",
+    "yield": "0.2296",
+    "contraband_discoveries": "1184",
+    "searches": "5157",
+    "search_yield": "0.2296"
+  },
+  {
+    "search_reason": "Officer safety/safety of others",
+    "stops": "4228",
+    "success": "866",
+    "yield": "0.2048",
+    "contraband_discoveries": "866",
+    "searches": "4228",
+    "search_yield": "0.2048"
+  },
+  {
+    "search_reason": "Visible contraband",
+    "stops": "2651",
+    "success": "1519",
+    "yield": "0.573",
+    "contraband_discoveries": "1519",
+    "searches": "2651",
+    "search_yield": "0.573"
+  },
+  {
+    "search_reason": "Vehicle inventory",
+    "stops": "2110",
+    "success": "412",
+    "yield": "0.1953",
+    "contraband_discoveries": "412",
+    "searches": "2110",
+    "search_yield": "0.1953"
+  },
+  {
+    "search_reason": "Evidence of crime",
+    "stops": "1765",
+    "success": "1166",
+    "yield": "0.6606",
+    "contraband_discoveries": "1166",
+    "searches": "1765",
+    "search_yield": "0.6606"
+  },
+  {
+    "search_reason": "Suspected weapons",
+    "stops": "1490",
+    "success": "583",
+    "yield": "0.3913",
+    "contraband_discoveries": "583",
+    "searches": "1490",
+    "search_yield": "0.3913"
+  },
+  {
+    "search_reason": "Verbal Consent given",
+    "stops": "1283",
+    "success": "313",
+    "yield": "0.244",
+    "contraband_discoveries": "313",
+    "searches": "1283",
+    "search_yield": "0.244"
+  },
+  {
+    "search_reason": "Odor of contraband",
+    "stops": "584",
+    "success": "235",
+    "yield": "0.4024",
+    "contraband_discoveries": "235",
+    "searches": "584",
+    "search_yield": "0.4024"
+  },
+  {
+    "search_reason": "Search warrant",
+    "stops": "291",
+    "success": "130",
+    "yield": "0.4467",
+    "contraband_discoveries": "130",
+    "searches": "291",
+    "search_yield": "0.4467"
+  },
+  {
+    "search_reason": "Consent given",
+    "stops": "194",
+    "success": "35",
+    "yield": "0.1804",
+    "contraband_discoveries": "35",
+    "searches": "194",
+    "search_yield": "0.1804"
+  },
+  {
+    "search_reason": "Exigent circumstances/emergency",
+    "stops": "176",
+    "success": "52",
+    "yield": "0.2955",
+    "contraband_discoveries": "52",
+    "searches": "176",
+    "search_yield": "0.2955"
+  },
+  {
+    "search_reason": "Canine detection",
+    "stops": "53",
+    "success": "25",
+    "yield": "0.4717",
+    "contraband_discoveries": "25",
+    "searches": "53",
+    "search_yield": "0.4717"
+  },
+  {
+    "search_reason": "Written Consent given",
+    "stops": "18",
+    "success": "9",
+    "yield": "0.5",
+    "contraband_discoveries": "9",
+    "searches": "18",
+    "search_yield": "0.5"
+  },
+  {
+    "search_reason": "Consent implied by conduct",
+    "stops": "13",
+    "success": "5",
+    "yield": "0.3846",
+    "contraband_discoveries": "5",
+    "searches": "13",
+    "search_yield": "0.3846"
+  },
+  {
+    "search_reason": "Suspected violation of school policy",
+    "stops": "2",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0",
+    "searches": "2",
+    "search_yield": "0.0"
+  }
+]

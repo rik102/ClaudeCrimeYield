@@ -1,0 +1,1199 @@
+[
+  {
+    "beat": "999 Unknown (Unknown)",
+    "stops": "17868",
+    "success": "269",
+    "yield": "0.0151",
+    "contraband_discoveries": "236"
+  },
+  {
+    "beat": "122 Pacific Beach (Northern)",
+    "stops": "15113",
+    "success": "860",
+    "yield": "0.0569",
+    "contraband_discoveries": "773"
+  },
+  {
+    "beat": "521 East Village (Central)",
+    "stops": "12630",
+    "success": "1601",
+    "yield": "0.1268",
+    "contraband_discoveries": "1537"
+  },
+  {
+    "beat": "313 Kearney Mesa (Eastern)",
+    "stops": "6085",
+    "success": "111",
+    "yield": "0.0182",
+    "contraband_discoveries": "92"
+  },
+  {
+    "beat": "611 Midway District (Western)",
+    "stops": "5700",
+    "success": "638",
+    "yield": "0.1119",
+    "contraband_discoveries": "615"
+  },
+  {
+    "beat": "315 Mission Valley East (Eastern)",
+    "stops": "5476",
+    "success": "278",
+    "yield": "0.0508",
+    "contraband_discoveries": "209"
+  },
+  {
+    "beat": "523 Gaslamp (Central)",
+    "stops": "5353",
+    "success": "311",
+    "yield": "0.0581",
+    "contraband_discoveries": "268"
+  },
+  {
+    "beat": "124 La Jolla (Northern)",
+    "stops": "5047",
+    "success": "124",
+    "yield": "0.0246",
+    "contraband_discoveries": "111"
+  },
+  {
+    "beat": "712 San Ysidro (Southern)",
+    "stops": "4923",
+    "success": "338",
+    "yield": "0.0687",
+    "contraband_discoveries": "303"
+  },
+  {
+    "beat": "524 Core-Columbia (Central)",
+    "stops": "4707",
+    "success": "579",
+    "yield": "0.123",
+    "contraband_discoveries": "560"
+  },
+  {
+    "beat": "242 Mira Mesa (Northeastern)",
+    "stops": "4619",
+    "success": "199",
+    "yield": "0.0431",
+    "contraband_discoveries": "141"
+  },
+  {
+    "beat": "511 Barrio Logan (Central)",
+    "stops": "4279",
+    "success": "298",
+    "yield": "0.0696",
+    "contraband_discoveries": "272"
+  },
+  {
+    "beat": "813 North Park (Mid-City)",
+    "stops": "3826",
+    "success": "198",
+    "yield": "0.0518",
+    "contraband_discoveries": "176"
+  },
+  {
+    "beat": "512 Logan Heights (Central)",
+    "stops": "3370",
+    "success": "269",
+    "yield": "0.0798",
+    "contraband_discoveries": "258"
+  },
+  {
+    "beat": "723 Otay Mesa West (Southern)",
+    "stops": "3218",
+    "success": "117",
+    "yield": "0.0364",
+    "contraband_discoveries": "90"
+  },
+  {
+    "beat": "115 University City (Northern)",
+    "stops": "2947",
+    "success": "96",
+    "yield": "0.0326",
+    "contraband_discoveries": "82"
+  },
+  {
+    "beat": "123 Mission Bay Park (Northern)",
+    "stops": "2841",
+    "success": "161",
+    "yield": "0.0567",
+    "contraband_discoveries": "108"
+  },
+  {
+    "beat": "121 Mission Beach (Northern)",
+    "stops": "2823",
+    "success": "209",
+    "yield": "0.074",
+    "contraband_discoveries": "193"
+  },
+  {
+    "beat": "614 Ocean Beach (Western)",
+    "stops": "2737",
+    "success": "334",
+    "yield": "0.122",
+    "contraband_discoveries": "320"
+  },
+  {
+    "beat": "627 Hillcrest (Western)",
+    "stops": "2631",
+    "success": "176",
+    "yield": "0.0669",
+    "contraband_discoveries": "163"
+  },
+  {
+    "beat": "311 Serra Mesa (Eastern)",
+    "stops": "2461",
+    "success": "83",
+    "yield": "0.0337",
+    "contraband_discoveries": "57"
+  },
+  {
+    "beat": "321 Grantville (Eastern)",
+    "stops": "2455",
+    "success": "101",
+    "yield": "0.0411",
+    "contraband_discoveries": "81"
+  },
+  {
+    "beat": "713 Otay Mesa (Southern)",
+    "stops": "2448",
+    "success": "61",
+    "yield": "0.0249",
+    "contraband_discoveries": "51"
+  },
+  {
+    "beat": "623 Mission Valley West (Western)",
+    "stops": "2321",
+    "success": "295",
+    "yield": "0.1271",
+    "contraband_discoveries": "284"
+  },
+  {
+    "beat": "621 Linda Vista (Western)",
+    "stops": "2260",
+    "success": "105",
+    "yield": "0.0465",
+    "contraband_discoveries": "87"
+  },
+  {
+    "beat": "446 Lincoln Park (Southeastern)",
+    "stops": "2248",
+    "success": "194",
+    "yield": "0.0863",
+    "contraband_discoveries": "189"
+  },
+  {
+    "beat": "934 Carmel Valley (Northwestern)",
+    "stops": "2191",
+    "success": "53",
+    "yield": "0.0242",
+    "contraband_discoveries": "43"
+  },
+  {
+    "beat": "441 Mountain View (Southeastern)",
+    "stops": "2063",
+    "success": "217",
+    "yield": "0.1052",
+    "contraband_discoveries": "207"
+  },
+  {
+    "beat": "111 Clairemont Mesa East (Northern)",
+    "stops": "2033",
+    "success": "127",
+    "yield": "0.0625",
+    "contraband_discoveries": "109"
+  },
+  {
+    "beat": "826 Colina Del Sol (Mid-City)",
+    "stops": "1996",
+    "success": "112",
+    "yield": "0.0561",
+    "contraband_discoveries": "109"
+  },
+  {
+    "beat": "114 North Clairemont (Northern)",
+    "stops": "1914",
+    "success": "115",
+    "yield": "0.0601",
+    "contraband_discoveries": "97"
+  },
+  {
+    "beat": "831 Teralta East (Mid-City)",
+    "stops": "1902",
+    "success": "133",
+    "yield": "0.0699",
+    "contraband_discoveries": "123"
+  },
+  {
+    "beat": "821 Rolando (Mid-City)",
+    "stops": "1880",
+    "success": "59",
+    "yield": "0.0314",
+    "contraband_discoveries": "52"
+  },
+  {
+    "beat": "437 Bay Terraces (Southeastern)",
+    "stops": "1869",
+    "success": "89",
+    "yield": "0.0476",
+    "contraband_discoveries": "81"
+  },
+  {
+    "beat": "531 Balboa Park (Central)",
+    "stops": "1767",
+    "success": "142",
+    "yield": "0.0804",
+    "contraband_discoveries": "135"
+  },
+  {
+    "beat": "714 Border (Southern)",
+    "stops": "1614",
+    "success": "87",
+    "yield": "0.0539",
+    "contraband_discoveries": "80"
+  },
+  {
+    "beat": "832 Teralta West (Mid-City)",
+    "stops": "1594",
+    "success": "68",
+    "yield": "0.0427",
+    "contraband_discoveries": "60"
+  },
+  {
+    "beat": "625 Old Town (Western)",
+    "stops": "1577",
+    "success": "178",
+    "yield": "0.1129",
+    "contraband_discoveries": "171"
+  },
+  {
+    "beat": "514 Sherman Heights (Central)",
+    "stops": "1517",
+    "success": "166",
+    "yield": "0.1094",
+    "contraband_discoveries": "156"
+  },
+  {
+    "beat": "243 Miramar (Northeastern)",
+    "stops": "1495",
+    "success": "29",
+    "yield": "0.0194",
+    "contraband_discoveries": "13"
+  },
+  {
+    "beat": "931 Sorrento Valley (Northwestern)",
+    "stops": "1487",
+    "success": "45",
+    "yield": "0.0303",
+    "contraband_discoveries": "35"
+  },
+  {
+    "beat": "622 Morena (Western)",
+    "stops": "1455",
+    "success": "74",
+    "yield": "0.0509",
+    "contraband_discoveries": "67"
+  },
+  {
+    "beat": "312 Tierra Santa (Eastern)",
+    "stops": "1455",
+    "success": "30",
+    "yield": "0.0206",
+    "contraband_discoveries": "22"
+  },
+  {
+    "beat": "721 Egger Highlands (Southern)",
+    "stops": "1355",
+    "success": "71",
+    "yield": "0.0524",
+    "contraband_discoveries": "60"
+  },
+  {
+    "beat": "233 Rancho Penasquitos (Northeastern)",
+    "stops": "1352",
+    "success": "29",
+    "yield": "0.0214",
+    "contraband_discoveries": "26"
+  },
+  {
+    "beat": "628 Midtown (Western)",
+    "stops": "1301",
+    "success": "26",
+    "yield": "0.02",
+    "contraband_discoveries": "25"
+  },
+  {
+    "beat": "116 Bay Park (Northern)",
+    "stops": "1260",
+    "success": "107",
+    "yield": "0.0849",
+    "contraband_discoveries": "91"
+  },
+  {
+    "beat": "541 Petco Park (Central)",
+    "stops": "1250",
+    "success": "202",
+    "yield": "0.1616",
+    "contraband_discoveries": "198"
+  },
+  {
+    "beat": "722 Nestor (Southern)",
+    "stops": "1199",
+    "success": "66",
+    "yield": "0.055",
+    "contraband_discoveries": "58"
+  },
+  {
+    "beat": "824 Talmadge (Mid-City)",
+    "stops": "1192",
+    "success": "51",
+    "yield": "0.0428",
+    "contraband_discoveries": "40"
+  },
+  {
+    "beat": "326 College West (Eastern)",
+    "stops": "1169",
+    "success": "23",
+    "yield": "0.0197",
+    "contraband_discoveries": "14"
+  },
+  {
+    "beat": "838 Corridor (Mid-City)",
+    "stops": "1163",
+    "success": "75",
+    "yield": "0.0645",
+    "contraband_discoveries": "63"
+  },
+  {
+    "beat": "724 Palm City (Southern)",
+    "stops": "1157",
+    "success": "108",
+    "yield": "0.0933",
+    "contraband_discoveries": "102"
+  },
+  {
+    "beat": "451 Oak Park (Southeastern)",
+    "stops": "1122",
+    "success": "89",
+    "yield": "0.0793",
+    "contraband_discoveries": "85"
+  },
+  {
+    "beat": "442 Southcrest (Southeastern)",
+    "stops": "1111",
+    "success": "73",
+    "yield": "0.0657",
+    "contraband_discoveries": "69"
+  },
+  {
+    "beat": "834 Castle (Mid-City)",
+    "stops": "1068",
+    "success": "71",
+    "yield": "0.0665",
+    "contraband_discoveries": "65"
+  },
+  {
+    "beat": "447 Ridgeview/Webster (Southeastern)",
+    "stops": "1060",
+    "success": "106",
+    "yield": "0.1",
+    "contraband_discoveries": "97"
+  },
+  {
+    "beat": "613 Point Loma Heights (Western)",
+    "stops": "1054",
+    "success": "73",
+    "yield": "0.0693",
+    "contraband_discoveries": "67"
+  },
+  {
+    "beat": "327 College East (Eastern)",
+    "stops": "1048",
+    "success": "34",
+    "yield": "0.0324",
+    "contraband_discoveries": "21"
+  },
+  {
+    "beat": "234 Rancho Bernardo (Northeastern)",
+    "stops": "1045",
+    "success": "21",
+    "yield": "0.0201",
+    "contraband_discoveries": "13"
+  },
+  {
+    "beat": "517 Golden Hill (Central)",
+    "stops": "1013",
+    "success": "65",
+    "yield": "0.0642",
+    "contraband_discoveries": "64"
+  },
+  {
+    "beat": "529 Park West (Central)",
+    "stops": "979",
+    "success": "82",
+    "yield": "0.0838",
+    "contraband_discoveries": "78"
+  },
+  {
+    "beat": "434 Jamacha/Lomita (Southeastern)",
+    "stops": "975",
+    "success": "55",
+    "yield": "0.0564",
+    "contraband_discoveries": "55"
+  },
+  {
+    "beat": "232 Carmel Mountain (Northeastern)",
+    "stops": "961",
+    "success": "42",
+    "yield": "0.0437",
+    "contraband_discoveries": "31"
+  },
+  {
+    "beat": "822 El Cerrito (Mid-City)",
+    "stops": "959",
+    "success": "30",
+    "yield": "0.0313",
+    "contraband_discoveries": "28"
+  },
+  {
+    "beat": "324 Lake Murray (Eastern)",
+    "stops": "937",
+    "success": "20",
+    "yield": "0.0213",
+    "contraband_discoveries": "3"
+  },
+  {
+    "beat": "432 Valencia Park (Southeastern)",
+    "stops": "908",
+    "success": "85",
+    "yield": "0.0936",
+    "contraband_discoveries": "79"
+  },
+  {
+    "beat": "937 Black Mountain Ranch (Northwestern)",
+    "stops": "907",
+    "success": "7",
+    "yield": "0.0077",
+    "contraband_discoveries": "6"
+  },
+  {
+    "beat": "811 Normal Heights (Mid-City)",
+    "stops": "887",
+    "success": "36",
+    "yield": "0.0406",
+    "contraband_discoveries": "31"
+  },
+  {
+    "beat": "443 Shelltown (Southeastern)",
+    "stops": "880",
+    "success": "71",
+    "yield": "0.0807",
+    "contraband_discoveries": "69"
+  },
+  {
+    "beat": "526 Cortez (Central)",
+    "stops": "859",
+    "success": "76",
+    "yield": "0.0885",
+    "contraband_discoveries": "69"
+  },
+  {
+    "beat": "433 Encanto (Southeastern)",
+    "stops": "841",
+    "success": "60",
+    "yield": "0.0713",
+    "contraband_discoveries": "53"
+  },
+  {
+    "beat": "113 Bay Ho (Northern)",
+    "stops": "818",
+    "success": "34",
+    "yield": "0.0416",
+    "contraband_discoveries": "25"
+  },
+  {
+    "beat": "436 Skyline (Southeastern)",
+    "stops": "783",
+    "success": "56",
+    "yield": "0.0715",
+    "contraband_discoveries": "52"
+  },
+  {
+    "beat": "438 Paradise Hills (Southeastern)",
+    "stops": "775",
+    "success": "95",
+    "yield": "0.1226",
+    "contraband_discoveries": "88"
+  },
+  {
+    "beat": "112 Clairemont Mesa West (Northern)",
+    "stops": "756",
+    "success": "31",
+    "yield": "0.041",
+    "contraband_discoveries": "28"
+  },
+  {
+    "beat": "515 Grant Hill (Central)",
+    "stops": "751",
+    "success": "57",
+    "yield": "0.0759",
+    "contraband_discoveries": "54"
+  },
+  {
+    "beat": "445 Chollas View (Southeastern)",
+    "stops": "746",
+    "success": "65",
+    "yield": "0.0871",
+    "contraband_discoveries": "60"
+  },
+  {
+    "beat": "444 Mt. Hope (Southeastern)",
+    "stops": "744",
+    "success": "77",
+    "yield": "0.1035",
+    "contraband_discoveries": "71"
+  },
+  {
+    "beat": "725 Ocean Crest (Southern)",
+    "stops": "733",
+    "success": "34",
+    "yield": "0.0464",
+    "contraband_discoveries": "29"
+  },
+  {
+    "beat": "522 Marina (Central)",
+    "stops": "694",
+    "success": "63",
+    "yield": "0.0908",
+    "contraband_discoveries": "59"
+  },
+  {
+    "beat": "624 University Heights (Western)",
+    "stops": "677",
+    "success": "49",
+    "yield": "0.0724",
+    "contraband_discoveries": "42"
+  },
+  {
+    "beat": "322 Allied Gardens (Eastern)",
+    "stops": "660",
+    "success": "18",
+    "yield": "0.0273",
+    "contraband_discoveries": "14"
+  },
+  {
+    "beat": "833 Fairmount Village (Mid-City)",
+    "stops": "643",
+    "success": "37",
+    "yield": "0.0575",
+    "contraband_discoveries": "32"
+  },
+  {
+    "beat": "516 Stockton (Central)",
+    "stops": "618",
+    "success": "43",
+    "yield": "0.0696",
+    "contraband_discoveries": "41"
+  },
+  {
+    "beat": "452 O'Farrell (Southeastern)",
+    "stops": "600",
+    "success": "30",
+    "yield": "0.05",
+    "contraband_discoveries": "26"
+  },
+  {
+    "beat": "825 Kensington (Mid-City)",
+    "stops": "584",
+    "success": "23",
+    "yield": "0.0394",
+    "contraband_discoveries": "19"
+  },
+  {
+    "beat": "241 Scripps Ranch (Northeastern)",
+    "stops": "485",
+    "success": "14",
+    "yield": "0.0289",
+    "contraband_discoveries": "9"
+  },
+  {
+    "beat": "431 Emerald Hills (Southeastern)",
+    "stops": "480",
+    "success": "34",
+    "yield": "0.0708",
+    "contraband_discoveries": "31"
+  },
+  {
+    "beat": "528 Little Italy (Central)",
+    "stops": "476",
+    "success": "35",
+    "yield": "0.0735",
+    "contraband_discoveries": "30"
+  },
+  {
+    "beat": "827 Chollas Creek (Mid-City)",
+    "stops": "447",
+    "success": "24",
+    "yield": "0.0537",
+    "contraband_discoveries": "20"
+  },
+  {
+    "beat": "823 Redwood Village (Mid-City)",
+    "stops": "437",
+    "success": "21",
+    "yield": "0.0481",
+    "contraband_discoveries": "20"
+  },
+  {
+    "beat": "314 Birdland (Eastern)",
+    "stops": "430",
+    "success": "21",
+    "yield": "0.0488",
+    "contraband_discoveries": "15"
+  },
+  {
+    "beat": "839 Cherokee Point (Mid-City)",
+    "stops": "429",
+    "success": "37",
+    "yield": "0.0862",
+    "contraband_discoveries": "34"
+  },
+  {
+    "beat": "618 Sunset Cliffs (Western)",
+    "stops": "429",
+    "success": "9",
+    "yield": "0.021",
+    "contraband_discoveries": "5"
+  },
+  {
+    "beat": "325 San Carlos (Eastern)",
+    "stops": "425",
+    "success": "12",
+    "yield": "0.0282",
+    "contraband_discoveries": "5"
+  },
+  {
+    "beat": "837 Fairmount Park (Mid-City)",
+    "stops": "414",
+    "success": "22",
+    "yield": "0.0531",
+    "contraband_discoveries": "20"
+  },
+  {
+    "beat": "231 Sabre Springs (Northeastern)",
+    "stops": "396",
+    "success": "10",
+    "yield": "0.0253",
+    "contraband_discoveries": "9"
+  },
+  {
+    "beat": "323 Del Cerro (Eastern)",
+    "stops": "393",
+    "success": "14",
+    "yield": "0.0356",
+    "contraband_discoveries": "13"
+  },
+  {
+    "beat": "933 Del Mar Heights (Northwestern)",
+    "stops": "392",
+    "success": "7",
+    "yield": "0.0179",
+    "contraband_discoveries": "6"
+  },
+  {
+    "beat": "615 Roseville/Fleet Ridge (Western)",
+    "stops": "384",
+    "success": "24",
+    "yield": "0.0625",
+    "contraband_discoveries": "22"
+  },
+  {
+    "beat": "935 North City (Northwestern)",
+    "stops": "370",
+    "success": "5",
+    "yield": "0.0135",
+    "contraband_discoveries": "2"
+  },
+  {
+    "beat": "836 Swan Canyon (Mid-City)",
+    "stops": "347",
+    "success": "19",
+    "yield": "0.0548",
+    "contraband_discoveries": "17"
+  },
+  {
+    "beat": "435 Broadway Heights (Southeastern)",
+    "stops": "343",
+    "success": "5",
+    "yield": "0.0146",
+    "contraband_discoveries": "5"
+  },
+  {
+    "beat": "835 Azalea/Hollywood Park (Mid-City)",
+    "stops": "342",
+    "success": "21",
+    "yield": "0.0614",
+    "contraband_discoveries": "19"
+  },
+  {
+    "beat": "527 Harborview (Central)",
+    "stops": "320",
+    "success": "43",
+    "yield": "0.1344",
+    "contraband_discoveries": "36"
+  },
+  {
+    "beat": "626 Mission Hills (Western)",
+    "stops": "315",
+    "success": "32",
+    "yield": "0.1016",
+    "contraband_discoveries": "29"
+  },
+  {
+    "beat": "612 Loma Portal (Western)",
+    "stops": "310",
+    "success": "15",
+    "yield": "0.0484",
+    "contraband_discoveries": "14"
+  },
+  {
+    "beat": "936 Torrey Highlands (Northwestern)",
+    "stops": "279",
+    "success": "6",
+    "yield": "0.0215",
+    "contraband_discoveries": "4"
+  },
+  {
+    "beat": "841 Rolando Park (Mid-City)",
+    "stops": "265",
+    "success": "24",
+    "yield": "0.0906",
+    "contraband_discoveries": "20"
+  },
+  {
+    "beat": "828 Fox Canyon (Mid-City)",
+    "stops": "246",
+    "success": "19",
+    "yield": "0.0772",
+    "contraband_discoveries": "17"
+  },
+  {
+    "beat": "932 Torrey Preserve (Northwestern)",
+    "stops": "233",
+    "success": "6",
+    "yield": "0.0258",
+    "contraband_discoveries": "4"
+  },
+  {
+    "beat": "814 Adams North (Mid-City)",
+    "stops": "223",
+    "success": "19",
+    "yield": "0.0852",
+    "contraband_discoveries": "16"
+  },
+  {
+    "beat": "316 Qualcomm (Eastern)",
+    "stops": "219",
+    "success": "3",
+    "yield": "0.0137",
+    "contraband_discoveries": "3"
+  },
+  {
+    "beat": "518 South Park (Central)",
+    "stops": "209",
+    "success": "20",
+    "yield": "0.0957",
+    "contraband_discoveries": "20"
+  },
+  {
+    "beat": "126 Torrey Pines (Northern)",
+    "stops": "209",
+    "success": "13",
+    "yield": "0.0622",
+    "contraband_discoveries": "9"
+  },
+  {
+    "beat": "525 Horton Plaza (Central)",
+    "stops": "199",
+    "success": "25",
+    "yield": "0.1256",
+    "contraband_discoveries": "21"
+  },
+  {
+    "beat": "246 Miramar Ranch North (Northeastern)",
+    "stops": "191",
+    "success": "15",
+    "yield": "0.0785",
+    "contraband_discoveries": "8"
+  },
+  {
+    "beat": "9999 Test (Test)",
+    "stops": "170",
+    "success": "4",
+    "yield": "0.0235",
+    "contraband_discoveries": "2"
+  },
+  {
+    "beat": "235 San Pasqual (Northeastern)",
+    "stops": "110",
+    "success": "2",
+    "yield": "0.0182",
+    "contraband_discoveries": "2"
+  },
+  {
+    "beat": "617 Wooded Area (Western)",
+    "stops": "93",
+    "success": "4",
+    "yield": "0.043",
+    "contraband_discoveries": "2"
+  },
+  {
+    "beat": "439 Alta Vista (Southeastern)",
+    "stops": "91",
+    "success": "1",
+    "yield": "0.011",
+    "contraband_discoveries": "1"
+  },
+  {
+    "beat": "711 Tijuana River Valley (Southern)",
+    "stops": "55",
+    "success": "5",
+    "yield": "0.0909",
+    "contraband_discoveries": "5"
+  },
+  {
+    "beat": "812 Burlingame (Mid-City)",
+    "stops": "40",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "beat": "245 Rancho Encantada (Northeastern)",
+    "stops": "28",
+    "success": "1",
+    "yield": "0.0357",
+    "contraband_discoveries": "0"
+  },
+  {
+    "beat": "829 Islenair (Mid-City)",
+    "stops": "17",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "beat": "125 La Jolla Village (Northern)",
+    "stops": "11",
+    "success": "1",
+    "yield": "0.0909",
+    "contraband_discoveries": "1"
+  },
+  {
+    "beat": "521",
+    "stops": "9",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "beat": "122",
+    "stops": "6",
+    "success": "1",
+    "yield": "0.1667",
+    "contraband_discoveries": "0"
+  },
+  {
+    "beat": "934",
+    "stops": "6",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "beat": "999",
+    "stops": "5",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "beat": "722",
+    "stops": "4",
+    "success": "2",
+    "yield": "0.5",
+    "contraband_discoveries": "2"
+  },
+  {
+    "beat": "313",
+    "stops": "4",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "beat": "242",
+    "stops": "3",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "beat": "241",
+    "stops": "3",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "beat": "822",
+    "stops": "3",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "beat": "611",
+    "stops": "2",
+    "success": "1",
+    "yield": "0.5",
+    "contraband_discoveries": "1"
+  },
+  {
+    "beat": "524",
+    "stops": "2",
+    "success": "1",
+    "yield": "0.5",
+    "contraband_discoveries": "1"
+  },
+  {
+    "beat": "614",
+    "stops": "2",
+    "success": "1",
+    "yield": "0.5",
+    "contraband_discoveries": "1"
+  },
+  {
+    "beat": "623",
+    "stops": "2",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "beat": "838",
+    "stops": "2",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "beat": "712",
+    "stops": "2",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "beat": "834",
+    "stops": "2",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "beat": "512",
+    "stops": "2",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "beat": "813",
+    "stops": "2",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "beat": "446",
+    "stops": "2",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "beat": "315",
+    "stops": "2",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "beat": "114",
+    "stops": "2",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "beat": "121",
+    "stops": "1",
+    "success": "1",
+    "yield": "1.0",
+    "contraband_discoveries": "1"
+  },
+  {
+    "beat": "931",
+    "stops": "1",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "beat": "713",
+    "stops": "1",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "beat": "625",
+    "stops": "1",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "beat": "124",
+    "stops": "1",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "beat": "322",
+    "stops": "1",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "beat": "511",
+    "stops": "1",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "beat": "115",
+    "stops": "1",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "beat": "613",
+    "stops": "1",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "beat": "234",
+    "stops": "1",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "beat": "723",
+    "stops": "1",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "beat": "839",
+    "stops": "1",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "beat": "541",
+    "stops": "1",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "beat": "529",
+    "stops": "1",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "beat": "826",
+    "stops": "1",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "beat": "531",
+    "stops": "1",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "beat": "937",
+    "stops": "1",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "beat": "628",
+    "stops": "1",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "beat": "311",
+    "stops": "1",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "beat": "831",
+    "stops": "1",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "beat": "321",
+    "stops": "1",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "beat": "627",
+    "stops": "1",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "beat": "444",
+    "stops": "1",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  }
+]

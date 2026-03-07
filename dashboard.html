@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RIPA Yield Dashboard</title>
+  <style>
+    :root {
+      --bg: #f6f7f3;
+      --card: #ffffff;
+      --ink: #0f172a;
+      --muted: #475569;
+      --line: #dbe3d3;
+      --accent: #0f766e;
+      --warn: #b91c1c;
+      --good: #166534;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 10% -10%, #d8f2e6 0%, transparent 40%),
+        radial-gradient(circle at 90% 0%, #f8dfcd 0%, transparent 35%),
+        var(--bg);
+    }
+    .wrap { max-width: 1200px; margin: 0 auto; padding: 20px; }
+    h1 { margin: 0 0 6px; font-size: 30px; }
+    .sub { color: var(--muted); margin-bottom: 20px; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 14px;
+      box-shadow: 0 2px 6px rgba(0,0,0,.04);
+    }
+    .label { color: var(--muted); font-size: 13px; }
+    .value { font-size: 30px; font-weight: 700; margin-top: 6px; }
+    .controls {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 12px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      align-items: end;
+      margin-bottom: 16px;
+    }
+    .controls label { display: block; font-size: 12px; color: var(--muted); margin-bottom: 4px; }
+    .controls input {
+      width: 130px;
+      padding: 8px;
+      border: 1px solid #cbd5c0;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+    .btn {
+      background: var(--accent);
+      color: white;
+      border: 0;
+      border-radius: 8px;
+      padding: 8px 14px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+    @media (min-width: 980px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+    }
+    .panel {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,.04);
+    }
+    .panel h2 { font-size: 18px; margin: 0 0 10px; }
+    .chart { display: flex; flex-direction: column; gap: 8px; }
+    .row {
+      display: grid;
+      grid-template-columns: 1fr 180px;
+      gap: 10px;
+      align-items: center;
+    }
+    .name { font-size: 12px; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .barbox { position: relative; background: #edf2e7; border-radius: 999px; height: 16px; overflow: hidden; }
+    .bar { height: 100%; border-radius: 999px; }
+    .meta { font-size: 11px; color: var(--muted); text-align: right; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { text-align: left; font-size: 12px; padding: 6px; border-bottom: 1px solid #edf2e7; }
+    th { color: var(--muted); font-weight: 600; }
+    .foot { margin-top: 12px; color: var(--muted); font-size: 12px; }
+    .pill { display: inline-block; padding: 2px 8px; border-radius: 999px; font-weight: 700; }
+    .low { background: #fee2e2; color: var(--warn); }
+    .high { background: #dcfce7; color: var(--good); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>RIPA Stop Yield Dashboard</h1>
+    <div class="sub">Visualizing stop activity vs. enforcement yield from merged RIPA output.</div>
+
+    <div class="cards">
+      <div class="card"><div class="label">Total Stops</div><div id="totalStops" class="value">-</div></div>
+      <div class="card"><div class="label">Stops With Enforcement Outcome</div><div id="totalSuccess" class="value">-</div></div>
+      <div class="card"><div class="label">Contraband Discoveries</div><div id="totalContraband" class="value">-</div></div>
+      <div class="card"><div class="label">Overall Yield</div><div id="overallYield" class="value">-</div></div>
+    </div>
+
+    <div class="controls">
+      <div>
+        <label for="minStops">Min stops (beat/reason)</label>
+        <input id="minStops" type="number" value="1000" min="1" />
+      </div>
+      <div>
+        <label for="topN">Rows to show</label>
+        <input id="topN" type="number" value="12" min="3" max="40" />
+      </div>
+      <button class="btn" id="rerender">Apply</button>
+    </div>
+
+    <div class="grid">
+      <section class="panel">
+        <h2>Low-Yield Beats (High Activity)</h2>
+        <div id="lowYieldBeats" class="chart"></div>
+      </section>
+
+      <section class="panel">
+        <h2>High-Yield Beats (High Activity)</h2>
+        <div id="highYieldBeats" class="chart"></div>
+      </section>
+
+      <section class="panel">
+        <h2>Low-Yield Stop Reasons</h2>
+        <div id="lowYieldReasons" class="chart"></div>
+      </section>
+
+      <section class="panel">
+        <h2>Search Yield by Reason</h2>
+        <table>
+          <thead>
+            <tr><th>Reason</th><th>Searches</th><th>Contraband</th><th>Yield</th></tr>
+          </thead>
+          <tbody id="searchTable"></tbody>
+        </table>
+      </section>
+    </div>
+
+    <div class="foot">
+      Run with local server: <code>python -m http.server 8000</code> then open <code>http://localhost:8000/dashboard.html</code>
+    </div>
+  </div>
+
+  <script>
+    const fmtInt = new Intl.NumberFormat();
+    const fmtPct = new Intl.NumberFormat(undefined, { style: 'percent', minimumFractionDigits: 1, maximumFractionDigits: 1 });
+
+    function csvParse(text) {
+      const lines = text.trim().split(/\r?\n/);
+      if (!lines.length) return [];
+      const headers = splitCsvLine(lines[0]);
+      return lines.slice(1).map(line => {
+        const cols = splitCsvLine(line);
+        const row = {};
+        headers.forEach((h, i) => { row[h] = cols[i] ?? ''; });
+        return row;
+      });
+    }
+
+    function splitCsvLine(line) {
+      const out = [];
+      let cur = '';
+      let q = false;
+      for (let i = 0; i < line.length; i++) {
+        const c = line[i];
+        if (c === '"') {
+          if (q && line[i + 1] === '"') { cur += '"'; i++; }
+          else { q = !q; }
+        } else if (c === ',' && !q) {
+          out.push(cur);
+          cur = '';
+        } else {
+          cur += c;
+        }
+      }
+      out.push(cur);
+      return out;
+    }
+
+    async function loadCsv(path) {
+      const res = await fetch(path);
+      if (!res.ok) throw new Error(`Failed to load ${path}`);
+      const txt = await res.text();
+      return csvParse(txt);
+    }
+
+    function toNum(v) {
+      const n = Number(v);
+      return Number.isFinite(n) ? n : 0;
+    }
+
+    function renderBarList(el, rows, labelKey, maxStops) {
+      el.innerHTML = '';
+      if (!rows.length) {
+        el.innerHTML = '<div class="label">No rows match current filter.</div>';
+        return;
+      }
+
+      for (const r of rows) {
+        const wrap = document.createElement('div');
+        wrap.className = 'row';
+
+        const name = document.createElement('div');
+        name.className = 'name';
+        name.title = r[labelKey];
+        const yieldVal = toNum(r.yield);
+        const klass = yieldVal < 0.05 ? 'low' : 'high';
+        name.innerHTML = `${r[labelKey]} <span class="pill ${klass}">${fmtPct.format(yieldVal)}</span>`;
+
+        const right = document.createElement('div');
+        const box = document.createElement('div');
+        box.className = 'barbox';
+        const bar = document.createElement('div');
+        bar.className = 'bar';
+        bar.style.width = `${Math.max(2, Math.round((toNum(r.stops) / maxStops) * 100))}%`;
+        bar.style.background = yieldVal < 0.05 ? '#dc2626' : '#15803d';
+        box.appendChild(bar);
+
+        const meta = document.createElement('div');
+        meta.className = 'meta';
+        meta.textContent = `${fmtInt.format(toNum(r.stops))} stops | ${fmtInt.format(toNum(r.success))} success`;
+
+        right.appendChild(box);
+        right.appendChild(meta);
+
+        wrap.appendChild(name);
+        wrap.appendChild(right);
+        el.appendChild(wrap);
+      }
+    }
+
+    function renderSearchTable(el, rows) {
+      el.innerHTML = '';
+      for (const r of rows) {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td title="${r.search_reason}">${r.search_reason}</td>
+          <td>${fmtInt.format(toNum(r.searches))}</td>
+          <td>${fmtInt.format(toNum(r.contraband_discoveries))}</td>
+          <td>${fmtPct.format(toNum(r.search_yield))}</td>
+        `;
+        el.appendChild(tr);
+      }
+    }
+
+    async function run() {
+      const [overallRows, beatRows, reasonRows, searchRows] = await Promise.all([
+        loadCsv('output/overall_summary.csv'),
+        loadCsv('output/yield_by_beat.csv'),
+        loadCsv('output/yield_by_stop_reason.csv'),
+        loadCsv('output/search_yield_by_reason.csv')
+      ]);
+
+      const overall = overallRows[0] || {};
+      document.getElementById('totalStops').textContent = fmtInt.format(toNum(overall.total_stops));
+      document.getElementById('totalSuccess').textContent = fmtInt.format(toNum(overall.stops_with_enforcement_outcome));
+      document.getElementById('totalContraband').textContent = fmtInt.format(toNum(overall.contraband_discoveries));
+      document.getElementById('overallYield').textContent = fmtPct.format(toNum(overall.overall_yield));
+
+      function draw() {
+        const minStops = Math.max(1, toNum(document.getElementById('minStops').value));
+        const topN = Math.max(3, Math.min(40, toNum(document.getElementById('topN').value)));
+
+        const beats = beatRows.filter(r => toNum(r.stops) >= minStops);
+        const lowBeats = [...beats].sort((a, b) => toNum(a.yield) - toNum(b.yield)).slice(0, topN);
+        const highBeats = [...beats].sort((a, b) => toNum(b.yield) - toNum(a.yield)).slice(0, topN);
+        const maxBeatStops = Math.max(...beats.map(r => toNum(r.stops)), 1);
+
+        const reasons = reasonRows.filter(r => toNum(r.stops) >= minStops);
+        const lowReasons = [...reasons].sort((a, b) => toNum(a.yield) - toNum(b.yield)).slice(0, topN);
+        const maxReasonStops = Math.max(...reasons.map(r => toNum(r.stops)), 1);
+
+        const searches = searchRows
+          .filter(r => toNum(r.searches) >= 200)
+          .sort((a, b) => toNum(b.search_yield) - toNum(a.search_yield))
+          .slice(0, topN);
+
+        renderBarList(document.getElementById('lowYieldBeats'), lowBeats, 'beat', maxBeatStops);
+        renderBarList(document.getElementById('highYieldBeats'), highBeats, 'beat', maxBeatStops);
+        renderBarList(document.getElementById('lowYieldReasons'), lowReasons, 'stop_reason', maxReasonStops);
+        renderSearchTable(document.getElementById('searchTable'), searches);
+      }
+
+      draw();
+      document.getElementById('rerender').addEventListener('click', draw);
+    }
+
+    run().catch(err => {
+      document.body.innerHTML = `<pre style="padding:20px;color:#991b1b">Dashboard load error: ${err.message}\n\nStart a local web server in this folder:\npython -m http.server 8000</pre>`;
+    });
+  </script>
+</body>
+</html>

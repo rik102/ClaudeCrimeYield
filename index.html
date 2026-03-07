@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Impact Yield Analyzer - San Diego RIPA</title>
+  <style>
+    :root {
+      --bg: #f4f6f0;
+      --card: #ffffff;
+      --ink: #17202a;
+      --muted: #5f6c7a;
+      --line: #d8e1d0;
+      --red: #b91c1c;
+      --green: #166534;
+      --amber: #b45309;
+      --teal: #0f766e;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Avenir Next", "Segoe UI", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(1200px 500px at -10% -20%, #d9f8eb 0%, transparent 45%),
+        radial-gradient(900px 500px at 120% -40%, #ffe8d6 0%, transparent 40%),
+        var(--bg);
+    }
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .hero {
+      background: linear-gradient(135deg, #123b3a, #1d5f5b);
+      color: #f8fafc;
+      border-radius: 16px;
+      padding: 20px;
+      margin-bottom: 14px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.14);
+    }
+    .hero h1 { margin: 0 0 4px; font-size: 30px; letter-spacing: .2px; }
+    .hero p { margin: 0; opacity: .92; }
+
+    .kpis {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(160px, 1fr));
+      gap: 10px;
+      margin: 14px 0;
+    }
+    @media (max-width: 900px) {
+      .kpis { grid-template-columns: repeat(2, minmax(160px, 1fr)); }
+    }
+    .kpi {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 12px;
+    }
+    .kpi .label { color: var(--muted); font-size: 12px; }
+    .kpi .value { font-size: 28px; font-weight: 700; margin-top: 4px; }
+
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: end;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 12px;
+      margin-bottom: 12px;
+    }
+    .controls label { display: block; color: var(--muted); font-size: 12px; margin-bottom: 4px; }
+    .controls input {
+      width: 130px;
+      padding: 8px;
+      border-radius: 8px;
+      border: 1px solid #c5d2bd;
+      font-size: 14px;
+    }
+    button {
+      border: 0;
+      border-radius: 8px;
+      padding: 9px 14px;
+      background: var(--teal);
+      color: white;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+    @media (min-width: 1000px) {
+      .grid { grid-template-columns: 1.1fr 1.1fr .8fr; }
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 12px;
+      box-shadow: 0 3px 8px rgba(0,0,0,.04);
+      min-height: 260px;
+    }
+    .card h2 { margin: 0 0 10px; font-size: 16px; }
+    .barlist { display: flex; flex-direction: column; gap: 8px; }
+    .item {
+      display: grid;
+      grid-template-columns: 1fr 130px;
+      gap: 8px;
+      align-items: center;
+    }
+    .name {
+      font-size: 12px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .barbg {
+      background: #ecf1e6;
+      border-radius: 999px;
+      height: 14px;
+      overflow: hidden;
+    }
+    .bar { height: 100%; border-radius: 999px; }
+    .meta { font-size: 11px; color: var(--muted); text-align: right; }
+
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 6px 4px; border-bottom: 1px solid #eef2ea; font-size: 12px; text-align: left; }
+    th { color: var(--muted); font-weight: 600; }
+
+    .insights li { margin-bottom: 8px; font-size: 13px; }
+    .badge {
+      display: inline-block;
+      padding: 2px 7px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 700;
+      margin-left: 6px;
+    }
+    .low { background: #fee2e2; color: var(--red); }
+    .high { background: #dcfce7; color: var(--green); }
+    .foot { margin-top: 12px; color: var(--muted); font-size: 12px; }
+    code { background: #ecf1e6; padding: 2px 6px; border-radius: 5px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <section class="hero">
+      <h1>Impact Yield Analyzer</h1>
+      <p>San Diego RIPA stops: quantify where policing activity produces outcomes, and where it does not.</p>
+    </section>
+
+    <section class="kpis">
+      <div class="kpi"><div class="label">Total Stops</div><div id="kStops" class="value">-</div></div>
+      <div class="kpi"><div class="label">Enforcement Outcomes</div><div id="kSuccess" class="value">-</div></div>
+      <div class="kpi"><div class="label">Contraband Discoveries</div><div id="kContraband" class="value">-</div></div>
+      <div class="kpi"><div class="label">Overall Yield</div><div id="kYield" class="value">-</div></div>
+    </section>
+
+    <section class="controls">
+      <div>
+        <label>Min stops (beats/reasons)</label>
+        <input id="minStops" type="number" value="1000" min="1" />
+      </div>
+      <div>
+        <label>Min searches (search table)</label>
+        <input id="minSearches" type="number" value="200" min="1" />
+      </div>
+      <div>
+        <label>Rows shown</label>
+        <input id="limitRows" type="number" value="10" min="3" max="30" />
+      </div>
+      <button id="apply">Apply Filters</button>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h2>High Activity, Low Yield Beats</h2>
+        <div id="lowBeats" class="barlist"></div>
+      </article>
+
+      <article class="card">
+        <h2>High Yield Beats</h2>
+        <div id="highBeats" class="barlist"></div>
+      </article>
+
+      <article class="card">
+        <h2>Narrative Insights</h2>
+        <ul id="insights" class="insights"></ul>
+      </article>
+
+      <article class="card">
+        <h2>Low-Yield Stop Reasons</h2>
+        <div id="lowReasons" class="barlist"></div>
+      </article>
+
+      <article class="card">
+        <h2>High-Yield Stop Reasons</h2>
+        <div id="highReasons" class="barlist"></div>
+      </article>
+
+      <article class="card">
+        <h2>Search Yield by Reason</h2>
+        <table>
+          <thead><tr><th>Reason</th><th>Searches</th><th>Yield</th></tr></thead>
+          <tbody id="searchRows"></tbody>
+        </table>
+      </article>
+    </section>
+
+    <div class="foot">Run local app: <code>python server.py</code> then open <code>http://127.0.0.1:8000</code>.</div>
+  </div>
+
+  <script>
+    const fmtInt = new Intl.NumberFormat();
+    const fmtPct = new Intl.NumberFormat(undefined, {style: 'percent', minimumFractionDigits: 1, maximumFractionDigits: 1});
+
+    const toNum = (v) => {
+      const n = Number(v);
+      return Number.isFinite(n) ? n : 0;
+    };
+
+    async function getJson(url) {
+      const res = await fetch(url);
+      if (!res.ok) throw new Error(`API failed: ${url}`);
+      return res.json();
+    }
+
+    function renderBars(el, rows, keyLabel, maxStops, lowIsBad) {
+      el.innerHTML = '';
+      for (const r of rows) {
+        const yieldVal = toNum(r.yield);
+        const item = document.createElement('div');
+        item.className = 'item';
+
+        const name = document.createElement('div');
+        name.className = 'name';
+        const cls = yieldVal < 0.05 ? 'low' : 'high';
+        name.innerHTML = `${r[keyLabel]} <span class="badge ${cls}">${fmtPct.format(yieldVal)}</span>`;
+        name.title = r[keyLabel];
+
+        const side = document.createElement('div');
+        const bg = document.createElement('div');
+        bg.className = 'barbg';
+        const bar = document.createElement('div');
+        bar.className = 'bar';
+        bar.style.width = `${Math.max(2, Math.round((toNum(r.stops) / maxStops) * 100))}%`;
+        if (lowIsBad) {
+          bar.style.background = yieldVal < 0.05 ? '#dc2626' : '#d97706';
+        } else {
+          bar.style.background = yieldVal >= 0.10 ? '#15803d' : '#b45309';
+        }
+        bg.appendChild(bar);
+
+        const meta = document.createElement('div');
+        meta.className = 'meta';
+        meta.textContent = `${fmtInt.format(toNum(r.stops))} stops`;
+
+        side.appendChild(bg);
+        side.appendChild(meta);
+
+        item.appendChild(name);
+        item.appendChild(side);
+        el.appendChild(item);
+      }
+    }
+
+    function insightLine(text) {
+      const li = document.createElement('li');
+      li.textContent = text;
+      return li;
+    }
+
+    async function draw() {
+      const minStops = Math.max(1, toNum(document.getElementById('minStops').value));
+      const minSearches = Math.max(1, toNum(document.getElementById('minSearches').value));
+      const limitRows = Math.max(3, Math.min(30, toNum(document.getElementById('limitRows').value)));
+
+      const [summary, lowBeats, highBeats, lowReasons, highReasons, searches] = await Promise.all([
+        getJson('/api/summary'),
+        getJson(`/api/yield/beat?min_stops=${minStops}&sort=yield_asc&limit=${limitRows}`),
+        getJson(`/api/yield/beat?min_stops=${minStops}&sort=yield_desc&limit=${limitRows}`),
+        getJson(`/api/yield/reason?min_stops=${minStops}&sort=yield_asc&limit=${limitRows}`),
+        getJson(`/api/yield/reason?min_stops=${minStops}&sort=yield_desc&limit=${limitRows}`),
+        getJson(`/api/yield/search?min_searches=${minSearches}&sort=search_yield_desc&limit=${limitRows}`)
+      ]);
+
+      document.getElementById('kStops').textContent = fmtInt.format(toNum(summary.total_stops));
+      document.getElementById('kSuccess').textContent = fmtInt.format(toNum(summary.stops_with_enforcement_outcome));
+      document.getElementById('kContraband').textContent = fmtInt.format(toNum(summary.contraband_discoveries));
+      document.getElementById('kYield').textContent = fmtPct.format(toNum(summary.overall_yield));
+
+      const maxBeatStops = Math.max(...[...lowBeats, ...highBeats].map(r => toNum(r.stops)), 1);
+      const maxReasonStops = Math.max(...[...lowReasons, ...highReasons].map(r => toNum(r.stops)), 1);
+
+      renderBars(document.getElementById('lowBeats'), lowBeats, 'beat', maxBeatStops, true);
+      renderBars(document.getElementById('highBeats'), highBeats, 'beat', maxBeatStops, false);
+      renderBars(document.getElementById('lowReasons'), lowReasons, 'stop_reason', maxReasonStops, true);
+      renderBars(document.getElementById('highReasons'), highReasons, 'stop_reason', maxReasonStops, false);
+
+      const searchBody = document.getElementById('searchRows');
+      searchBody.innerHTML = '';
+      for (const r of searches) {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `<td title="${r.search_reason}">${r.search_reason}</td><td>${fmtInt.format(toNum(r.searches))}</td><td>${fmtPct.format(toNum(r.search_yield))}</td>`;
+        searchBody.appendChild(tr);
+      }
+
+      const insights = document.getElementById('insights');
+      insights.innerHTML = '';
+      if (lowBeats[0]) {
+        insights.appendChild(insightLine(`${lowBeats[0].beat} has ${fmtInt.format(toNum(lowBeats[0].stops))} stops with only ${fmtPct.format(toNum(lowBeats[0].yield))} yield.`));
+      }
+      if (highBeats[0]) {
+        insights.appendChild(insightLine(`${highBeats[0].beat} shows ${fmtPct.format(toNum(highBeats[0].yield))} yield, a high-return enforcement area.`));
+      }
+      if (lowReasons[0]) {
+        insights.appendChild(insightLine(`Low-yield reason: ${lowReasons[0].stop_reason} at ${fmtPct.format(toNum(lowReasons[0].yield))} over ${fmtInt.format(toNum(lowReasons[0].stops))} stops.`));
+      }
+      if (searches[0]) {
+        insights.appendChild(insightLine(`Top search yield reason: ${searches[0].search_reason} at ${fmtPct.format(toNum(searches[0].search_yield))}.`));
+      }
+      insights.appendChild(insightLine('Interpretation: prioritize review where stop activity is high and yield is persistently low.'));
+    }
+
+    document.getElementById('apply').addEventListener('click', () => {
+      draw().catch((e) => alert(e.message));
+    });
+
+    draw().catch((e) => {
+      document.body.innerHTML = `<pre style="padding:20px;color:#991b1b">${e.message}\n\nRun: python analyze_ripa.py\nThen: python server.py</pre>`;
+    });
+  </script>
+</body>
+</html>
