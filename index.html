@@ -4,17 +4,18 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Impact Yield Analyzer - San Diego RIPA</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
   <style>
     :root {
-      --bg: #f4f6f0;
+      --bg: #f2f4ef;
       --card: #ffffff;
-      --ink: #17202a;
-      --muted: #5f6c7a;
-      --line: #d8e1d0;
+      --ink: #182230;
+      --muted: #5c6977;
+      --line: #d7e0d1;
       --red: #b91c1c;
+      --teal: #0f766e;
       --green: #166534;
       --amber: #b45309;
-      --teal: #0f766e;
       --blue: #1d4ed8;
     }
     * { box-sizing: border-box; }
@@ -23,35 +24,29 @@
       font-family: "Avenir Next", "Segoe UI", sans-serif;
       color: var(--ink);
       background:
-        radial-gradient(1200px 500px at -10% -20%, #d9f8eb 0%, transparent 45%),
-        radial-gradient(900px 500px at 120% -40%, #ffe8d6 0%, transparent 40%),
+        radial-gradient(1100px 520px at -10% -18%, #d8f2e6 0%, transparent 45%),
+        radial-gradient(850px 500px at 105% -40%, #ffe8d2 0%, transparent 42%),
         var(--bg);
     }
-    .container {
-      max-width: 1280px;
-      margin: 0 auto;
-      padding: 20px;
-    }
+    .container { max-width: 1320px; margin: 0 auto; padding: 18px; }
     .hero {
-      background: linear-gradient(135deg, #123b3a, #1d5f5b);
+      background: linear-gradient(130deg, #123b3a, #1f5f5a 45%, #2a7f77);
       color: #f8fafc;
       border-radius: 16px;
       padding: 20px;
-      margin-bottom: 14px;
-      box-shadow: 0 10px 30px rgba(0,0,0,.14);
+      box-shadow: 0 10px 30px rgba(0,0,0,.15);
+      margin-bottom: 12px;
     }
-    .hero h1 { margin: 0 0 4px; font-size: 30px; letter-spacing: .2px; }
+    .hero h1 { margin: 0 0 5px; font-size: 30px; }
     .hero p { margin: 0; opacity: .92; }
 
     .kpis {
       display: grid;
       grid-template-columns: repeat(4, minmax(160px, 1fr));
       gap: 10px;
-      margin: 14px 0;
+      margin: 12px 0;
     }
-    @media (max-width: 900px) {
-      .kpis { grid-template-columns: repeat(2, minmax(160px, 1fr)); }
-    }
+    @media (max-width: 900px) { .kpis { grid-template-columns: repeat(2, minmax(160px, 1fr)); } }
     .kpi {
       background: var(--card);
       border: 1px solid var(--line);
@@ -74,48 +69,72 @@
     }
     .controls label { display: block; color: var(--muted); font-size: 12px; margin-bottom: 4px; }
     .controls input, .controls select {
-      width: 155px;
+      width: 160px;
       padding: 8px;
       border-radius: 8px;
-      border: 1px solid #c5d2bd;
+      border: 1px solid #c8d4bf;
+      background: #fff;
       font-size: 14px;
-      background: white;
     }
     button {
       border: 0;
       border-radius: 8px;
       padding: 9px 14px;
       background: var(--teal);
-      color: white;
+      color: #fff;
       font-weight: 600;
       cursor: pointer;
     }
     button.secondary { background: #334155; }
-    .presetbar { display: flex; gap: 8px; flex-wrap: wrap; margin: 0 0 12px; }
+
+    .presetbar { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
     .presetbar button { font-size: 12px; padding: 8px 10px; }
 
-    .grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 12px;
-    }
-    @media (min-width: 1000px) {
-      .grid { grid-template-columns: 1.1fr 1.1fr .85fr; }
-    }
-
-    .card {
+    .panel {
       background: var(--card);
       border: 1px solid var(--line);
       border-radius: 12px;
       padding: 12px;
       box-shadow: 0 3px 8px rgba(0,0,0,.04);
-      min-height: 260px;
     }
-    .card h2 { margin: 0 0 10px; font-size: 16px; }
-    .barlist { display: flex; flex-direction: column; gap: 8px; }
+    .panel h2 { margin: 0 0 10px; font-size: 16px; }
+
+    .map-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+    @media (min-width: 1050px) { .map-grid { grid-template-columns: 1.6fr .9fr; } }
+
+    #map {
+      height: 520px;
+      border-radius: 10px;
+      border: 1px solid #dce6d6;
+      overflow: hidden;
+    }
+
+    .legend {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 8px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+    .swatch {
+      width: 18px;
+      height: 10px;
+      border-radius: 3px;
+      display: inline-block;
+      border: 1px solid rgba(0,0,0,.12);
+    }
+
+    .barlist { display: flex; flex-direction: column; gap: 8px; max-height: 460px; overflow: auto; }
     .item {
       display: grid;
-      grid-template-columns: 1fr 130px;
+      grid-template-columns: 1fr 140px;
       gap: 8px;
       align-items: center;
       border: 1px solid transparent;
@@ -131,37 +150,27 @@
       overflow: hidden;
       text-overflow: ellipsis;
     }
-    .barbg {
-      background: #ecf1e6;
-      border-radius: 999px;
-      height: 14px;
-      overflow: hidden;
-    }
+    .barbg { background: #ecf1e6; border-radius: 999px; height: 14px; overflow: hidden; }
     .bar { height: 100%; border-radius: 999px; }
     .meta { font-size: 11px; color: var(--muted); text-align: right; }
 
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+    @media (min-width: 1050px) { .grid { grid-template-columns: 1fr 1fr 0.9fr; } }
+
     table { width: 100%; border-collapse: collapse; }
-    th, td { padding: 6px 4px; border-bottom: 1px solid #eef2ea; font-size: 12px; text-align: left; }
+    th, td { padding: 7px 5px; border-bottom: 1px solid #eef2ea; font-size: 12px; text-align: left; }
     th { color: var(--muted); font-weight: 600; }
     tr.rowclick { cursor: pointer; }
     tr.rowclick:hover { background: #f8fbf9; }
     tr.rowclick.active { background: #eff6ff; }
 
-    .insights li { margin-bottom: 8px; font-size: 13px; }
-    .badge {
-      display: inline-block;
-      padding: 2px 7px;
-      border-radius: 999px;
-      font-size: 11px;
-      font-weight: 700;
-      margin-left: 6px;
-    }
-    .low { background: #fee2e2; color: var(--red); }
-    .high { background: #dcfce7; color: var(--green); }
-
     .detail-grid {
       display: grid;
-      grid-template-columns: repeat(2, minmax(110px, 1fr));
+      grid-template-columns: repeat(2, minmax(100px, 1fr));
       gap: 8px;
       margin-top: 8px;
     }
@@ -174,6 +183,17 @@
     .detail-box .k { color: var(--muted); font-size: 11px; }
     .detail-box .v { font-size: 15px; font-weight: 700; margin-top: 2px; }
 
+    .badge {
+      display: inline-block;
+      padding: 2px 7px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 700;
+      margin-left: 6px;
+    }
+    .low { background: #fee2e2; color: var(--red); }
+    .high { background: #dcfce7; color: var(--green); }
+    .insights li { margin-bottom: 8px; font-size: 13px; }
     .foot { margin-top: 12px; color: var(--muted); font-size: 12px; }
     code { background: #ecf1e6; padding: 2px 6px; border-radius: 5px; }
   </style>
@@ -182,7 +202,7 @@
   <div class="container">
     <section class="hero">
       <h1>Impact Yield Analyzer</h1>
-      <p>San Diego RIPA stops: quantify where policing activity produces outcomes, and where it does not.</p>
+      <p>Interactive SDPD beat map + yield analysis from merged San Diego RIPA stops.</p>
     </section>
 
     <section class="kpis">
@@ -198,15 +218,15 @@
         <input id="minStops" type="number" value="1000" min="1" />
       </div>
       <div>
-        <label>Min searches (search table)</label>
+        <label>Min searches</label>
         <input id="minSearches" type="number" value="200" min="1" />
       </div>
       <div>
         <label>Rows shown</label>
-        <input id="limitRows" type="number" value="10" min="3" max="30" />
+        <input id="limitRows" type="number" value="12" min="3" max="40" />
       </div>
       <div>
-        <label>Beat sort</label>
+        <label>Beat list sort</label>
         <select id="beatSort">
           <option value="yield_asc">Lowest Yield</option>
           <option value="yield_desc">Highest Yield</option>
@@ -221,15 +241,7 @@
           <option value="stops_desc">Most Stops</option>
         </select>
       </div>
-      <div>
-        <label>Search sort</label>
-        <select id="searchSort">
-          <option value="search_yield_desc">Highest Search Yield</option>
-          <option value="search_yield_asc">Lowest Search Yield</option>
-          <option value="searches_desc">Most Searches</option>
-        </select>
-      </div>
-      <button id="apply">Apply Filters</button>
+      <button id="apply">Apply</button>
       <button id="clearSelection" class="secondary">Clear Selection</button>
     </section>
 
@@ -239,30 +251,39 @@
       <button id="presetBalanced" class="secondary">Preset: Balanced View</button>
     </div>
 
-    <section class="grid">
-      <article class="card">
-        <h2>Beat Explorer</h2>
-        <div id="beatExplorer" class="barlist"></div>
+    <section class="map-grid">
+      <article class="panel">
+        <h2>Beat Yield Map (Choropleth)</h2>
+        <div id="map"></div>
+        <div class="legend">
+          <span class="swatch" style="background:#991b1b"></span><span>&lt; 3%</span>
+          <span class="swatch" style="background:#dc2626"></span><span>3-6%</span>
+          <span class="swatch" style="background:#f59e0b"></span><span>6-10%</span>
+          <span class="swatch" style="background:#22c55e"></span><span>10-15%</span>
+          <span class="swatch" style="background:#166534"></span><span>&gt; 15%</span>
+          <span class="swatch" style="background:#e5e7eb"></span><span>No match</span>
+          <span id="mapCoverage" style="margin-left:auto"></span>
+        </div>
       </article>
 
-      <article class="card">
+      <article class="panel">
+        <h2>Selected Item</h2>
+        <div id="selectionTitle" style="font-weight:700; font-size:14px;">No selection</div>
+        <div id="selectionSubtitle" style="color: var(--muted); font-size:12px; margin-top:4px;">Click a beat polygon, bar, or search row.</div>
+        <div id="selectionDetails" class="detail-grid"></div>
+        <hr style="border:none;border-top:1px solid #edf2e8;margin:12px 0" />
+        <h2 style="margin-top:0">Beat Explorer</h2>
+        <div id="beatExplorer" class="barlist"></div>
+      </article>
+    </section>
+
+    <section class="grid">
+      <article class="panel">
         <h2>Stop Reason Explorer</h2>
         <div id="reasonExplorer" class="barlist"></div>
       </article>
 
-      <article class="card">
-        <h2>Selected Item</h2>
-        <div id="selectionTitle" style="font-weight:700; font-size:14px;">No selection</div>
-        <div id="selectionSubtitle" style="color: var(--muted); font-size:12px; margin-top:4px;">Click any bar row or table row for details.</div>
-        <div id="selectionDetails" class="detail-grid"></div>
-      </article>
-
-      <article class="card">
-        <h2>Narrative Insights</h2>
-        <ul id="insights" class="insights"></ul>
-      </article>
-
-      <article class="card">
+      <article class="panel">
         <h2>Search Yield by Reason</h2>
         <table>
           <thead><tr><th>Reason</th><th>Searches</th><th>Yield</th></tr></thead>
@@ -270,32 +291,28 @@
         </table>
       </article>
 
-      <article class="card">
-        <h2>How to Demo</h2>
-        <ul class="insights">
-          <li>1. Click <strong>Low-Yield Hotspots</strong> and show high-stop, low-yield beats.</li>
-          <li>2. Click a beat to keep it highlighted while you narrate.</li>
-          <li>3. Switch to <strong>Search Efficiency</strong> to compare search basis yields.</li>
-          <li>4. Use <strong>Selected Item</strong> panel to explain one concrete example.</li>
-        </ul>
+      <article class="panel">
+        <h2>Narrative Insights</h2>
+        <ul id="insights" class="insights"></ul>
       </article>
     </section>
 
     <div class="foot">Run local app: <code>python server.py</code> then open <code>http://127.0.0.1:8000</code>.</div>
   </div>
 
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
   <script>
     const fmtInt = new Intl.NumberFormat();
-    const fmtPct = new Intl.NumberFormat(undefined, {style: 'percent', minimumFractionDigits: 1, maximumFractionDigits: 1});
+    const fmtPct = new Intl.NumberFormat(undefined, { style: 'percent', minimumFractionDigits: 1, maximumFractionDigits: 1 });
 
     const state = {
       selectedType: null,
       selectedLabel: null,
-      rows: {
-        beats: [],
-        reasons: [],
-        searches: []
-      }
+      rows: { beats: [], reasons: [], searches: [] },
+      map: null,
+      beatLayer: null,
+      geojson: null,
+      beatMetricByNorm: new Map()
     };
 
     const toNum = (v) => {
@@ -303,80 +320,117 @@
       return Number.isFinite(n) ? n : 0;
     };
 
+    const normalizeName = (name) => (name || "")
+      .toUpperCase()
+      .replace(/^\d+\s+/, "")
+      .replace(/\s*\([^)]*\)\s*$/, "")
+      .replace(/[\-\/]/g, " ")
+      .replace(/[^A-Z0-9 ]+/g, "")
+      .replace(/\s+/g, " ")
+      .trim();
+
+    function yieldColor(y) {
+      if (y < 0.03) return '#991b1b';
+      if (y < 0.06) return '#dc2626';
+      if (y < 0.10) return '#f59e0b';
+      if (y < 0.15) return '#22c55e';
+      return '#166534';
+    }
+
     async function getJson(url) {
       const res = await fetch(url);
       if (!res.ok) throw new Error(`API failed: ${url}`);
       return res.json();
     }
 
-    function makeDetailBox(key, value) {
-      const div = document.createElement('div');
-      div.className = 'detail-box';
-      div.innerHTML = `<div class="k">${key}</div><div class="v">${value}</div>`;
-      return div;
+    async function loadGeoJson() {
+      const res = await fetch('/data/sdpd_beats.geojson');
+      if (!res.ok) throw new Error('Unable to load beat boundary GeoJSON');
+      return res.json();
     }
 
-    function setSelection(type, row, labelKey) {
+    function setSelection(type, label, row) {
       state.selectedType = type;
-      state.selectedLabel = row[labelKey];
+      state.selectedLabel = label;
 
       const title = document.getElementById('selectionTitle');
       const subtitle = document.getElementById('selectionSubtitle');
       const details = document.getElementById('selectionDetails');
       details.innerHTML = '';
 
-      title.textContent = row[labelKey];
-      subtitle.textContent = type === 'search' ? 'Search basis detail' : `${type} detail`;
+      title.textContent = label || 'No selection';
+      subtitle.textContent = type ? `${type} detail` : 'Click a beat polygon, bar, or search row.';
+
+      if (!row) return highlightSelection();
+
+      const add = (k, v) => {
+        const div = document.createElement('div');
+        div.className = 'detail-box';
+        div.innerHTML = `<div class="k">${k}</div><div class="v">${v}</div>`;
+        details.appendChild(div);
+      };
 
       if (type === 'search') {
-        details.appendChild(makeDetailBox('Searches', fmtInt.format(toNum(row.searches))));
-        details.appendChild(makeDetailBox('Contraband', fmtInt.format(toNum(row.contraband_discoveries))));
-        details.appendChild(makeDetailBox('Search Yield', fmtPct.format(toNum(row.search_yield))));
+        add('Searches', fmtInt.format(toNum(row.searches)));
+        add('Contraband', fmtInt.format(toNum(row.contraband_discoveries)));
+        add('Search Yield', fmtPct.format(toNum(row.search_yield)));
       } else {
-        details.appendChild(makeDetailBox('Stops', fmtInt.format(toNum(row.stops))));
-        details.appendChild(makeDetailBox('Success', fmtInt.format(toNum(row.success))));
-        details.appendChild(makeDetailBox('Yield', fmtPct.format(toNum(row.yield))));
-        details.appendChild(makeDetailBox('Contraband', fmtInt.format(toNum(row.contraband_discoveries))));
+        add('Stops', fmtInt.format(toNum(row.stops)));
+        add('Success', fmtInt.format(toNum(row.success)));
+        add('Yield', fmtPct.format(toNum(row.yield)));
+        add('Contraband', fmtInt.format(toNum(row.contraband_discoveries)));
       }
+
       highlightSelection();
     }
 
     function clearSelection() {
       state.selectedType = null;
       state.selectedLabel = null;
-      document.getElementById('selectionTitle').textContent = 'No selection';
-      document.getElementById('selectionSubtitle').textContent = 'Click any bar row or table row for details.';
-      document.getElementById('selectionDetails').innerHTML = '';
-      highlightSelection();
+      setSelection(null, 'No selection', null);
+      if (state.map) {
+        state.map.eachLayer((layer) => {
+          if (layer.feature && state.beatLayer) {
+            state.beatLayer.resetStyle(layer);
+          }
+        });
+      }
     }
 
     function highlightSelection() {
-      document.querySelectorAll('.item').forEach(el => {
-        const type = el.dataset.type;
-        const label = el.dataset.label;
-        el.classList.toggle('active', type === state.selectedType && label === state.selectedLabel);
+      document.querySelectorAll('.item').forEach((el) => {
+        el.classList.toggle('active', el.dataset.type === state.selectedType && el.dataset.label === state.selectedLabel);
       });
-      document.querySelectorAll('tr.rowclick').forEach(el => {
-        const type = el.dataset.type;
-        const label = el.dataset.label;
-        el.classList.toggle('active', type === state.selectedType && label === state.selectedLabel);
+      document.querySelectorAll('tr.rowclick').forEach((el) => {
+        el.classList.toggle('active', el.dataset.type === state.selectedType && el.dataset.label === state.selectedLabel);
       });
+      if (state.beatLayer) {
+        state.beatLayer.eachLayer((layer) => {
+          const n = normalizeName(layer.feature.properties.name);
+          const target = state.selectedType === 'beat' ? normalizeName(state.selectedLabel) : null;
+          if (target && n === target) {
+            layer.setStyle({ weight: 3, color: '#1d4ed8', fillOpacity: 0.9 });
+          } else {
+            state.beatLayer.resetStyle(layer);
+          }
+        });
+      }
     }
 
-    function renderBars(el, rows, keyLabel, maxStops, lowIsBad, typeName) {
+    function renderBars(el, rows, labelKey, maxStops, typeName) {
       el.innerHTML = '';
       for (const r of rows) {
-        const yieldVal = toNum(r.yield);
+        const y = toNum(r.yield);
         const item = document.createElement('div');
         item.className = 'item';
         item.dataset.type = typeName;
-        item.dataset.label = r[keyLabel];
+        item.dataset.label = r[labelKey];
 
         const name = document.createElement('div');
         name.className = 'name';
-        const cls = yieldVal < 0.05 ? 'low' : 'high';
-        name.innerHTML = `${r[keyLabel]} <span class="badge ${cls}">${fmtPct.format(yieldVal)}</span>`;
-        name.title = r[keyLabel];
+        const cls = y < 0.05 ? 'low' : 'high';
+        name.innerHTML = `${r[labelKey]} <span class="badge ${cls}">${fmtPct.format(y)}</span>`;
+        name.title = r[labelKey];
 
         const side = document.createElement('div');
         const bg = document.createElement('div');
@@ -384,11 +438,7 @@
         const bar = document.createElement('div');
         bar.className = 'bar';
         bar.style.width = `${Math.max(2, Math.round((toNum(r.stops) / maxStops) * 100))}%`;
-        if (lowIsBad) {
-          bar.style.background = yieldVal < 0.05 ? '#dc2626' : '#d97706';
-        } else {
-          bar.style.background = yieldVal >= 0.10 ? '#15803d' : '#b45309';
-        }
+        bar.style.background = yieldColor(y);
         bg.appendChild(bar);
 
         const meta = document.createElement('div');
@@ -400,8 +450,91 @@
         item.appendChild(name);
         item.appendChild(side);
 
-        item.addEventListener('click', () => setSelection(typeName, r, keyLabel));
+        item.addEventListener('click', () => setSelection(typeName, r[labelKey], r));
         el.appendChild(item);
+      }
+    }
+
+    function findMetricForGeoName(geoName) {
+      const n = normalizeName(geoName);
+      if (state.beatMetricByNorm.has(n)) return state.beatMetricByNorm.get(n);
+      for (const [key, row] of state.beatMetricByNorm.entries()) {
+        if (key && (n.includes(key) || key.includes(n))) return row;
+      }
+      return null;
+    }
+
+    function buildMap() {
+      if (!window.L) throw new Error('Leaflet failed to load');
+
+      if (!state.map) {
+        state.map = L.map('map', { preferCanvas: true }).setView([32.7157, -117.1611], 11);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          maxZoom: 18,
+          attribution: '&copy; OpenStreetMap contributors'
+        }).addTo(state.map);
+      }
+
+      if (state.beatLayer) {
+        state.beatLayer.remove();
+      }
+
+      let matched = 0;
+      let total = 0;
+
+      state.beatLayer = L.geoJSON(state.geojson, {
+        style: (feature) => {
+          total += 1;
+          const metric = findMetricForGeoName(feature.properties.name);
+          if (metric) matched += 1;
+          return {
+            weight: 1,
+            color: '#4b5563',
+            fillColor: metric ? yieldColor(toNum(metric.yield)) : '#e5e7eb',
+            fillOpacity: 0.75
+          };
+        },
+        onEachFeature: (feature, layer) => {
+          const metric = findMetricForGeoName(feature.properties.name);
+          const title = feature.properties.name || 'Unknown beat';
+          if (metric) {
+            layer.bindTooltip(`<strong>${title}</strong><br/>Stops: ${fmtInt.format(toNum(metric.stops))}<br/>Yield: ${fmtPct.format(toNum(metric.yield))}`);
+          } else {
+            layer.bindTooltip(`<strong>${title}</strong><br/>No matched metric in current filtered list.`);
+          }
+
+          layer.on('click', () => {
+            if (metric) {
+              setSelection('beat', metric.beat, metric);
+            } else {
+              setSelection('beat', title, null);
+            }
+          });
+        }
+      }).addTo(state.map);
+
+      document.getElementById('mapCoverage').textContent = `Map coverage: ${matched}/${total} polygons matched`;
+    }
+
+    function applyPreset(kind) {
+      if (kind === 'low') {
+        document.getElementById('minStops').value = 1000;
+        document.getElementById('minSearches').value = 200;
+        document.getElementById('limitRows').value = 12;
+        document.getElementById('beatSort').value = 'yield_asc';
+        document.getElementById('reasonSort').value = 'yield_asc';
+      } else if (kind === 'search') {
+        document.getElementById('minStops').value = 500;
+        document.getElementById('minSearches').value = 100;
+        document.getElementById('limitRows').value = 15;
+        document.getElementById('beatSort').value = 'stops_desc';
+        document.getElementById('reasonSort').value = 'yield_desc';
+      } else {
+        document.getElementById('minStops').value = 800;
+        document.getElementById('minSearches').value = 200;
+        document.getElementById('limitRows').value = 12;
+        document.getElementById('beatSort').value = 'yield_desc';
+        document.getElementById('reasonSort').value = 'yield_desc';
       }
     }
 
@@ -411,60 +544,34 @@
       return li;
     }
 
-    function applyPreset(kind) {
-      if (kind === 'low') {
-        document.getElementById('minStops').value = 1000;
-        document.getElementById('minSearches').value = 200;
-        document.getElementById('limitRows').value = 10;
-        document.getElementById('beatSort').value = 'yield_asc';
-        document.getElementById('reasonSort').value = 'yield_asc';
-        document.getElementById('searchSort').value = 'search_yield_desc';
-      } else if (kind === 'search') {
-        document.getElementById('minStops').value = 500;
-        document.getElementById('minSearches').value = 100;
-        document.getElementById('limitRows').value = 12;
-        document.getElementById('beatSort').value = 'stops_desc';
-        document.getElementById('reasonSort').value = 'yield_desc';
-        document.getElementById('searchSort').value = 'search_yield_desc';
-      } else {
-        document.getElementById('minStops').value = 800;
-        document.getElementById('minSearches').value = 200;
-        document.getElementById('limitRows').value = 10;
-        document.getElementById('beatSort').value = 'yield_desc';
-        document.getElementById('reasonSort').value = 'yield_desc';
-        document.getElementById('searchSort').value = 'searches_desc';
-      }
-    }
-
     async function draw() {
       const minStops = Math.max(1, toNum(document.getElementById('minStops').value));
       const minSearches = Math.max(1, toNum(document.getElementById('minSearches').value));
-      const limitRows = Math.max(3, Math.min(30, toNum(document.getElementById('limitRows').value)));
+      const limitRows = Math.max(3, Math.min(40, toNum(document.getElementById('limitRows').value)));
       const beatSort = document.getElementById('beatSort').value;
       const reasonSort = document.getElementById('reasonSort').value;
-      const searchSort = document.getElementById('searchSort').value;
 
       const [summary, beats, reasons, searches] = await Promise.all([
         getJson('/api/summary'),
         getJson(`/api/yield/beat?min_stops=${minStops}&sort=${beatSort}&limit=${limitRows}`),
         getJson(`/api/yield/reason?min_stops=${minStops}&sort=${reasonSort}&limit=${limitRows}`),
-        getJson(`/api/yield/search?min_searches=${minSearches}&sort=${searchSort}&limit=${limitRows}`)
+        getJson(`/api/yield/search?min_searches=${minSearches}&sort=search_yield_desc&limit=${limitRows}`)
       ]);
 
       state.rows.beats = beats;
       state.rows.reasons = reasons;
       state.rows.searches = searches;
+      state.beatMetricByNorm = new Map(beats.map((r) => [normalizeName(r.beat), r]));
 
       document.getElementById('kStops').textContent = fmtInt.format(toNum(summary.total_stops));
       document.getElementById('kSuccess').textContent = fmtInt.format(toNum(summary.stops_with_enforcement_outcome));
       document.getElementById('kContraband').textContent = fmtInt.format(toNum(summary.contraband_discoveries));
       document.getElementById('kYield').textContent = fmtPct.format(toNum(summary.overall_yield));
 
-      const maxBeatStops = Math.max(...beats.map(r => toNum(r.stops)), 1);
-      const maxReasonStops = Math.max(...reasons.map(r => toNum(r.stops)), 1);
-
-      renderBars(document.getElementById('beatExplorer'), beats, 'beat', maxBeatStops, beatSort === 'yield_asc', 'beat');
-      renderBars(document.getElementById('reasonExplorer'), reasons, 'stop_reason', maxReasonStops, reasonSort === 'yield_asc', 'reason');
+      const maxBeatStops = Math.max(...beats.map((r) => toNum(r.stops)), 1);
+      const maxReasonStops = Math.max(...reasons.map((r) => toNum(r.stops)), 1);
+      renderBars(document.getElementById('beatExplorer'), beats, 'beat', maxBeatStops, 'beat');
+      renderBars(document.getElementById('reasonExplorer'), reasons, 'stop_reason', maxReasonStops, 'reason');
 
       const searchBody = document.getElementById('searchRows');
       searchBody.innerHTML = '';
@@ -474,24 +581,24 @@
         tr.dataset.type = 'search';
         tr.dataset.label = r.search_reason;
         tr.innerHTML = `<td title="${r.search_reason}">${r.search_reason}</td><td>${fmtInt.format(toNum(r.searches))}</td><td>${fmtPct.format(toNum(r.search_yield))}</td>`;
-        tr.addEventListener('click', () => setSelection('search', r, 'search_reason'));
+        tr.addEventListener('click', () => setSelection('search', r.search_reason, r));
         searchBody.appendChild(tr);
       }
 
       const insights = document.getElementById('insights');
       insights.innerHTML = '';
-      if (beats[0]) {
-        insights.appendChild(insightLine(`Beat highlight: ${beats[0].beat} has ${fmtInt.format(toNum(beats[0].stops))} stops at ${fmtPct.format(toNum(beats[0].yield))} yield.`));
-      }
-      if (reasons[0]) {
-        insights.appendChild(insightLine(`Reason highlight: ${reasons[0].stop_reason} at ${fmtPct.format(toNum(reasons[0].yield))} yield over ${fmtInt.format(toNum(reasons[0].stops))} stops.`));
-      }
-      if (searches[0]) {
-        insights.appendChild(insightLine(`Search highlight: ${searches[0].search_reason} with ${fmtPct.format(toNum(searches[0].search_yield))} contraband hit rate.`));
-      }
-      insights.appendChild(insightLine('Use filters + selection panel to narrate specific high-volume examples to judges.'));
+      if (beats[0]) insights.appendChild(insightLine(`Beat highlight: ${beats[0].beat} has ${fmtInt.format(toNum(beats[0].stops))} stops and ${fmtPct.format(toNum(beats[0].yield))} yield.`));
+      if (reasons[0]) insights.appendChild(insightLine(`Reason highlight: ${reasons[0].stop_reason} has ${fmtPct.format(toNum(reasons[0].yield))} yield over ${fmtInt.format(toNum(reasons[0].stops))} stops.`));
+      if (searches[0]) insights.appendChild(insightLine(`Search highlight: ${searches[0].search_reason} returns contraband ${fmtPct.format(toNum(searches[0].search_yield))} of searches.`));
+      insights.appendChild(insightLine('Map interpretation: darker red beats indicate high stop activity with low enforcement return.'));
 
+      buildMap();
       highlightSelection();
+    }
+
+    async function init() {
+      state.geojson = await loadGeoJson();
+      await draw();
     }
 
     document.getElementById('apply').addEventListener('click', () => draw().catch((e) => alert(e.message)));
@@ -500,7 +607,7 @@
     document.getElementById('presetSearch').addEventListener('click', () => { applyPreset('search'); draw().catch((e) => alert(e.message)); });
     document.getElementById('presetBalanced').addEventListener('click', () => { applyPreset('balanced'); draw().catch((e) => alert(e.message)); });
 
-    draw().catch((e) => {
+    init().catch((e) => {
       document.body.innerHTML = `<pre style="padding:20px;color:#991b1b">${e.message}\n\nRun: python analyze_ripa.py\nThen: python server.py</pre>`;
     });
   </script>
