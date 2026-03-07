@@ -15,6 +15,7 @@
       --green: #166534;
       --amber: #b45309;
       --teal: #0f766e;
+      --blue: #1d4ed8;
     }
     * { box-sizing: border-box; }
     body {
@@ -72,12 +73,13 @@
       margin-bottom: 12px;
     }
     .controls label { display: block; color: var(--muted); font-size: 12px; margin-bottom: 4px; }
-    .controls input {
-      width: 130px;
+    .controls input, .controls select {
+      width: 155px;
       padding: 8px;
       border-radius: 8px;
       border: 1px solid #c5d2bd;
       font-size: 14px;
+      background: white;
     }
     button {
       border: 0;
@@ -88,6 +90,9 @@
       font-weight: 600;
       cursor: pointer;
     }
+    button.secondary { background: #334155; }
+    .presetbar { display: flex; gap: 8px; flex-wrap: wrap; margin: 0 0 12px; }
+    .presetbar button { font-size: 12px; padding: 8px 10px; }
 
     .grid {
       display: grid;
@@ -95,7 +100,7 @@
       gap: 12px;
     }
     @media (min-width: 1000px) {
-      .grid { grid-template-columns: 1.1fr 1.1fr .8fr; }
+      .grid { grid-template-columns: 1.1fr 1.1fr .85fr; }
     }
 
     .card {
@@ -113,7 +118,13 @@
       grid-template-columns: 1fr 130px;
       gap: 8px;
       align-items: center;
+      border: 1px solid transparent;
+      border-radius: 8px;
+      padding: 4px;
+      cursor: pointer;
     }
+    .item:hover { border-color: #bfd4d4; background: #f8fbf9; }
+    .item.active { border-color: var(--blue); background: #eff6ff; }
     .name {
       font-size: 12px;
       white-space: nowrap;
@@ -132,6 +143,9 @@
     table { width: 100%; border-collapse: collapse; }
     th, td { padding: 6px 4px; border-bottom: 1px solid #eef2ea; font-size: 12px; text-align: left; }
     th { color: var(--muted); font-weight: 600; }
+    tr.rowclick { cursor: pointer; }
+    tr.rowclick:hover { background: #f8fbf9; }
+    tr.rowclick.active { background: #eff6ff; }
 
     .insights li { margin-bottom: 8px; font-size: 13px; }
     .badge {
@@ -144,6 +158,22 @@
     }
     .low { background: #fee2e2; color: var(--red); }
     .high { background: #dcfce7; color: var(--green); }
+
+    .detail-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(110px, 1fr));
+      gap: 8px;
+      margin-top: 8px;
+    }
+    .detail-box {
+      border: 1px solid #e7eee1;
+      border-radius: 8px;
+      padding: 8px;
+      background: #fbfdf9;
+    }
+    .detail-box .k { color: var(--muted); font-size: 11px; }
+    .detail-box .v { font-size: 15px; font-weight: 700; margin-top: 2px; }
+
     .foot { margin-top: 12px; color: var(--muted); font-size: 12px; }
     code { background: #ecf1e6; padding: 2px 6px; border-radius: 5px; }
   </style>
@@ -175,33 +205,61 @@
         <label>Rows shown</label>
         <input id="limitRows" type="number" value="10" min="3" max="30" />
       </div>
+      <div>
+        <label>Beat sort</label>
+        <select id="beatSort">
+          <option value="yield_asc">Lowest Yield</option>
+          <option value="yield_desc">Highest Yield</option>
+          <option value="stops_desc">Most Stops</option>
+        </select>
+      </div>
+      <div>
+        <label>Reason sort</label>
+        <select id="reasonSort">
+          <option value="yield_asc">Lowest Yield</option>
+          <option value="yield_desc">Highest Yield</option>
+          <option value="stops_desc">Most Stops</option>
+        </select>
+      </div>
+      <div>
+        <label>Search sort</label>
+        <select id="searchSort">
+          <option value="search_yield_desc">Highest Search Yield</option>
+          <option value="search_yield_asc">Lowest Search Yield</option>
+          <option value="searches_desc">Most Searches</option>
+        </select>
+      </div>
       <button id="apply">Apply Filters</button>
+      <button id="clearSelection" class="secondary">Clear Selection</button>
     </section>
+
+    <div class="presetbar">
+      <button id="presetLowYield">Preset: Low-Yield Hotspots</button>
+      <button id="presetSearch" class="secondary">Preset: Search Efficiency</button>
+      <button id="presetBalanced" class="secondary">Preset: Balanced View</button>
+    </div>
 
     <section class="grid">
       <article class="card">
-        <h2>High Activity, Low Yield Beats</h2>
-        <div id="lowBeats" class="barlist"></div>
+        <h2>Beat Explorer</h2>
+        <div id="beatExplorer" class="barlist"></div>
       </article>
 
       <article class="card">
-        <h2>High Yield Beats</h2>
-        <div id="highBeats" class="barlist"></div>
+        <h2>Stop Reason Explorer</h2>
+        <div id="reasonExplorer" class="barlist"></div>
+      </article>
+
+      <article class="card">
+        <h2>Selected Item</h2>
+        <div id="selectionTitle" style="font-weight:700; font-size:14px;">No selection</div>
+        <div id="selectionSubtitle" style="color: var(--muted); font-size:12px; margin-top:4px;">Click any bar row or table row for details.</div>
+        <div id="selectionDetails" class="detail-grid"></div>
       </article>
 
       <article class="card">
         <h2>Narrative Insights</h2>
         <ul id="insights" class="insights"></ul>
-      </article>
-
-      <article class="card">
-        <h2>Low-Yield Stop Reasons</h2>
-        <div id="lowReasons" class="barlist"></div>
-      </article>
-
-      <article class="card">
-        <h2>High-Yield Stop Reasons</h2>
-        <div id="highReasons" class="barlist"></div>
       </article>
 
       <article class="card">
@@ -211,6 +269,16 @@
           <tbody id="searchRows"></tbody>
         </table>
       </article>
+
+      <article class="card">
+        <h2>How to Demo</h2>
+        <ul class="insights">
+          <li>1. Click <strong>Low-Yield Hotspots</strong> and show high-stop, low-yield beats.</li>
+          <li>2. Click a beat to keep it highlighted while you narrate.</li>
+          <li>3. Switch to <strong>Search Efficiency</strong> to compare search basis yields.</li>
+          <li>4. Use <strong>Selected Item</strong> panel to explain one concrete example.</li>
+        </ul>
+      </article>
     </section>
 
     <div class="foot">Run local app: <code>python server.py</code> then open <code>http://127.0.0.1:8000</code>.</div>
@@ -219,6 +287,16 @@
   <script>
     const fmtInt = new Intl.NumberFormat();
     const fmtPct = new Intl.NumberFormat(undefined, {style: 'percent', minimumFractionDigits: 1, maximumFractionDigits: 1});
+
+    const state = {
+      selectedType: null,
+      selectedLabel: null,
+      rows: {
+        beats: [],
+        reasons: [],
+        searches: []
+      }
+    };
 
     const toNum = (v) => {
       const n = Number(v);
@@ -231,12 +309,68 @@
       return res.json();
     }
 
-    function renderBars(el, rows, keyLabel, maxStops, lowIsBad) {
+    function makeDetailBox(key, value) {
+      const div = document.createElement('div');
+      div.className = 'detail-box';
+      div.innerHTML = `<div class="k">${key}</div><div class="v">${value}</div>`;
+      return div;
+    }
+
+    function setSelection(type, row, labelKey) {
+      state.selectedType = type;
+      state.selectedLabel = row[labelKey];
+
+      const title = document.getElementById('selectionTitle');
+      const subtitle = document.getElementById('selectionSubtitle');
+      const details = document.getElementById('selectionDetails');
+      details.innerHTML = '';
+
+      title.textContent = row[labelKey];
+      subtitle.textContent = type === 'search' ? 'Search basis detail' : `${type} detail`;
+
+      if (type === 'search') {
+        details.appendChild(makeDetailBox('Searches', fmtInt.format(toNum(row.searches))));
+        details.appendChild(makeDetailBox('Contraband', fmtInt.format(toNum(row.contraband_discoveries))));
+        details.appendChild(makeDetailBox('Search Yield', fmtPct.format(toNum(row.search_yield))));
+      } else {
+        details.appendChild(makeDetailBox('Stops', fmtInt.format(toNum(row.stops))));
+        details.appendChild(makeDetailBox('Success', fmtInt.format(toNum(row.success))));
+        details.appendChild(makeDetailBox('Yield', fmtPct.format(toNum(row.yield))));
+        details.appendChild(makeDetailBox('Contraband', fmtInt.format(toNum(row.contraband_discoveries))));
+      }
+      highlightSelection();
+    }
+
+    function clearSelection() {
+      state.selectedType = null;
+      state.selectedLabel = null;
+      document.getElementById('selectionTitle').textContent = 'No selection';
+      document.getElementById('selectionSubtitle').textContent = 'Click any bar row or table row for details.';
+      document.getElementById('selectionDetails').innerHTML = '';
+      highlightSelection();
+    }
+
+    function highlightSelection() {
+      document.querySelectorAll('.item').forEach(el => {
+        const type = el.dataset.type;
+        const label = el.dataset.label;
+        el.classList.toggle('active', type === state.selectedType && label === state.selectedLabel);
+      });
+      document.querySelectorAll('tr.rowclick').forEach(el => {
+        const type = el.dataset.type;
+        const label = el.dataset.label;
+        el.classList.toggle('active', type === state.selectedType && label === state.selectedLabel);
+      });
+    }
+
+    function renderBars(el, rows, keyLabel, maxStops, lowIsBad, typeName) {
       el.innerHTML = '';
       for (const r of rows) {
         const yieldVal = toNum(r.yield);
         const item = document.createElement('div');
         item.className = 'item';
+        item.dataset.type = typeName;
+        item.dataset.label = r[keyLabel];
 
         const name = document.createElement('div');
         name.className = 'name';
@@ -263,9 +397,10 @@
 
         side.appendChild(bg);
         side.appendChild(meta);
-
         item.appendChild(name);
         item.appendChild(side);
+
+        item.addEventListener('click', () => setSelection(typeName, r, keyLabel));
         el.appendChild(item);
       }
     }
@@ -276,61 +411,94 @@
       return li;
     }
 
+    function applyPreset(kind) {
+      if (kind === 'low') {
+        document.getElementById('minStops').value = 1000;
+        document.getElementById('minSearches').value = 200;
+        document.getElementById('limitRows').value = 10;
+        document.getElementById('beatSort').value = 'yield_asc';
+        document.getElementById('reasonSort').value = 'yield_asc';
+        document.getElementById('searchSort').value = 'search_yield_desc';
+      } else if (kind === 'search') {
+        document.getElementById('minStops').value = 500;
+        document.getElementById('minSearches').value = 100;
+        document.getElementById('limitRows').value = 12;
+        document.getElementById('beatSort').value = 'stops_desc';
+        document.getElementById('reasonSort').value = 'yield_desc';
+        document.getElementById('searchSort').value = 'search_yield_desc';
+      } else {
+        document.getElementById('minStops').value = 800;
+        document.getElementById('minSearches').value = 200;
+        document.getElementById('limitRows').value = 10;
+        document.getElementById('beatSort').value = 'yield_desc';
+        document.getElementById('reasonSort').value = 'yield_desc';
+        document.getElementById('searchSort').value = 'searches_desc';
+      }
+    }
+
     async function draw() {
       const minStops = Math.max(1, toNum(document.getElementById('minStops').value));
       const minSearches = Math.max(1, toNum(document.getElementById('minSearches').value));
       const limitRows = Math.max(3, Math.min(30, toNum(document.getElementById('limitRows').value)));
+      const beatSort = document.getElementById('beatSort').value;
+      const reasonSort = document.getElementById('reasonSort').value;
+      const searchSort = document.getElementById('searchSort').value;
 
-      const [summary, lowBeats, highBeats, lowReasons, highReasons, searches] = await Promise.all([
+      const [summary, beats, reasons, searches] = await Promise.all([
         getJson('/api/summary'),
-        getJson(`/api/yield/beat?min_stops=${minStops}&sort=yield_asc&limit=${limitRows}`),
-        getJson(`/api/yield/beat?min_stops=${minStops}&sort=yield_desc&limit=${limitRows}`),
-        getJson(`/api/yield/reason?min_stops=${minStops}&sort=yield_asc&limit=${limitRows}`),
-        getJson(`/api/yield/reason?min_stops=${minStops}&sort=yield_desc&limit=${limitRows}`),
-        getJson(`/api/yield/search?min_searches=${minSearches}&sort=search_yield_desc&limit=${limitRows}`)
+        getJson(`/api/yield/beat?min_stops=${minStops}&sort=${beatSort}&limit=${limitRows}`),
+        getJson(`/api/yield/reason?min_stops=${minStops}&sort=${reasonSort}&limit=${limitRows}`),
+        getJson(`/api/yield/search?min_searches=${minSearches}&sort=${searchSort}&limit=${limitRows}`)
       ]);
+
+      state.rows.beats = beats;
+      state.rows.reasons = reasons;
+      state.rows.searches = searches;
 
       document.getElementById('kStops').textContent = fmtInt.format(toNum(summary.total_stops));
       document.getElementById('kSuccess').textContent = fmtInt.format(toNum(summary.stops_with_enforcement_outcome));
       document.getElementById('kContraband').textContent = fmtInt.format(toNum(summary.contraband_discoveries));
       document.getElementById('kYield').textContent = fmtPct.format(toNum(summary.overall_yield));
 
-      const maxBeatStops = Math.max(...[...lowBeats, ...highBeats].map(r => toNum(r.stops)), 1);
-      const maxReasonStops = Math.max(...[...lowReasons, ...highReasons].map(r => toNum(r.stops)), 1);
+      const maxBeatStops = Math.max(...beats.map(r => toNum(r.stops)), 1);
+      const maxReasonStops = Math.max(...reasons.map(r => toNum(r.stops)), 1);
 
-      renderBars(document.getElementById('lowBeats'), lowBeats, 'beat', maxBeatStops, true);
-      renderBars(document.getElementById('highBeats'), highBeats, 'beat', maxBeatStops, false);
-      renderBars(document.getElementById('lowReasons'), lowReasons, 'stop_reason', maxReasonStops, true);
-      renderBars(document.getElementById('highReasons'), highReasons, 'stop_reason', maxReasonStops, false);
+      renderBars(document.getElementById('beatExplorer'), beats, 'beat', maxBeatStops, beatSort === 'yield_asc', 'beat');
+      renderBars(document.getElementById('reasonExplorer'), reasons, 'stop_reason', maxReasonStops, reasonSort === 'yield_asc', 'reason');
 
       const searchBody = document.getElementById('searchRows');
       searchBody.innerHTML = '';
       for (const r of searches) {
         const tr = document.createElement('tr');
+        tr.className = 'rowclick';
+        tr.dataset.type = 'search';
+        tr.dataset.label = r.search_reason;
         tr.innerHTML = `<td title="${r.search_reason}">${r.search_reason}</td><td>${fmtInt.format(toNum(r.searches))}</td><td>${fmtPct.format(toNum(r.search_yield))}</td>`;
+        tr.addEventListener('click', () => setSelection('search', r, 'search_reason'));
         searchBody.appendChild(tr);
       }
 
       const insights = document.getElementById('insights');
       insights.innerHTML = '';
-      if (lowBeats[0]) {
-        insights.appendChild(insightLine(`${lowBeats[0].beat} has ${fmtInt.format(toNum(lowBeats[0].stops))} stops with only ${fmtPct.format(toNum(lowBeats[0].yield))} yield.`));
+      if (beats[0]) {
+        insights.appendChild(insightLine(`Beat highlight: ${beats[0].beat} has ${fmtInt.format(toNum(beats[0].stops))} stops at ${fmtPct.format(toNum(beats[0].yield))} yield.`));
       }
-      if (highBeats[0]) {
-        insights.appendChild(insightLine(`${highBeats[0].beat} shows ${fmtPct.format(toNum(highBeats[0].yield))} yield, a high-return enforcement area.`));
-      }
-      if (lowReasons[0]) {
-        insights.appendChild(insightLine(`Low-yield reason: ${lowReasons[0].stop_reason} at ${fmtPct.format(toNum(lowReasons[0].yield))} over ${fmtInt.format(toNum(lowReasons[0].stops))} stops.`));
+      if (reasons[0]) {
+        insights.appendChild(insightLine(`Reason highlight: ${reasons[0].stop_reason} at ${fmtPct.format(toNum(reasons[0].yield))} yield over ${fmtInt.format(toNum(reasons[0].stops))} stops.`));
       }
       if (searches[0]) {
-        insights.appendChild(insightLine(`Top search yield reason: ${searches[0].search_reason} at ${fmtPct.format(toNum(searches[0].search_yield))}.`));
+        insights.appendChild(insightLine(`Search highlight: ${searches[0].search_reason} with ${fmtPct.format(toNum(searches[0].search_yield))} contraband hit rate.`));
       }
-      insights.appendChild(insightLine('Interpretation: prioritize review where stop activity is high and yield is persistently low.'));
+      insights.appendChild(insightLine('Use filters + selection panel to narrate specific high-volume examples to judges.'));
+
+      highlightSelection();
     }
 
-    document.getElementById('apply').addEventListener('click', () => {
-      draw().catch((e) => alert(e.message));
-    });
+    document.getElementById('apply').addEventListener('click', () => draw().catch((e) => alert(e.message)));
+    document.getElementById('clearSelection').addEventListener('click', clearSelection);
+    document.getElementById('presetLowYield').addEventListener('click', () => { applyPreset('low'); draw().catch((e) => alert(e.message)); });
+    document.getElementById('presetSearch').addEventListener('click', () => { applyPreset('search'); draw().catch((e) => alert(e.message)); });
+    document.getElementById('presetBalanced').addEventListener('click', () => { applyPreset('balanced'); draw().catch((e) => alert(e.message)); });
 
     draw().catch((e) => {
       document.body.innerHTML = `<pre style="padding:20px;color:#991b1b">${e.message}\n\nRun: python analyze_ripa.py\nThen: python server.py</pre>`;
