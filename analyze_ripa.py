@@ -46,6 +46,18 @@ def split_reasons(value: str) -> list[str]:
     return [p for p in parts if p]
 
 
+def is_unknown_label(value: str) -> bool:
+    v = norm_lower(value)
+    return (v in NULL_LIKE) or ("unknown" in v)
+
+
+def is_unknown_beat(beat_code: str, beat_label: str) -> bool:
+    code = norm(beat_code)
+    if code.startswith("999"):
+        return True
+    return is_unknown_label(beat_label)
+
+
 def write_grouped_table(path: str, grouped: Dict[str, Dict[str, int]], key_name: str) -> None:
     rows = []
     for key, stats in grouped.items():
@@ -105,13 +117,18 @@ def main() -> None:
     total_stops = 0
     total_success = 0
     total_contraband = 0
+    excluded_unknown_beats = 0
 
     with open(args.input, "r", encoding="utf-8-sig", newline="") as f:
         reader = csv.DictReader(f)
         for row in reader:
-            total_stops += 1
-
             beat = pick_label(row.get("BEATNAME"), row.get("BEAT"))
+            beat_code = norm(row.get("BEAT"))
+            if is_unknown_beat(beat_code, beat):
+                excluded_unknown_beats += 1
+                continue
+
+            total_stops += 1
             stop_reason = pick_label(
                 row.get("REASONFORSTOPCODETEXT"),
                 row.get("REASONFORSTOPDETAIL"),
@@ -130,20 +147,25 @@ def main() -> None:
             success = enforcement_outcome or contraband_found or property_seized
 
             by_beat[beat]["stops"] += 1
-            by_stop_reason[stop_reason]["stops"] += 1
+            if not is_unknown_label(stop_reason):
+                by_stop_reason[stop_reason]["stops"] += 1
 
             if success:
                 total_success += 1
                 by_beat[beat]["success"] += 1
-                by_stop_reason[stop_reason]["success"] += 1
+                if not is_unknown_label(stop_reason):
+                    by_stop_reason[stop_reason]["success"] += 1
 
             if contraband_found:
                 total_contraband += 1
                 by_beat[beat]["contraband"] += 1
-                by_stop_reason[stop_reason]["contraband"] += 1
+                if not is_unknown_label(stop_reason):
+                    by_stop_reason[stop_reason]["contraband"] += 1
 
             search_reasons = split_reasons(search_reason_raw)
             for search_reason in search_reasons:
+                if is_unknown_label(search_reason):
+                    continue
                 by_search_reason[search_reason]["searches"] += 1
                 if contraband_found:
                     by_search_reason[search_reason]["contraband"] += 1
@@ -181,6 +203,7 @@ def main() -> None:
         "stops_with_enforcement_outcome": total_success,
         "contraband_discoveries": total_contraband,
         "overall_yield": round((total_success / total_stops) if total_stops else 0.0, 4),
+        "excluded_unknown_beats": excluded_unknown_beats,
     }
 
     overall_path = os.path.join(args.output_dir, "overall_summary.csv")

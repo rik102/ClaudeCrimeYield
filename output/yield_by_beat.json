@@ -1,12 +1,5 @@
 [
   {
-    "beat": "999 Unknown (Unknown)",
-    "stops": "17868",
-    "success": "269",
-    "yield": "0.0151",
-    "contraband_discoveries": "236"
-  },
-  {
     "beat": "122 Pacific Beach (Northern)",
     "stops": "15113",
     "success": "860",
@@ -826,13 +819,6 @@
     "contraband_discoveries": "8"
   },
   {
-    "beat": "9999 Test (Test)",
-    "stops": "170",
-    "success": "4",
-    "yield": "0.0235",
-    "contraband_discoveries": "2"
-  },
-  {
     "beat": "235 San Pasqual (Northeastern)",
     "stops": "110",
     "success": "2",
@@ -905,13 +891,6 @@
   {
     "beat": "934",
     "stops": "6",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "beat": "999",
-    "stops": "5",
     "success": "0",
     "yield": "0.0",
     "contraband_discoveries": "0"

@@ -1,17 +1,17 @@
 search_reason,stops,success,yield,contraband_discoveries,searches,search_yield
-Incident to arrest,26800,5304,0.1979,5304,26800,0.1979
-Condition of parole / probation/ PRCS / mandatory supervision,5157,1184,0.2296,1184,5157,0.2296
-Officer safety/safety of others,4228,866,0.2048,866,4228,0.2048
-Visible contraband,2651,1519,0.573,1519,2651,0.573
-Vehicle inventory,2110,412,0.1953,412,2110,0.1953
-Evidence of crime,1765,1166,0.6606,1166,1765,0.6606
-Suspected weapons,1490,583,0.3913,583,1490,0.3913
-Verbal Consent given,1283,313,0.244,313,1283,0.244
-Odor of contraband,584,235,0.4024,235,584,0.4024
-Search warrant,291,130,0.4467,130,291,0.4467
-Consent given,194,35,0.1804,35,194,0.1804
-Exigent circumstances/emergency,176,52,0.2955,52,176,0.2955
-Canine detection,53,25,0.4717,25,53,0.4717
-Written Consent given,18,9,0.5,9,18,0.5
+Incident to arrest,26495,5219,0.197,5219,26495,0.197
+Condition of parole / probation/ PRCS / mandatory supervision,4936,1140,0.231,1140,4936,0.231
+Officer safety/safety of others,4088,829,0.2028,829,4088,0.2028
+Visible contraband,2548,1471,0.5773,1471,2548,0.5773
+Vehicle inventory,1970,401,0.2036,401,1970,0.2036
+Evidence of crime,1734,1145,0.6603,1145,1734,0.6603
+Suspected weapons,1413,557,0.3942,557,1413,0.3942
+Verbal Consent given,1231,301,0.2445,301,1231,0.2445
+Odor of contraband,565,231,0.4088,231,565,0.4088
+Search warrant,247,113,0.4575,113,247,0.4575
+Consent given,191,35,0.1832,35,191,0.1832
+Exigent circumstances/emergency,171,51,0.2982,51,171,0.2982
+Canine detection,49,24,0.4898,24,49,0.4898
+Written Consent given,17,8,0.4706,8,17,0.4706
 Consent implied by conduct,13,5,0.3846,5,13,0.3846
 Suspected violation of school policy,2,0,0.0,0,2,0.0

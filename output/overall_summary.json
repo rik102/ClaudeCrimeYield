@@ -1,8 +1,9 @@
 [
   {
-    "total_stops": 213131,
-    "stops_with_enforcement_outcome": 12894,
-    "contraband_discoveries": 11618,
-    "overall_yield": 0.0605
+    "total_stops": 195088,
+    "stops_with_enforcement_outcome": 12621,
+    "contraband_discoveries": 11380,
+    "overall_yield": 0.0647,
+    "excluded_unknown_beats": 18043
   }
 ]

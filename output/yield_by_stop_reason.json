@@ -1,255 +1,241 @@
 [
   {
     "stop_reason": "22450(A) VC - FAIL STOP VEH:XWALK/ETC (I) 54167",
-    "stops": "16684",
-    "success": "249",
-    "yield": "0.0149",
-    "contraband_discoveries": "213"
+    "stops": "14810",
+    "success": "238",
+    "yield": "0.0161",
+    "contraband_discoveries": "202"
   },
   {
     "stop_reason": "23123.5(A) VC - NO HND HLD DEVICE W/DRIVE (I) 54655",
-    "stops": "13715",
-    "success": "9",
+    "stops": "10806",
+    "success": "8",
     "yield": "0.0007",
-    "contraband_discoveries": "2"
-  },
-  {
-    "stop_reason": "22349(A) VC - EXCEED SPEED ON HIGHWAY (I) 54303",
-    "stops": "10483",
-    "success": "48",
-    "yield": "0.0046",
-    "contraband_discoveries": "22"
+    "contraband_discoveries": "1"
   },
   {
     "stop_reason": "65002 ZZ - LOCAL ORDINANCE VIOL (I) 65002",
-    "stops": "10007",
+    "stops": "9963",
     "success": "401",
-    "yield": "0.0401",
+    "yield": "0.0402",
     "contraband_discoveries": "389"
   },
   {
     "stop_reason": "4000(A)(1) VC - NO REG:VEH/TRAILER/ETC (I) 54657",
-    "stops": "8105",
-    "success": "468",
-    "yield": "0.0577",
-    "contraband_discoveries": "256"
+    "stops": "7756",
+    "success": "446",
+    "yield": "0.0575",
+    "contraband_discoveries": "240"
+  },
+  {
+    "stop_reason": "22349(A) VC - EXCEED SPEED ON HIGHWAY (I) 54303",
+    "stops": "6323",
+    "success": "35",
+    "yield": "0.0055",
+    "contraband_discoveries": "16"
   },
   {
     "stop_reason": "22350 VC - UNSAFE SPEED:PREVAIL COND (I) 54106",
-    "stops": "6983",
-    "success": "91",
-    "yield": "0.013",
-    "contraband_discoveries": "71"
-  },
-  {
-    "stop_reason": "21461(A) VC - DRIVER FAIL OBEY SIGN/ETC (I) 54146",
-    "stops": "6696",
-    "success": "22",
-    "yield": "0.0033",
-    "contraband_discoveries": "7"
+    "stops": "5869",
+    "success": "86",
+    "yield": "0.0147",
+    "contraband_discoveries": "67"
   },
   {
     "stop_reason": "21453(A) VC - FAIL STOP LINE/ETC AT RED (I) 54098",
-    "stops": "6089",
-    "success": "102",
-    "yield": "0.0168",
-    "contraband_discoveries": "85"
-  },
-  {
-    "stop_reason": "26708(A)(1) VC - OPR VEH:WINDOW OBSTRUCTED (I) 54571",
-    "stops": "5522",
-    "success": "227",
-    "yield": "0.0411",
-    "contraband_discoveries": "220"
+    "stops": "5809",
+    "success": "94",
+    "yield": "0.0162",
+    "contraband_discoveries": "80"
   },
   {
     "stop_reason": "Probable cause to take into custody under Welfare and Institutions Code section 5150",
-    "stops": "5036",
+    "stops": "5030",
     "success": "115",
-    "yield": "0.0228",
+    "yield": "0.0229",
     "contraband_discoveries": "79"
   },
   {
+    "stop_reason": "21461(A) VC - DRIVER FAIL OBEY SIGN/ETC (I) 54146",
+    "stops": "4713",
+    "success": "22",
+    "yield": "0.0047",
+    "contraband_discoveries": "7"
+  },
+  {
+    "stop_reason": "26708(A)(1) VC - OPR VEH:WINDOW OBSTRUCTED (I) 54571",
+    "stops": "4711",
+    "success": "202",
+    "yield": "0.0429",
+    "contraband_discoveries": "196"
+  },
+  {
     "stop_reason": "5200(A) VC - DISPLAY LIC PLATES WRONG (I) 54644",
-    "stops": "4841",
-    "success": "227",
-    "yield": "0.0469",
-    "contraband_discoveries": "193"
+    "stops": "4607",
+    "success": "218",
+    "yield": "0.0473",
+    "contraband_discoveries": "185"
   },
   {
     "stop_reason": "NA - XX AA - COMMUNITY CARETAKING (X) 99990",
-    "stops": "4128",
+    "stops": "4116",
     "success": "134",
-    "yield": "0.0325",
+    "yield": "0.0326",
     "contraband_discoveries": "118"
   },
   {
     "stop_reason": "NA - XX AA - CODE NOT FOUND IN TABLE (X) 99999",
-    "stops": "3531",
+    "stops": "3510",
     "success": "203",
-    "yield": "0.0575",
+    "yield": "0.0578",
     "contraband_discoveries": "200"
   },
   {
     "stop_reason": "65000 ZZ - LOCAL ORDINANCE VIOL (M) 65000",
-    "stops": "3224",
+    "stops": "3222",
     "success": "194",
     "yield": "0.0602",
     "contraband_discoveries": "185"
   },
   {
     "stop_reason": "Knowledge of outstanding arrest warrant/wanted person",
-    "stops": "3212",
-    "success": "656",
-    "yield": "0.2042",
-    "contraband_discoveries": "627"
+    "stops": "3069",
+    "success": "624",
+    "yield": "0.2033",
+    "contraband_discoveries": "598"
   },
   {
     "stop_reason": "24252(A)(1) VC - FAIL MAINT VEH LITE EQUIP (I) 66967",
-    "stops": "3071",
-    "success": "106",
-    "yield": "0.0345",
-    "contraband_discoveries": "96"
+    "stops": "2996",
+    "success": "103",
+    "yield": "0.0344",
+    "contraband_discoveries": "93"
   },
   {
     "stop_reason": "647(F) PC - DISORD CONDUCT:ALCOHOL (M) 64005",
-    "stops": "2981",
+    "stops": "2978",
     "success": "119",
-    "yield": "0.0399",
+    "yield": "0.04",
     "contraband_discoveries": "107"
   },
   {
     "stop_reason": "5204(A) VC - EXPIRED TABS/FAIL DISPLAY (I) 54168",
-    "stops": "2703",
+    "stops": "2669",
     "success": "81",
-    "yield": "0.03",
+    "yield": "0.0303",
     "contraband_discoveries": "61"
   },
   {
     "stop_reason": "647(E) PC - DIS CON:LODGE W/O CONSENT (M) 32111",
-    "stops": "2260",
-    "success": "191",
-    "yield": "0.0845",
-    "contraband_discoveries": "187"
+    "stops": "2250",
+    "success": "190",
+    "yield": "0.0844",
+    "contraband_discoveries": "186"
   },
   {
     "stop_reason": "38170(B) VC - LICENSE PLATE NOT VISIBLE (I) 66880",
-    "stops": "2047",
+    "stops": "2025",
     "success": "35",
-    "yield": "0.0171",
+    "yield": "0.0173",
     "contraband_discoveries": "32"
   },
   {
-    "stop_reason": "23123(A) VC - USE CELLPH W/DRIV W/O HFD (I) 54566",
-    "stops": "1936",
-    "success": "11",
-    "yield": "0.0057",
-    "contraband_discoveries": "10"
-  },
-  {
     "stop_reason": "4000(A) VC - NO REG:VEH/TRAILER/ETC (I) 54099",
-    "stops": "1784",
-    "success": "103",
-    "yield": "0.0577",
-    "contraband_discoveries": "84"
+    "stops": "1721",
+    "success": "93",
+    "yield": "0.054",
+    "contraband_discoveries": "74"
   },
   {
     "stop_reason": "25620 BP - POSS OPEN ALCOHOL:PUBLIC (I) 41063",
-    "stops": "1704",
+    "stops": "1703",
     "success": "555",
-    "yield": "0.3257",
+    "yield": "0.3259",
     "contraband_discoveries": "553"
   },
   {
     "stop_reason": "11364(A) HS - POSS UNLAW PARAPHERNALIA (M) 35423",
-    "stops": "1689",
-    "success": "828",
-    "yield": "0.4902",
-    "contraband_discoveries": "827"
+    "stops": "1688",
+    "success": "827",
+    "yield": "0.4899",
+    "contraband_discoveries": "826"
   },
   {
     "stop_reason": "21201(D) VC - BIKE HEADLIGHT/ETC VIOL (I) 54141",
-    "stops": "1665",
+    "stops": "1657",
     "success": "163",
-    "yield": "0.0979",
+    "yield": "0.0984",
     "contraband_discoveries": "159"
   },
   {
+    "stop_reason": "23123(A) VC - USE CELLPH W/DRIV W/O HFD (I) 54566",
+    "stops": "1638",
+    "success": "10",
+    "yield": "0.0061",
+    "contraband_discoveries": "9"
+  },
+  {
     "stop_reason": "243(E)(1) PC - BAT:SPOUSE/EX SP/DATE/ETC (M) 13174",
-    "stops": "1524",
+    "stops": "1521",
     "success": "68",
-    "yield": "0.0446",
+    "yield": "0.0447",
     "contraband_discoveries": "46"
   },
   {
     "stop_reason": "11550 HS - UNDER INFLUENCE CNTL SUB (M) 35143",
-    "stops": "1484",
-    "success": "331",
-    "yield": "0.223",
-    "contraband_discoveries": "329"
+    "stops": "1482",
+    "success": "330",
+    "yield": "0.2227",
+    "contraband_discoveries": "328"
   },
   {
     "stop_reason": "38301.5 VC - VIOL LOCAL ORD 38301 (I) 66886",
-    "stops": "1479",
+    "stops": "1478",
     "success": "94",
     "yield": "0.0636",
     "contraband_discoveries": "92"
   },
   {
-    "stop_reason": "22107 VC - UNSAF TURN &/OR NO SIGNAL (I) 54115",
-    "stops": "1443",
-    "success": "76",
-    "yield": "0.0527",
-    "contraband_discoveries": "62"
-  },
-  {
-    "stop_reason": "24250 VC - DRIVE WITHOUT LIGHTS:DARK (I) 54191",
-    "stops": "1418",
-    "success": "31",
-    "yield": "0.0219",
-    "contraband_discoveries": "25"
-  },
-  {
     "stop_reason": "24600 VC - TAILLAMP VIOLATIONS (I) 54193",
-    "stops": "1402",
+    "stops": "1390",
     "success": "23",
-    "yield": "0.0164",
+    "yield": "0.0165",
     "contraband_discoveries": "19"
   },
   {
+    "stop_reason": "24250 VC - DRIVE WITHOUT LIGHTS:DARK (I) 54191",
+    "stops": "1359",
+    "success": "31",
+    "yield": "0.0228",
+    "contraband_discoveries": "25"
+  },
+  {
+    "stop_reason": "22107 VC - UNSAF TURN &/OR NO SIGNAL (I) 54115",
+    "stops": "1268",
+    "success": "70",
+    "yield": "0.0552",
+    "contraband_discoveries": "56"
+  },
+  {
     "stop_reason": "27150(A) VC - INADEQUATE MUFFLERS (I) 54116",
-    "stops": "1328",
+    "stops": "1262",
     "success": "23",
-    "yield": "0.0173",
+    "yield": "0.0182",
     "contraband_discoveries": "19"
   },
   {
     "stop_reason": "23152(A) VC - DUI ALCOHOL (M) 42104",
-    "stops": "1258",
-    "success": "219",
+    "stops": "1252",
+    "success": "218",
     "yield": "0.1741",
     "contraband_discoveries": "111"
   },
   {
     "stop_reason": "Investigation to determine whether the person was truant",
-    "stops": "1195",
+    "stops": "1191",
     "success": "70",
-    "yield": "0.0586",
+    "yield": "0.0588",
     "contraband_discoveries": "62"
-  },
-  {
-    "stop_reason": "Known to be on Parole / Probation / PRCS / Mandatory Supervision",
-    "stops": "1189",
-    "success": "227",
-    "yield": "0.1909",
-    "contraband_discoveries": "220"
-  },
-  {
-    "stop_reason": "459 PC - BURGLARY (F) 22004",
-    "stops": "1143",
-    "success": "152",
-    "yield": "0.133",
-    "contraband_discoveries": "146"
   },
   {
     "stop_reason": "1460(B) SH - CHG ENCRCHMNT W/O PERMIT (M) 66134",
@@ -259,151 +245,151 @@
     "contraband_discoveries": "37"
   },
   {
-    "stop_reason": "21453(C) VC - FAIL STOP LINE/ETC AT RED (I) 54373",
-    "stops": "1111",
-    "success": "19",
-    "yield": "0.0171",
-    "contraband_discoveries": "16"
+    "stop_reason": "459 PC - BURGLARY (F) 22004",
+    "stops": "1130",
+    "success": "147",
+    "yield": "0.1301",
+    "contraband_discoveries": "141"
+  },
+  {
+    "stop_reason": "Known to be on Parole / Probation / PRCS / Mandatory Supervision",
+    "stops": "1127",
+    "success": "213",
+    "yield": "0.189",
+    "contraband_discoveries": "206"
   },
   {
     "stop_reason": "602(M) PC - TRESPASS:OCC PROP W/O CON (M) 32100",
-    "stops": "1092",
+    "stops": "1091",
     "success": "58",
-    "yield": "0.0531",
+    "yield": "0.0532",
     "contraband_discoveries": "57"
   },
   {
-    "stop_reason": "21457(A) VC - FAIL STOP:FLASH RED LIGHT (I) 54122",
-    "stops": "1050",
-    "success": "16",
-    "yield": "0.0152",
-    "contraband_discoveries": "13"
+    "stop_reason": "21453(C) VC - FAIL STOP LINE/ETC AT RED (I) 54373",
+    "stops": "1053",
+    "success": "18",
+    "yield": "0.0171",
+    "contraband_discoveries": "15"
   },
   {
     "stop_reason": "245(A)(1) PC - ADW NOT FIREARM (F) 13219",
-    "stops": "1042",
-    "success": "173",
-    "yield": "0.166",
-    "contraband_discoveries": "166"
+    "stops": "1033",
+    "success": "172",
+    "yield": "0.1665",
+    "contraband_discoveries": "165"
   },
   {
-    "stop_reason": "21651(A)(1) VC - DRV HWY ACROSS DIV SECTN (I) 66943",
-    "stops": "1039",
-    "success": "2",
-    "yield": "0.0019",
-    "contraband_discoveries": "1"
+    "stop_reason": "21457(A) VC - FAIL STOP:FLASH RED LIGHT (I) 54122",
+    "stops": "1033",
+    "success": "16",
+    "yield": "0.0155",
+    "contraband_discoveries": "13"
   },
   {
     "stop_reason": "417(A)(1) PC - EXHIBIT DEADWPN:NOT F/ARM (M) 52136",
-    "stops": "946",
+    "stops": "945",
     "success": "164",
-    "yield": "0.1734",
+    "yield": "0.1735",
     "contraband_discoveries": "158"
   },
   {
     "stop_reason": "602(O) PC - TRESPAS:REFUSE LEAVE PROP (M) 32102",
-    "stops": "933",
+    "stops": "932",
     "success": "58",
     "yield": "0.0622",
     "contraband_discoveries": "53"
   },
   {
+    "stop_reason": "21651(A)(1) VC - DRV HWY ACROSS DIV SECTN (I) 66943",
+    "stops": "914",
+    "success": "2",
+    "yield": "0.0022",
+    "contraband_discoveries": "1"
+  },
+  {
     "stop_reason": "273.5(A) PC - CRPL INJ:SPOUS/COHAB/DATE (F) 38080",
-    "stops": "898",
+    "stops": "895",
     "success": "45",
-    "yield": "0.0501",
+    "yield": "0.0503",
     "contraband_discoveries": "29"
   },
   {
-    "stop_reason": "21658(A) VC - UNSAFE LANE CHANGE/ETC (I) 54178",
-    "stops": "860",
-    "success": "25",
-    "yield": "0.0291",
-    "contraband_discoveries": "23"
-  },
-  {
     "stop_reason": "415(1) PC - FIGHT IN PUBLIC PLACE (M) 53072",
-    "stops": "795",
+    "stops": "791",
     "success": "31",
-    "yield": "0.039",
+    "yield": "0.0392",
     "contraband_discoveries": "30"
   },
   {
-    "stop_reason": "22101(D) VC - FAIL TO OBEY TURN SIGNS (I) 54185",
-    "stops": "787",
-    "success": "2",
-    "yield": "0.0025",
-    "contraband_discoveries": "0"
+    "stop_reason": "21658(A) VC - UNSAFE LANE CHANGE/ETC (I) 54178",
+    "stops": "773",
+    "success": "22",
+    "yield": "0.0285",
+    "contraband_discoveries": "20"
   },
   {
     "stop_reason": "10851(A) VC - VEHICLE THEFT (F) 24054",
-    "stops": "755",
-    "success": "156",
-    "yield": "0.2066",
-    "contraband_discoveries": "146"
-  },
-  {
-    "stop_reason": "27315(D)(1) VC - SEATBELT VIOLATION (I) 66985",
-    "stops": "742",
-    "success": "22",
-    "yield": "0.0296",
-    "contraband_discoveries": "19"
+    "stops": "728",
+    "success": "147",
+    "yield": "0.2019",
+    "contraband_discoveries": "137"
   },
   {
     "stop_reason": "24600(B) VC - TAILLAMP VIOL 2 LIGHTS (I) 66424",
-    "stops": "719",
+    "stops": "704",
     "success": "11",
-    "yield": "0.0153",
+    "yield": "0.0156",
     "contraband_discoveries": "10"
   },
   {
     "stop_reason": "211 PC - ROBBERY (F) 12004",
-    "stops": "709",
-    "success": "141",
-    "yield": "0.1989",
-    "contraband_discoveries": "138"
+    "stops": "699",
+    "success": "138",
+    "yield": "0.1974",
+    "contraband_discoveries": "135"
+  },
+  {
+    "stop_reason": "22101(D) VC - FAIL TO OBEY TURN SIGNS (I) 54185",
+    "stops": "691",
+    "success": "2",
+    "yield": "0.0029",
+    "contraband_discoveries": "0"
   },
   {
     "stop_reason": "243(A) PC - BATTERY ON PERSON (M) 13082",
-    "stops": "675",
+    "stops": "673",
     "success": "30",
-    "yield": "0.0444",
+    "yield": "0.0446",
     "contraband_discoveries": "29"
   },
   {
     "stop_reason": "10852 VC - TAMPER WITH VEHICLE (M) 29050",
-    "stops": "647",
+    "stops": "644",
     "success": "73",
-    "yield": "0.1128",
+    "yield": "0.1134",
     "contraband_discoveries": "72"
   },
   {
     "stop_reason": "24601 VC - FAIL MAINT LIC PLATE LAMP (I) 54110",
-    "stops": "624",
+    "stops": "622",
     "success": "38",
-    "yield": "0.0609",
+    "yield": "0.0611",
     "contraband_discoveries": "37"
   },
   {
     "stop_reason": "38170(C) VC - LICENSE PLATE NONCOMPLNT (I) 66881",
-    "stops": "597",
+    "stops": "592",
     "success": "10",
-    "yield": "0.0168",
+    "yield": "0.0169",
     "contraband_discoveries": "9"
   },
   {
     "stop_reason": "242 PC - BATTERY ON PERSON (M) 13048",
-    "stops": "585",
+    "stops": "584",
     "success": "21",
-    "yield": "0.0359",
+    "yield": "0.036",
     "contraband_discoveries": "18"
-  },
-  {
-    "stop_reason": "21655.5(B) VC - FAIL OBEY TRAF LANE SIGN (I) 54504",
-    "stops": "564",
-    "success": "1",
-    "yield": "0.0018",
-    "contraband_discoveries": "1"
   },
   {
     "stop_reason": "11532(A) HS - LOITR PUBLIC:ILL DRUG ACT (M) 35349",
@@ -413,46 +399,32 @@
     "contraband_discoveries": "271"
   },
   {
+    "stop_reason": "27315(D)(1) VC - SEATBELT VIOLATION (I) 66985",
+    "stops": "546",
+    "success": "21",
+    "yield": "0.0385",
+    "contraband_discoveries": "19"
+  },
+  {
     "stop_reason": "24400(B) VC - HEADLAMP VIOL DARK/WEATHR (I) 66412",
-    "stops": "545",
+    "stops": "532",
     "success": "14",
-    "yield": "0.0257",
+    "yield": "0.0263",
     "contraband_discoveries": "12"
   },
   {
     "stop_reason": "273.5 PC - INFLICT CRPL INJ SP/COHAB (F) 38025",
-    "stops": "519",
+    "stops": "516",
     "success": "22",
-    "yield": "0.0424",
+    "yield": "0.0426",
     "contraband_discoveries": "15"
   },
   {
-    "stop_reason": "5201(C) VC - UNLAW LIC PLATE COVERING (I) 54788",
-    "stops": "488",
-    "success": "6",
-    "yield": "0.0123",
-    "contraband_discoveries": "5"
-  },
-  {
     "stop_reason": "Consensual Encounter resulting in a search",
-    "stops": "478",
-    "success": "126",
-    "yield": "0.2636",
-    "contraband_discoveries": "117"
-  },
-  {
-    "stop_reason": "4464 VC - DISPLAY ALTERED LIC PLATE (I) 54338",
-    "stops": "472",
-    "success": "26",
-    "yield": "0.0551",
-    "contraband_discoveries": "25"
-  },
-  {
-    "stop_reason": "21651(B) VC - DRIVE WRONG WAY:DIV HWY (M) 54075",
-    "stops": "468",
-    "success": "20",
-    "yield": "0.0427",
-    "contraband_discoveries": "18"
+    "stops": "467",
+    "success": "122",
+    "yield": "0.2612",
+    "contraband_discoveries": "113"
   },
   {
     "stop_reason": "594(A)(1) PC - VANDALISM:DEFACE PROPERTY (F) 29111",
@@ -462,53 +434,60 @@
     "contraband_discoveries": "51"
   },
   {
+    "stop_reason": "21651(B) VC - DRIVE WRONG WAY:DIV HWY (M) 54075",
+    "stops": "462",
+    "success": "19",
+    "yield": "0.0411",
+    "contraband_discoveries": "17"
+  },
+  {
     "stop_reason": "484(A) PC - PETTY THEFT (M) 23087",
-    "stops": "459",
+    "stops": "458",
     "success": "83",
-    "yield": "0.1808",
+    "yield": "0.1812",
     "contraband_discoveries": "80"
   },
   {
+    "stop_reason": "5201(C) VC - UNLAW LIC PLATE COVERING (I) 54788",
+    "stops": "435",
+    "success": "5",
+    "yield": "0.0115",
+    "contraband_discoveries": "5"
+  },
+  {
     "stop_reason": "602(L)(1) PC - TRESP REF LEAVE BY ORDER (M) 32139",
-    "stops": "418",
+    "stops": "415",
     "success": "27",
-    "yield": "0.0646",
+    "yield": "0.0651",
     "contraband_discoveries": "27"
   },
   {
     "stop_reason": "21650.1 VC - OPR BIKE:RD/ETC:WRONG WAY (I) 54088",
-    "stops": "411",
+    "stops": "408",
     "success": "63",
-    "yield": "0.1533",
+    "yield": "0.1544",
     "contraband_discoveries": "63"
   },
   {
     "stop_reason": "245(A)(4) PC - ADW/FORCE:POSSIBLE GBI (F) 13217",
-    "stops": "401",
-    "success": "26",
-    "yield": "0.0648",
-    "contraband_discoveries": "24"
+    "stops": "395",
+    "success": "25",
+    "yield": "0.0633",
+    "contraband_discoveries": "23"
   },
   {
-    "stop_reason": "21209(A) VC - MOTOR VEH IN BIKE LANE (I) 66938",
-    "stops": "398",
-    "success": "3",
-    "yield": "0.0075",
-    "contraband_discoveries": "2"
+    "stop_reason": "4464 VC - DISPLAY ALTERED LIC PLATE (I) 54338",
+    "stops": "389",
+    "success": "22",
+    "yield": "0.0566",
+    "contraband_discoveries": "21"
   },
   {
     "stop_reason": "415(2) PC - LOUD/UNREASONABLE NOISE (I) 53130",
-    "stops": "377",
+    "stops": "376",
     "success": "19",
-    "yield": "0.0504",
+    "yield": "0.0505",
     "contraband_discoveries": "15"
-  },
-  {
-    "stop_reason": "24603(B) VC - STOPLAMPS VIOL:SPEC VEH (I) 54144",
-    "stops": "377",
-    "success": "12",
-    "yield": "0.0318",
-    "contraband_discoveries": "10"
   },
   {
     "stop_reason": "11550(A) HS - UNDER INFLUENCE CNTL SUB (M) 35212",
@@ -516,20 +495,6 @@
     "success": "73",
     "yield": "0.1952",
     "contraband_discoveries": "71"
-  },
-  {
-    "stop_reason": "23222(A) VC - POSS OPEN CONTAINER:DRIVE (I) 54090",
-    "stops": "373",
-    "success": "65",
-    "yield": "0.1743",
-    "contraband_discoveries": "65"
-  },
-  {
-    "stop_reason": "26708(A)(2) VC - OPR VEH:WINDOW OBSTRUCTED (I) 54614",
-    "stops": "372",
-    "success": "9",
-    "yield": "0.0242",
-    "contraband_discoveries": "8"
   },
   {
     "stop_reason": "647(F) PC - DISORD CONDUCT:ALCOHOL (M) 64005 | 647(F) PC - DISORD CONDUCT:ALCOHOL (M) 64005",
@@ -553,25 +518,18 @@
     "contraband_discoveries": "29"
   },
   {
-    "stop_reason": "22400(A) VC - DRIVE TOO SLOWLY/ETC (I) 54306",
-    "stops": "361",
-    "success": "11",
-    "yield": "0.0305",
-    "contraband_discoveries": "7"
+    "stop_reason": "23222(A) VC - POSS OPEN CONTAINER:DRIVE (I) 54090",
+    "stops": "359",
+    "success": "60",
+    "yield": "0.1671",
+    "contraband_discoveries": "60"
   },
   {
     "stop_reason": "4454(A) VC - NO REGISTRATION IN VEH (I) 54208",
-    "stops": "361",
+    "stops": "354",
     "success": "4",
-    "yield": "0.0111",
+    "yield": "0.0113",
     "contraband_discoveries": "2"
-  },
-  {
-    "stop_reason": "10851(A) VC - TAKE VEH W/O OWNER CONSNT (M) 24067",
-    "stops": "358",
-    "success": "55",
-    "yield": "0.1536",
-    "contraband_discoveries": "53"
   },
   {
     "stop_reason": "NA - XX AA - COMMUNITY CARETAKING (X) 99990 | NA - XX AA - COMMUNITY CARETAKING (X) 99990",
@@ -581,11 +539,11 @@
     "contraband_discoveries": "12"
   },
   {
-    "stop_reason": "24603(A) VC - STOPLAMPS:VEH MUST HAVE (I) 54574",
+    "stop_reason": "26708(A)(2) VC - OPR VEH:WINDOW OBSTRUCTED (I) 54614",
     "stops": "350",
-    "success": "9",
-    "yield": "0.0257",
-    "contraband_discoveries": "8"
+    "success": "8",
+    "yield": "0.0229",
+    "contraband_discoveries": "7"
   },
   {
     "stop_reason": "314(1) PC - INDECENT EXPOSURE (M) 36343",
@@ -595,74 +553,74 @@
     "contraband_discoveries": "21"
   },
   {
-    "stop_reason": "240/242 PC - ASSAULT & BATTERY (M) 13039",
+    "stop_reason": "24603(B) VC - STOPLAMPS VIOL:SPEC VEH (I) 54144",
     "stops": "345",
+    "success": "12",
+    "yield": "0.0348",
+    "contraband_discoveries": "10"
+  },
+  {
+    "stop_reason": "240/242 PC - ASSAULT & BATTERY (M) 13039",
+    "stops": "344",
     "success": "22",
-    "yield": "0.0638",
+    "yield": "0.064",
     "contraband_discoveries": "20"
   },
   {
-    "stop_reason": "24400(A) VC - HEADLMP OPR/AMT/SIZE VIOL (I) 66968",
-    "stops": "345",
+    "stop_reason": "10851(A) VC - TAKE VEH W/O OWNER CONSNT (M) 24067",
+    "stops": "343",
+    "success": "52",
+    "yield": "0.1516",
+    "contraband_discoveries": "50"
+  },
+  {
+    "stop_reason": "24603(A) VC - STOPLAMPS:VEH MUST HAVE (I) 54574",
+    "stops": "340",
     "success": "8",
-    "yield": "0.0232",
-    "contraband_discoveries": "6"
+    "yield": "0.0235",
+    "contraband_discoveries": "7"
+  },
+  {
+    "stop_reason": "24400(A) VC - HEADLMP OPR/AMT/SIZE VIOL (I) 66968",
+    "stops": "335",
+    "success": "7",
+    "yield": "0.0209",
+    "contraband_discoveries": "5"
   },
   {
     "stop_reason": "27151(A) VC - ILL MOD EXHAUST SYS:NOISE (I) 66983",
-    "stops": "339",
+    "stops": "327",
     "success": "1",
-    "yield": "0.0029",
+    "yield": "0.0031",
     "contraband_discoveries": "1"
   },
   {
-    "stop_reason": "38300 VC - DISOBEY SIGN/SGNL/TRF DVC (I) 66882",
-    "stops": "332",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
     "stop_reason": "415(1) PC - FIGHT/ETC IN PUBLIC PLACE (I) 53131",
-    "stops": "322",
+    "stops": "321",
     "success": "14",
-    "yield": "0.0435",
+    "yield": "0.0436",
     "contraband_discoveries": "13"
   },
   {
-    "stop_reason": "22100(B) VC - LEFT TURN INTERSECTN VIOL (I) 54319",
-    "stops": "313",
-    "success": "4",
-    "yield": "0.0128",
-    "contraband_discoveries": "3"
-  },
-  {
     "stop_reason": "602(A) PC - TRESP:DESTROY STAND TIMBR (M) 32023",
-    "stops": "306",
+    "stops": "303",
     "success": "10",
-    "yield": "0.0327",
+    "yield": "0.033",
     "contraband_discoveries": "9"
   },
   {
-    "stop_reason": "5200(B) VC - DISPLY ONE LIC PLATE WRNG (I) 54645",
-    "stops": "295",
-    "success": "11",
-    "yield": "0.0373",
-    "contraband_discoveries": "8"
+    "stop_reason": "22100(B) VC - LEFT TURN INTERSECTN VIOL (I) 54319",
+    "stops": "293",
+    "success": "4",
+    "yield": "0.0137",
+    "contraband_discoveries": "3"
   },
   {
     "stop_reason": "11377(A) HS - POSSESS CNTL SUB (M) 35353",
-    "stops": "293",
-    "success": "159",
-    "yield": "0.5427",
-    "contraband_discoveries": "159"
-  },
-  {
-    "stop_reason": "12500(A) VC - DRIVE W/O LICENSE (I) 42127",
-    "stops": "292",
-    "success": "6",
-    "yield": "0.0205",
-    "contraband_discoveries": "4"
+    "stops": "291",
+    "success": "158",
+    "yield": "0.543",
+    "contraband_discoveries": "158"
   },
   {
     "stop_reason": "555.2 PC - LOITER POSTED PROPERTY (M) 32017",
@@ -672,53 +630,60 @@
     "contraband_discoveries": "25"
   },
   {
-    "stop_reason": "23103(A) VC - RECKLESS DRIVING:HIGHWAY (M) 54086",
-    "stops": "284",
-    "success": "27",
-    "yield": "0.0951",
-    "contraband_discoveries": "15"
+    "stop_reason": "22400(A) VC - DRIVE TOO SLOWLY/ETC (I) 54306",
+    "stops": "280",
+    "success": "10",
+    "yield": "0.0357",
+    "contraband_discoveries": "7"
   },
   {
-    "stop_reason": "5201(A) VC - LICENS PLATE POSITION VIO (I) 54234",
-    "stops": "278",
-    "success": "16",
-    "yield": "0.0576",
-    "contraband_discoveries": "12"
+    "stop_reason": "12500(A) VC - DRIVE W/O LICENSE (I) 42127",
+    "stops": "277",
+    "success": "4",
+    "yield": "0.0144",
+    "contraband_discoveries": "2"
+  },
+  {
+    "stop_reason": "23103(A) VC - RECKLESS DRIVING:HIGHWAY (M) 54086",
+    "stops": "274",
+    "success": "26",
+    "yield": "0.0949",
+    "contraband_discoveries": "14"
   },
   {
     "stop_reason": "21657 VC - DISOBEY TRAFFIC DIRECTION (I) 54161",
-    "stops": "274",
+    "stops": "270",
     "success": "19",
-    "yield": "0.0693",
+    "yield": "0.0704",
     "contraband_discoveries": "7"
   },
   {
     "stop_reason": "148(A)(1) PC - OBSTRUCT/ETC PUB OFCR/ETC (M) 48122",
-    "stops": "265",
+    "stops": "264",
     "success": "28",
-    "yield": "0.1057",
+    "yield": "0.1061",
     "contraband_discoveries": "26"
   },
   {
-    "stop_reason": "22356(B) VC - EXCEED POSTED SPEED LIMIT (I) 54370",
-    "stops": "265",
-    "success": "8",
-    "yield": "0.0302",
-    "contraband_discoveries": "7"
+    "stop_reason": "5200(B) VC - DISPLY ONE LIC PLATE WRNG (I) 54645",
+    "stops": "263",
+    "success": "11",
+    "yield": "0.0418",
+    "contraband_discoveries": "8"
   },
   {
-    "stop_reason": "21755(A) VC - USE SHLDER/ETC PASS RIGHT (I) 66947",
-    "stops": "265",
+    "stop_reason": "21655.5(B) VC - FAIL OBEY TRAF LANE SIGN (I) 54504",
+    "stops": "260",
+    "success": "1",
+    "yield": "0.0038",
+    "contraband_discoveries": "1"
+  },
+  {
+    "stop_reason": "38300 VC - DISOBEY SIGN/SGNL/TRF DVC (I) 66882",
+    "stops": "259",
     "success": "0",
     "yield": "0.0",
     "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "21456.2(A) VC - BICYCLE OPR OBEY VEH LAWS (I) 54522",
-    "stops": "258",
-    "success": "20",
-    "yield": "0.0775",
-    "contraband_discoveries": "19"
   },
   {
     "stop_reason": "243(E)(1) PC - BAT:SPOUSE/EX SP/DATE/ETC (M) 13174 | 243(E)(1) PC - BAT:SPOUSE/EX SP/DATE/ETC (M) 13174",
@@ -728,11 +693,11 @@
     "contraband_discoveries": "12"
   },
   {
-    "stop_reason": "38335 VC - HEADLAMP VIOLATION (I) 54480",
-    "stops": "256",
-    "success": "8",
-    "yield": "0.0312",
-    "contraband_discoveries": "7"
+    "stop_reason": "21456.2(A) VC - BICYCLE OPR OBEY VEH LAWS (I) 54522",
+    "stops": "254",
+    "success": "20",
+    "yield": "0.0787",
+    "contraband_discoveries": "19"
   },
   {
     "stop_reason": "00IN CUSTODY ARR ZZ - IN CUSTODY ARREST (X) 3",
@@ -742,25 +707,18 @@
     "contraband_discoveries": "9"
   },
   {
-    "stop_reason": "22348(B) VC - DRIVE IN EXCESS 100 MPH (I) 54212",
+    "stop_reason": "38335 VC - HEADLAMP VIOLATION (I) 54480",
     "stops": "253",
-    "success": "4",
-    "yield": "0.0158",
-    "contraband_discoveries": "2"
+    "success": "8",
+    "yield": "0.0316",
+    "contraband_discoveries": "7"
   },
   {
     "stop_reason": "640(B)(3) PC - SMOKING PROHIBITED AREA (I) 66205",
-    "stops": "250",
+    "stops": "248",
     "success": "22",
-    "yield": "0.088",
+    "yield": "0.0887",
     "contraband_discoveries": "21"
-  },
-  {
-    "stop_reason": "38312 VC - UNSAFE MOVEMENT OF VEH (I) 66995",
-    "stops": "244",
-    "success": "9",
-    "yield": "0.0369",
-    "contraband_discoveries": "7"
   },
   {
     "stop_reason": "647(H) PC - LOITER/ETC PRIVATE PROP (M) 32082",
@@ -770,11 +728,18 @@
     "contraband_discoveries": "12"
   },
   {
-    "stop_reason": "11350(A) HS - POSSESS NARCOTIC CNTL SUB (M) 35422",
-    "stops": "238",
-    "success": "109",
-    "yield": "0.458",
-    "contraband_discoveries": "109"
+    "stop_reason": "5201(A) VC - LICENS PLATE POSITION VIO (I) 54234",
+    "stops": "239",
+    "success": "16",
+    "yield": "0.0669",
+    "contraband_discoveries": "12"
+  },
+  {
+    "stop_reason": "38312 VC - UNSAFE MOVEMENT OF VEH (I) 66995",
+    "stops": "239",
+    "success": "9",
+    "yield": "0.0377",
+    "contraband_discoveries": "7"
   },
   {
     "stop_reason": "243(E) PC - BATTERY:SPOUSE/ETC (M) 13187",
@@ -784,18 +749,11 @@
     "contraband_discoveries": "6"
   },
   {
-    "stop_reason": "20002(A) VC - HIT AND RUN:PROP DAMAGE (M) 54038",
+    "stop_reason": "11350(A) HS - POSSESS NARCOTIC CNTL SUB (M) 35422",
     "stops": "237",
-    "success": "31",
-    "yield": "0.1308",
-    "contraband_discoveries": "17"
-  },
-  {
-    "stop_reason": "273.6(A) PC - VIOL CRT ORD DOM VIOLENCE (M) 50203",
-    "stops": "237",
-    "success": "15",
-    "yield": "0.0633",
-    "contraband_discoveries": "12"
+    "success": "109",
+    "yield": "0.4599",
+    "contraband_discoveries": "109"
   },
   {
     "stop_reason": "38301.5 VC - VIOL LOCAL ORD 38301 (I) 66886 | 38301.5 VC - VIOL LOCAL ORD 38301 (I) 66886",
@@ -805,18 +763,18 @@
     "contraband_discoveries": "12"
   },
   {
-    "stop_reason": "22349(B) VC - EXC 55MPH SPEED:2 LANE RD (I) 54395",
-    "stops": "237",
-    "success": "1",
-    "yield": "0.0042",
-    "contraband_discoveries": "1"
+    "stop_reason": "273.6(A) PC - VIOL CRT ORD DOM VIOLENCE (M) 50203",
+    "stops": "235",
+    "success": "15",
+    "yield": "0.0638",
+    "contraband_discoveries": "12"
   },
   {
-    "stop_reason": "245(A)(1) PC - ADW NOT FIREARM (F) 13219 | 245(A)(1) PC - ADW NOT FIREARM (F) 13219",
-    "stops": "231",
-    "success": "42",
-    "yield": "0.1818",
-    "contraband_discoveries": "41"
+    "stop_reason": "20002(A) VC - HIT AND RUN:PROP DAMAGE (M) 54038",
+    "stops": "233",
+    "success": "31",
+    "yield": "0.133",
+    "contraband_discoveries": "17"
   },
   {
     "stop_reason": "594(B)(1) PC - VANDALISM $400 OR MORE (F) 29143",
@@ -826,6 +784,13 @@
     "contraband_discoveries": "33"
   },
   {
+    "stop_reason": "245(A)(1) PC - ADW NOT FIREARM (F) 13219 | 245(A)(1) PC - ADW NOT FIREARM (F) 13219",
+    "stops": "229",
+    "success": "42",
+    "yield": "0.1834",
+    "contraband_discoveries": "41"
+  },
+  {
     "stop_reason": "459.5(A) PC - SHOPLIFTING (M) 23273",
     "stops": "225",
     "success": "61",
@@ -833,25 +798,18 @@
     "contraband_discoveries": "61"
   },
   {
-    "stop_reason": "27602(A) VC - OPR VEH WITH TV VISIBLE (I) 54550",
-    "stops": "224",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
+    "stop_reason": "22349(B) VC - EXC 55MPH SPEED:2 LANE RD (I) 54395",
+    "stops": "225",
+    "success": "1",
+    "yield": "0.0044",
+    "contraband_discoveries": "1"
   },
   {
-    "stop_reason": "22108 VC - FAIL SIGNAL B/4 TURN VEH (I) 54149",
-    "stops": "223",
-    "success": "21",
-    "yield": "0.0942",
-    "contraband_discoveries": "20"
-  },
-  {
-    "stop_reason": "38314 VC - UNSAFE TURNING MOVEMENT (I) 54556",
-    "stops": "216",
-    "success": "2",
-    "yield": "0.0093",
-    "contraband_discoveries": "0"
+    "stop_reason": "21209(A) VC - MOTOR VEH IN BIKE LANE (I) 66938",
+    "stops": "217",
+    "success": "3",
+    "yield": "0.0138",
+    "contraband_discoveries": "2"
   },
   {
     "stop_reason": "38301.5 VC - VIOL LOCAL ORD 38301 (M) 66887",
@@ -861,25 +819,11 @@
     "contraband_discoveries": "13"
   },
   {
-    "stop_reason": "21950(A) VC - FAIL YIELD TO PED:XWALKS (I) 54398",
-    "stops": "215",
+    "stop_reason": "38314 VC - UNSAFE TURNING MOVEMENT (I) 54556",
+    "stops": "214",
     "success": "2",
     "yield": "0.0093",
-    "contraband_discoveries": "2"
-  },
-  {
-    "stop_reason": "978.5 PC - BENCH WARRANT:FTA:FELONY (F) 66099",
-    "stops": "214",
-    "success": "29",
-    "yield": "0.1355",
-    "contraband_discoveries": "29"
-  },
-  {
-    "stop_reason": "22112(C) VC - FAIL BUS STOP SIGN USE (I) 66288",
-    "stops": "212",
-    "success": "3",
-    "yield": "0.0142",
-    "contraband_discoveries": "3"
+    "contraband_discoveries": "0"
   },
   {
     "stop_reason": "487(A) PC - GRDTHFT:MONEY/LABOR/PROP (F) 23132",
@@ -896,6 +840,27 @@
     "contraband_discoveries": "10"
   },
   {
+    "stop_reason": "22112(C) VC - FAIL BUS STOP SIGN USE (I) 66288",
+    "stops": "211",
+    "success": "3",
+    "yield": "0.0142",
+    "contraband_discoveries": "3"
+  },
+  {
+    "stop_reason": "22108 VC - FAIL SIGNAL B/4 TURN VEH (I) 54149",
+    "stops": "209",
+    "success": "20",
+    "yield": "0.0957",
+    "contraband_discoveries": "19"
+  },
+  {
+    "stop_reason": "978.5 PC - BENCH WARRANT:FTA:FELONY (F) 66099",
+    "stops": "207",
+    "success": "25",
+    "yield": "0.1208",
+    "contraband_discoveries": "25"
+  },
+  {
     "stop_reason": "23152(A) VC - DUI ALCOHOL (M) 42104 | 23152(A) VC - DUI ALCOHOL (M) 42104",
     "stops": "206",
     "success": "61",
@@ -904,16 +869,16 @@
   },
   {
     "stop_reason": "26708.5(A) VC - WINDOW INSTAL/ETC MAT VIO (I) 66979",
-    "stops": "205",
+    "stops": "199",
     "success": "11",
-    "yield": "0.0537",
+    "yield": "0.0553",
     "contraband_discoveries": "11"
   },
   {
-    "stop_reason": "22100(A) VC - IMPROPER RIGHT HAND TURN (I) 54220",
-    "stops": "194",
-    "success": "3",
-    "yield": "0.0155",
+    "stop_reason": "21950(A) VC - FAIL YIELD TO PED:XWALKS (I) 54398",
+    "stops": "198",
+    "success": "2",
+    "yield": "0.0101",
     "contraband_discoveries": "2"
   },
   {
@@ -925,31 +890,31 @@
   },
   {
     "stop_reason": "422(A) PC - THRTN CRIME:INT:TERRORIZE (F) 16049",
-    "stops": "187",
-    "success": "29",
-    "yield": "0.1551",
-    "contraband_discoveries": "28"
+    "stops": "183",
+    "success": "28",
+    "yield": "0.153",
+    "contraband_discoveries": "27"
+  },
+  {
+    "stop_reason": "22356(B) VC - EXCEED POSTED SPEED LIMIT (I) 54370",
+    "stops": "183",
+    "success": "8",
+    "yield": "0.0437",
+    "contraband_discoveries": "7"
   },
   {
     "stop_reason": "459 PC - BURGLARY (F) 22004 | 459 PC - BURGLARY (F) 22004",
-    "stops": "181",
-    "success": "44",
-    "yield": "0.2431",
-    "contraband_discoveries": "43"
+    "stops": "179",
+    "success": "43",
+    "yield": "0.2402",
+    "contraband_discoveries": "42"
   },
   {
     "stop_reason": "166(A)(4) PC - CONTEMPT:DISOBEY CRT ORDR (M) 50106",
-    "stops": "179",
-    "success": "12",
-    "yield": "0.067",
-    "contraband_discoveries": "12"
-  },
-  {
-    "stop_reason": "26710 VC - DEFECTIVE WINDSHIELD/ETC (I) 54138",
     "stops": "178",
-    "success": "14",
-    "yield": "0.0787",
-    "contraband_discoveries": "14"
+    "success": "12",
+    "yield": "0.0674",
+    "contraband_discoveries": "12"
   },
   {
     "stop_reason": "243(A) PC - BATTERY ON PERSON (M) 13082 | 243(A) PC - BATTERY ON PERSON (M) 13082",
@@ -959,11 +924,25 @@
     "contraband_discoveries": "5"
   },
   {
+    "stop_reason": "22100(A) VC - IMPROPER RIGHT HAND TURN (I) 54220",
+    "stops": "177",
+    "success": "3",
+    "yield": "0.0169",
+    "contraband_discoveries": "2"
+  },
+  {
     "stop_reason": "273.5(A) PC - CRPL INJ:SPOUS/COHAB/DATE (F) 38080 | 273.5(A) PC - CRPL INJ:SPOUS/COHAB/DATE (F) 38080",
-    "stops": "170",
-    "success": "11",
-    "yield": "0.0647",
-    "contraband_discoveries": "10"
+    "stops": "169",
+    "success": "10",
+    "yield": "0.0592",
+    "contraband_discoveries": "9"
+  },
+  {
+    "stop_reason": "21755(A) VC - USE SHLDER/ETC PASS RIGHT (I) 66947",
+    "stops": "169",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
   },
   {
     "stop_reason": "602(P) PC - TRESPASS:CLOSED LANDS (M) 32105",
@@ -973,11 +952,11 @@
     "contraband_discoveries": "10"
   },
   {
-    "stop_reason": "21453(B) VC - TURN ONTO ONEWAY AT RED (I) 54372",
-    "stops": "165",
-    "success": "1",
-    "yield": "0.0061",
-    "contraband_discoveries": "0"
+    "stop_reason": "26710 VC - DEFECTIVE WINDSHIELD/ETC (I) 54138",
+    "stops": "166",
+    "success": "14",
+    "yield": "0.0843",
+    "contraband_discoveries": "14"
   },
   {
     "stop_reason": "978.5 PC - BENCH WARRANT:FTA:MISD (M) 66100",
@@ -988,16 +967,16 @@
   },
   {
     "stop_reason": "245(A)(1) PC - ADW NOT FIREARM (M) 13220",
-    "stops": "160",
-    "success": "14",
-    "yield": "0.0875",
-    "contraband_discoveries": "11"
+    "stops": "159",
+    "success": "13",
+    "yield": "0.0818",
+    "contraband_discoveries": "10"
   },
   {
     "stop_reason": "11362.4(A) HS - SMOKE/ING MARIJ PUBLIC PL (I) 35438",
-    "stops": "158",
+    "stops": "157",
     "success": "35",
-    "yield": "0.2215",
+    "yield": "0.2229",
     "contraband_discoveries": "35"
   },
   {
@@ -1022,24 +1001,24 @@
     "contraband_discoveries": "43"
   },
   {
-    "stop_reason": "245(A)(2) PC - ASLT W/FIREARM ON PERSON (F) 13095",
+    "stop_reason": "21453(B) VC - TURN ONTO ONEWAY AT RED (I) 54372",
     "stops": "153",
-    "success": "22",
-    "yield": "0.1438",
-    "contraband_discoveries": "21"
+    "success": "1",
+    "yield": "0.0065",
+    "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "21460 VC - CROSS DBL SOLID YLW LINE (I) 66941",
+    "stop_reason": "245(A)(2) PC - ASLT W/FIREARM ON PERSON (F) 13095",
     "stops": "149",
-    "success": "5",
-    "yield": "0.0336",
-    "contraband_discoveries": "5"
+    "success": "21",
+    "yield": "0.1409",
+    "contraband_discoveries": "20"
   },
   {
     "stop_reason": "24951(B) VC - TURN SIGNAL VIOLATION (I) 54431",
-    "stops": "149",
+    "stops": "146",
     "success": "1",
-    "yield": "0.0067",
+    "yield": "0.0068",
     "contraband_discoveries": "1"
   },
   {
@@ -1050,38 +1029,31 @@
     "contraband_discoveries": "3"
   },
   {
-    "stop_reason": "22102 VC - ILEGAL UTURN:BUS DIST/ETC (I) 54186",
-    "stops": "145",
-    "success": "1",
-    "yield": "0.0069",
-    "contraband_discoveries": "1"
-  },
-  {
     "stop_reason": "26450 VC - REQ BRAKE SYSTEMS VIOL (I) 66530",
-    "stops": "144",
-    "success": "1",
-    "yield": "0.0069",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "22100.5 VC - WRONG LANE UTURN VIOL (I) 54409",
     "stops": "142",
-    "success": "2",
-    "yield": "0.0141",
+    "success": "1",
+    "yield": "0.007",
     "contraband_discoveries": "0"
   },
   {
     "stop_reason": "25620 BP - POSS OPEN ALCOHOL:PUBLIC (I) 41063 | 25620 BP - POSS OPEN ALCOHOL:PUBLIC (I) 41063",
-    "stops": "141",
+    "stops": "140",
     "success": "117",
-    "yield": "0.8298",
+    "yield": "0.8357",
     "contraband_discoveries": "117"
   },
   {
+    "stop_reason": "22100.5 VC - WRONG LANE UTURN VIOL (I) 54409",
+    "stops": "139",
+    "success": "2",
+    "yield": "0.0144",
+    "contraband_discoveries": "0"
+  },
+  {
     "stop_reason": "451(D) PC - ARSON:PROPERTY (F) 20036",
-    "stops": "141",
-    "success": "23",
-    "yield": "0.1631",
+    "stops": "138",
+    "success": "22",
+    "yield": "0.1594",
     "contraband_discoveries": "22"
   },
   {
@@ -1099,20 +1071,6 @@
     "contraband_discoveries": "7"
   },
   {
-    "stop_reason": "21651(A)(2) VC - DRV HWY U-TURN VIOL (I) 54995",
-    "stops": "137",
-    "success": "2",
-    "yield": "0.0146",
-    "contraband_discoveries": "2"
-  },
-  {
-    "stop_reason": "417(A)(2)(B) PC - EXHBT F/ARM THRTNG MANNER (M) 52687",
-    "stops": "135",
-    "success": "28",
-    "yield": "0.2074",
-    "contraband_discoveries": "25"
-  },
-  {
     "stop_reason": "11550 HS - UNDER INFLUENCE CNTL SUB (M) 35143 | 11550 HS - UNDER INFLUENCE CNTL SUB (M) 35143",
     "stops": "135",
     "success": "22",
@@ -1120,59 +1078,66 @@
     "contraband_discoveries": "20"
   },
   {
-    "stop_reason": "22526(B) VC - BLOCKING INTERSECTION (I) 66335",
+    "stop_reason": "21460 VC - CROSS DBL SOLID YLW LINE (I) 66941",
+    "stops": "134",
+    "success": "5",
+    "yield": "0.0373",
+    "contraband_discoveries": "5"
+  },
+  {
+    "stop_reason": "22102 VC - ILEGAL UTURN:BUS DIST/ETC (I) 54186",
+    "stops": "134",
+    "success": "1",
+    "yield": "0.0075",
+    "contraband_discoveries": "1"
+  },
+  {
+    "stop_reason": "417(A)(2)(B) PC - EXHBT F/ARM THRTNG MANNER (M) 52687",
     "stops": "133",
+    "success": "28",
+    "yield": "0.2105",
+    "contraband_discoveries": "25"
+  },
+  {
+    "stop_reason": "22526(B) VC - BLOCKING INTERSECTION (I) 66335",
+    "stops": "131",
     "success": "12",
-    "yield": "0.0902",
+    "yield": "0.0916",
     "contraband_discoveries": "12"
   },
   {
-    "stop_reason": "21460 VC - CROSS DBL SOLID WHI LINE (I) 66942",
-    "stops": "129",
-    "success": "3",
-    "yield": "0.0233",
-    "contraband_discoveries": "3"
-  },
-  {
-    "stop_reason": "417(A)(2)(A) PC - EXHBT CONCLD F/ARM IN PUB (M) 52827",
-    "stops": "127",
-    "success": "22",
-    "yield": "0.1732",
-    "contraband_discoveries": "21"
-  },
-  {
-    "stop_reason": "21650 VC - FAIL DRIVE RT HALF ROAD (I) 54104",
-    "stops": "125",
-    "success": "3",
-    "yield": "0.024",
-    "contraband_discoveries": "2"
-  },
-  {
     "stop_reason": "22500(A) VC - PARKING/ETC VIO:SPEC CIRC (I) 66953",
-    "stops": "124",
+    "stops": "123",
     "success": "11",
-    "yield": "0.0887",
+    "yield": "0.0894",
     "contraband_discoveries": "10"
   },
   {
+    "stop_reason": "417(A)(2)(A) PC - EXHBT CONCLD F/ARM IN PUB (M) 52827",
+    "stops": "122",
+    "success": "20",
+    "yield": "0.1639",
+    "contraband_discoveries": "19"
+  },
+  {
     "stop_reason": "11377(A) HS - POSS CONTROLLED SUBSTANCE (F) 35172",
-    "stops": "121",
+    "stops": "120",
     "success": "46",
-    "yield": "0.3802",
+    "yield": "0.3833",
     "contraband_discoveries": "46"
   },
   {
     "stop_reason": "211 PC - ROBBERY (F) 12004 | 211 PC - ROBBERY (F) 12004",
-    "stops": "121",
+    "stops": "120",
     "success": "33",
-    "yield": "0.2727",
+    "yield": "0.275",
     "contraband_discoveries": "32"
   },
   {
     "stop_reason": "22435.2(A) BP - REM SHOPPING/LAUNDRY CART (M) 23127",
-    "stops": "121",
+    "stops": "120",
     "success": "14",
-    "yield": "0.1157",
+    "yield": "0.1167",
     "contraband_discoveries": "14"
   },
   {
@@ -1190,11 +1155,25 @@
     "contraband_discoveries": "7"
   },
   {
-    "stop_reason": "5201(D) VC - OBSTRUCT OF LIC PLATE (I) 54723",
+    "stop_reason": "21650 VC - FAIL DRIVE RT HALF ROAD (I) 54104",
     "stops": "118",
     "success": "3",
     "yield": "0.0254",
+    "contraband_discoveries": "2"
+  },
+  {
+    "stop_reason": "21460 VC - CROSS DBL SOLID WHI LINE (I) 66942",
+    "stops": "117",
+    "success": "3",
+    "yield": "0.0256",
     "contraband_discoveries": "3"
+  },
+  {
+    "stop_reason": "22348(B) VC - DRIVE IN EXCESS 100 MPH (I) 54212",
+    "stops": "117",
+    "success": "2",
+    "yield": "0.0171",
+    "contraband_discoveries": "0"
   },
   {
     "stop_reason": "22450(B) VC - FL STOP RR GRADE CROSSING (I) 66297",
@@ -1202,6 +1181,13 @@
     "success": "0",
     "yield": "0.0",
     "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "5201(D) VC - OBSTRUCT OF LIC PLATE (I) 54723",
+    "stops": "116",
+    "success": "3",
+    "yield": "0.0259",
+    "contraband_discoveries": "3"
   },
   {
     "stop_reason": "273.5 PC - INFLICT CRPL INJ SP/COHAB (F) 38025 | 273.5 PC - INFLICT CRPL INJ SP/COHAB (F) 38025",
@@ -1218,13 +1204,6 @@
     "contraband_discoveries": "1"
   },
   {
-    "stop_reason": "21801(A) VC - FT/YIELD BE4 LEFT/U-TURN (I) 54114",
-    "stops": "113",
-    "success": "1",
-    "yield": "0.0088",
-    "contraband_discoveries": "1"
-  },
-  {
     "stop_reason": "22105 VC - U TURN:OBSTRUCTED VIEW (I) 54352",
     "stops": "113",
     "success": "0",
@@ -1232,18 +1211,25 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "10851(A) VC - VEHICLE THEFT (F) 24054 | 10851(A) VC - VEHICLE THEFT (F) 24054",
-    "stops": "111",
-    "success": "31",
-    "yield": "0.2793",
-    "contraband_discoveries": "29"
+    "stop_reason": "38170(A) VC - UNLAWFUL DISPLAY ID PLATE (I) 54617",
+    "stops": "107",
+    "success": "1",
+    "yield": "0.0093",
+    "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "38170(A) VC - UNLAWFUL DISPLAY ID PLATE (I) 54617",
-    "stops": "111",
+    "stop_reason": "10851(A) VC - VEHICLE THEFT (F) 24054 | 10851(A) VC - VEHICLE THEFT (F) 24054",
+    "stops": "106",
+    "success": "28",
+    "yield": "0.2642",
+    "contraband_discoveries": "26"
+  },
+  {
+    "stop_reason": "21801(A) VC - FT/YIELD BE4 LEFT/U-TURN (I) 54114",
+    "stops": "106",
     "success": "1",
-    "yield": "0.009",
-    "contraband_discoveries": "0"
+    "yield": "0.0094",
+    "contraband_discoveries": "1"
   },
   {
     "stop_reason": "23110(A) VC - THROW SUBSTANCE AT VEH (M) 13055",
@@ -1254,24 +1240,10 @@
   },
   {
     "stop_reason": "11357(A) HS - POSS MARIJUANA 28.5- GRMS (I) 35429",
-    "stops": "103",
-    "success": "28",
-    "yield": "0.2718",
-    "contraband_discoveries": "28"
-  },
-  {
-    "stop_reason": "21703 VC - VEH FOLLOW TOO CLOSELY (I) 54179",
     "stops": "102",
-    "success": "2",
-    "yield": "0.0196",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "16025(A) VC - NO EVID:ID/INS/ETC:ACCDNT (I) 54102",
-    "stops": "102",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
+    "success": "27",
+    "yield": "0.2647",
+    "contraband_discoveries": "27"
   },
   {
     "stop_reason": "647(F) PC - DISRD CONDUCT:DRUG W/ALC (M) 64006",
@@ -1281,11 +1253,11 @@
     "contraband_discoveries": "1"
   },
   {
-    "stop_reason": "496D(A) PC - POSS STOLEN VEH/VES/ETC (F) 28035",
-    "stops": "99",
-    "success": "34",
-    "yield": "0.3434",
-    "contraband_discoveries": "33"
+    "stop_reason": "16025(A) VC - NO EVID:ID/INS/ETC:ACCDNT (I) 54102",
+    "stops": "98",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
   },
   {
     "stop_reason": "22500(B) VC - PARKING VIOL ON CROSSWALK (I) 66302",
@@ -1295,6 +1267,13 @@
     "contraband_discoveries": "1"
   },
   {
+    "stop_reason": "21651(A)(2) VC - DRV HWY U-TURN VIOL (I) 54995",
+    "stops": "96",
+    "success": "2",
+    "yield": "0.0208",
+    "contraband_discoveries": "2"
+  },
+  {
     "stop_reason": "484(A) PC - PETTY THEFT (M) 23087 | 484(A) PC - PETTY THEFT (M) 23087",
     "stops": "95",
     "success": "43",
@@ -1302,11 +1281,11 @@
     "contraband_discoveries": "42"
   },
   {
-    "stop_reason": "21453(D) VC - PED AGAINST RED LIGHT/ETC (I) 54153",
-    "stops": "95",
-    "success": "6",
-    "yield": "0.0632",
-    "contraband_discoveries": "3"
+    "stop_reason": "496D(A) PC - POSS STOLEN VEH/VES/ETC (F) 28035",
+    "stops": "94",
+    "success": "31",
+    "yield": "0.3298",
+    "contraband_discoveries": "30"
   },
   {
     "stop_reason": "602.1(A) PC - TRESPASS OBSTR BUS OPRN (M) 32131",
@@ -1321,6 +1300,13 @@
     "success": "8",
     "yield": "0.0851",
     "contraband_discoveries": "7"
+  },
+  {
+    "stop_reason": "21453(D) VC - PED AGAINST RED LIGHT/ETC (I) 54153",
+    "stops": "94",
+    "success": "6",
+    "yield": "0.0638",
+    "contraband_discoveries": "3"
   },
   {
     "stop_reason": "415(1) PC - FIGHT IN PUBLIC PLACE (M) 53072 | 415(1) PC - FIGHT IN PUBLIC PLACE (M) 53072",
@@ -1352,24 +1338,17 @@
   },
   {
     "stop_reason": "21800(D)(1) VC - FL STOP/YIELD INOPR SIGN (I) 66948",
-    "stops": "90",
+    "stops": "89",
     "success": "1",
-    "yield": "0.0111",
+    "yield": "0.0112",
     "contraband_discoveries": "1"
   },
   {
     "stop_reason": "21658(B) VC - FAIL OBEY LANE USE SIGNS (I) 54997",
-    "stops": "88",
+    "stops": "87",
     "success": "1",
-    "yield": "0.0114",
+    "yield": "0.0115",
     "contraband_discoveries": "1"
-  },
-  {
-    "stop_reason": "273.5(A) PC - CRPL INJ:SPOUS/COHAB/DATE (M) 38081",
-    "stops": "88",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
   },
   {
     "stop_reason": "243(B) PC - BATT PO/EMERG PRSNL/ETC (M) 13081",
@@ -1377,6 +1356,13 @@
     "success": "4",
     "yield": "0.0465",
     "contraband_discoveries": "4"
+  },
+  {
+    "stop_reason": "273.5(A) PC - CRPL INJ:SPOUS/COHAB/DATE (M) 38081",
+    "stops": "86",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
   },
   {
     "stop_reason": "398 MV - TRESPASS: OFF LIMIT AREA (M) 32060",
@@ -1400,13 +1386,6 @@
     "contraband_discoveries": "49"
   },
   {
-    "stop_reason": "187(A) PC - MURDER (F) 9005",
-    "stops": "84",
-    "success": "15",
-    "yield": "0.1786",
-    "contraband_discoveries": "15"
-  },
-  {
     "stop_reason": "10852 VC - TAMPER WITH VEHICLE (M) 29050 | 10852 VC - TAMPER WITH VEHICLE (M) 29050",
     "stops": "84",
     "success": "8",
@@ -1414,32 +1393,11 @@
     "contraband_discoveries": "8"
   },
   {
-    "stop_reason": "24409(A) VC - FAIL DIM BEAMS:ONCOMING (I) 54192",
+    "stop_reason": "21703 VC - VEH FOLLOW TOO CLOSELY (I) 54179",
     "stops": "83",
-    "success": "0",
-    "yield": "0.0",
+    "success": "2",
+    "yield": "0.0241",
     "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "4462 VC - DISPLAY/GIVE PO FLS REG (I) 66917",
-    "stops": "82",
-    "success": "11",
-    "yield": "0.1341",
-    "contraband_discoveries": "9"
-  },
-  {
-    "stop_reason": "21460.5(C) VC - DRIVE 2WAY LEFT TURN LANE (I) 54397",
-    "stops": "82",
-    "success": "1",
-    "yield": "0.0122",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "25400(A)(2) PC - CCW ON PERSON (F) 52475",
-    "stops": "81",
-    "success": "24",
-    "yield": "0.2963",
-    "contraband_discoveries": "22"
   },
   {
     "stop_reason": "602(Q) PC - TRESPASS:REF LV PUB BLG (M) 32106",
@@ -1449,6 +1407,13 @@
     "contraband_discoveries": "6"
   },
   {
+    "stop_reason": "25400(A)(2) PC - CCW ON PERSON (F) 52475",
+    "stops": "80",
+    "success": "23",
+    "yield": "0.2875",
+    "contraband_discoveries": "21"
+  },
+  {
     "stop_reason": "594(B)(2)(A) PC - VANDALISM -$400 (M) 29144",
     "stops": "80",
     "success": "12",
@@ -1456,14 +1421,7 @@
     "contraband_discoveries": "12"
   },
   {
-    "stop_reason": "23111 VC - THROW/ETC CIG/ETC:HWY/ETC (I) 54170",
-    "stops": "80",
-    "success": "1",
-    "yield": "0.0125",
-    "contraband_discoveries": "1"
-  },
-  {
-    "stop_reason": "24603(D) VC - STOPLAMPS:VEH 2 REQUIRED (I) 54649",
+    "stop_reason": "24409(A) VC - FAIL DIM BEAMS:ONCOMING (I) 54192",
     "stops": "80",
     "success": "0",
     "yield": "0.0",
@@ -1477,11 +1435,32 @@
     "contraband_discoveries": "10"
   },
   {
-    "stop_reason": "3056 PC - VIOLATION OF PAROLE:FEL (F) 50075",
+    "stop_reason": "24603(D) VC - STOPLAMPS:VEH 2 REQUIRED (I) 54649",
     "stops": "79",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "4462 VC - DISPLAY/GIVE PO FLS REG (I) 66917",
+    "stops": "78",
+    "success": "11",
+    "yield": "0.141",
+    "contraband_discoveries": "9"
+  },
+  {
+    "stop_reason": "3056 PC - VIOLATION OF PAROLE:FEL (F) 50075",
+    "stops": "78",
     "success": "7",
-    "yield": "0.0886",
+    "yield": "0.0897",
     "contraband_discoveries": "7"
+  },
+  {
+    "stop_reason": "187(A) PC - MURDER (F) 9005",
+    "stops": "77",
+    "success": "11",
+    "yield": "0.1429",
+    "contraband_discoveries": "11"
   },
   {
     "stop_reason": "21955 VC - JAYWALKING (I) 54145",
@@ -1492,13 +1471,6 @@
   },
   {
     "stop_reason": "5 100007 CA - CA REG:VIOLATE CURFEW (M) 66164",
-    "stops": "77",
-    "success": "3",
-    "yield": "0.039",
-    "contraband_discoveries": "3"
-  },
-  {
-    "stop_reason": "647(B)(1) PC - SOLICT/ENGAG PROSTITUTION (M) 40060",
     "stops": "77",
     "success": "3",
     "yield": "0.039",
@@ -1519,20 +1491,6 @@
     "contraband_discoveries": "5"
   },
   {
-    "stop_reason": "5201.1(C) VC - ALTER/ETC LIC PLT REFLEC (I) 54791",
-    "stops": "76",
-    "success": "3",
-    "yield": "0.0395",
-    "contraband_discoveries": "3"
-  },
-  {
-    "stop_reason": "245(A)(4) PC - ADW/FORCE:POSSIBLE GBI (F) 13217 | 245(A)(4) PC - ADW/FORCE:POSSIBLE GBI (F) 13217",
-    "stops": "74",
-    "success": "9",
-    "yield": "0.1216",
-    "contraband_discoveries": "8"
-  },
-  {
     "stop_reason": "647(E) PC - DIS CON:LODGE W/O CONSENT (M) 32111 | 647(E) PC - DIS CON:LODGE W/O CONSENT (M) 32111",
     "stops": "74",
     "success": "4",
@@ -1547,32 +1505,25 @@
     "contraband_discoveries": "3"
   },
   {
-    "stop_reason": "21960(A) VC - PEDESTRIAN/ETC ON FREEWAY (I) 54590",
+    "stop_reason": "245(A)(4) PC - ADW/FORCE:POSSIBLE GBI (F) 13217 | 245(A)(4) PC - ADW/FORCE:POSSIBLE GBI (F) 13217",
     "stops": "73",
-    "success": "7",
-    "yield": "0.0959",
-    "contraband_discoveries": "7"
+    "success": "9",
+    "yield": "0.1233",
+    "contraband_discoveries": "8"
   },
   {
-    "stop_reason": "22106 VC - START/BACKUP VEHICLE:HWY (I) 54132",
+    "stop_reason": "21460.5(C) VC - DRIVE 2WAY LEFT TURN LANE (I) 54397",
     "stops": "73",
-    "success": "2",
-    "yield": "0.0274",
-    "contraband_discoveries": "2"
+    "success": "1",
+    "yield": "0.0137",
+    "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "459 PC - BURGLARY:FIRST DEGREE (F) 22021",
+    "stop_reason": "23111 VC - THROW/ETC CIG/ETC:HWY/ETC (I) 54170",
     "stops": "72",
-    "success": "12",
-    "yield": "0.1667",
-    "contraband_discoveries": "11"
-  },
-  {
-    "stop_reason": "602(I) PC - TRESPASS:DESTROY FENCE (M) 32093",
-    "stops": "72",
-    "success": "2",
-    "yield": "0.0278",
-    "contraband_discoveries": "2"
+    "success": "1",
+    "yield": "0.0139",
+    "contraband_discoveries": "1"
   },
   {
     "stop_reason": "1054.2 FG - LICENSE NOT IN POSS/ETC (M) 62023",
@@ -1582,7 +1533,28 @@
     "contraband_discoveries": "0"
   },
   {
+    "stop_reason": "459 PC - BURGLARY:FIRST DEGREE (F) 22021",
+    "stops": "71",
+    "success": "11",
+    "yield": "0.1549",
+    "contraband_discoveries": "10"
+  },
+  {
+    "stop_reason": "5201.1(C) VC - ALTER/ETC LIC PLT REFLEC (I) 54791",
+    "stops": "71",
+    "success": "3",
+    "yield": "0.0423",
+    "contraband_discoveries": "3"
+  },
+  {
     "stop_reason": "242 PC - BATTERY ON PERSON (M) 13048 | 242 PC - BATTERY ON PERSON (M) 13048",
+    "stops": "71",
+    "success": "2",
+    "yield": "0.0282",
+    "contraband_discoveries": "2"
+  },
+  {
+    "stop_reason": "602(I) PC - TRESPASS:DESTROY FENCE (M) 32093",
     "stops": "71",
     "success": "2",
     "yield": "0.0282",
@@ -1596,6 +1568,13 @@
     "contraband_discoveries": "13"
   },
   {
+    "stop_reason": "647(B)(1) PC - SOLICT/ENGAG PROSTITUTION (M) 40060",
+    "stops": "69",
+    "success": "3",
+    "yield": "0.0435",
+    "contraband_discoveries": "3"
+  },
+  {
     "stop_reason": "11532(A) HS - LOITR PUBLIC:ILL DRUG ACT (M) 35349 | 11532(A) HS - LOITR PUBLIC:ILL DRUG ACT (M) 35349",
     "stops": "68",
     "success": "41",
@@ -1603,21 +1582,7 @@
     "contraband_discoveries": "41"
   },
   {
-    "stop_reason": "22526(A) VC - INTERSECT/ETC:NO CLEARNCE (I) 66958",
-    "stops": "68",
-    "success": "1",
-    "yield": "0.0147",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "22500(C) VC - PARKING VIOL SAFETY ZONE (I) 66303",
-    "stops": "68",
-    "success": "1",
-    "yield": "0.0147",
-    "contraband_discoveries": "1"
-  },
-  {
-    "stop_reason": "27152 VC - EXHAUST PIPE VIOLATION (I) 54510",
+    "stop_reason": "27602(A) VC - OPR VEH WITH TV VISIBLE (I) 54550",
     "stops": "68",
     "success": "0",
     "yield": "0.0",
@@ -1631,6 +1596,13 @@
     "contraband_discoveries": "8"
   },
   {
+    "stop_reason": "21960(A) VC - PEDESTRIAN/ETC ON FREEWAY (I) 54590",
+    "stops": "67",
+    "success": "7",
+    "yield": "0.1045",
+    "contraband_discoveries": "7"
+  },
+  {
     "stop_reason": "602(L)(1) PC - TRESP REF LEAVE BY ORDER (M) 32139 | 602(L)(1) PC - TRESP REF LEAVE BY ORDER (M) 32139",
     "stops": "67",
     "success": "3",
@@ -1638,7 +1610,7 @@
     "contraband_discoveries": "2"
   },
   {
-    "stop_reason": "21655(B) VC - SPEC VEH:DRIVE WRONG LANE (I) 54363",
+    "stop_reason": "27152 VC - EXHAUST PIPE VIOLATION (I) 54510",
     "stops": "67",
     "success": "0",
     "yield": "0.0",
@@ -1650,20 +1622,6 @@
     "success": "5",
     "yield": "0.0758",
     "contraband_discoveries": "4"
-  },
-  {
-    "stop_reason": "22352(A) VC - EXCEED PRIMA FACIE SPEED (I) 54418",
-    "stops": "66",
-    "success": "2",
-    "yield": "0.0303",
-    "contraband_discoveries": "2"
-  },
-  {
-    "stop_reason": "21750(A) VC - OVERTAKE/LEFT PASS VIOL (I) 66945",
-    "stops": "66",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
   },
   {
     "stop_reason": "484(A) PC - THEFT (M) 23099",
@@ -1680,13 +1638,6 @@
     "contraband_discoveries": "2"
   },
   {
-    "stop_reason": "24409(B) VC - FAIL DIM BEAMS:FOLLOW VEH (I) 54154",
-    "stops": "65",
-    "success": "2",
-    "yield": "0.0308",
-    "contraband_discoveries": "2"
-  },
-  {
     "stop_reason": "417.4 PC - BRANDISHING F/ARM REPLICA (M) 52240",
     "stops": "64",
     "success": "17",
@@ -1694,11 +1645,11 @@
     "contraband_discoveries": "17"
   },
   {
-    "stop_reason": "21654(A) VC - SLOW VEH IN LEFT LANE (I) 54404",
+    "stop_reason": "22500(C) VC - PARKING VIOL SAFETY ZONE (I) 66303",
     "stops": "64",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
+    "success": "1",
+    "yield": "0.0156",
+    "contraband_discoveries": "1"
   },
   {
     "stop_reason": "647(F) PC - DISORD CONDUCT:UI/DRUG (M) 35005",
@@ -1706,13 +1657,6 @@
     "success": "7",
     "yield": "0.1111",
     "contraband_discoveries": "7"
-  },
-  {
-    "stop_reason": "602(B) PC - TRESPASS:REMOVE TIMBER (M) 32024",
-    "stops": "63",
-    "success": "5",
-    "yield": "0.0794",
-    "contraband_discoveries": "4"
   },
   {
     "stop_reason": "242 PC - BATTERY (M) 13045 | 242 PC - BATTERY (M) 13045",
@@ -1729,11 +1673,18 @@
     "contraband_discoveries": "4"
   },
   {
-    "stop_reason": "21806(A)(1) VC - FAIL YIELD/ETC:EMERG VEH (I) 66949",
-    "stops": "63",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
+    "stop_reason": "602(B) PC - TRESPASS:REMOVE TIMBER (M) 32024",
+    "stops": "62",
+    "success": "5",
+    "yield": "0.0806",
+    "contraband_discoveries": "4"
+  },
+  {
+    "stop_reason": "22106 VC - START/BACKUP VEHICLE:HWY (I) 54132",
+    "stops": "62",
+    "success": "2",
+    "yield": "0.0323",
+    "contraband_discoveries": "2"
   },
   {
     "stop_reason": "21451(A) VC - GREEN LT:UTURN/YIELD VIOL (I) 54133",
@@ -1743,25 +1694,11 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "10851(A) VC - TAKE VEH W/O OWNER CONSNT (M) 24067 | 10851(A) VC - TAKE VEH W/O OWNER CONSNT (M) 24067",
-    "stops": "61",
-    "success": "12",
-    "yield": "0.1967",
-    "contraband_discoveries": "10"
-  },
-  {
     "stop_reason": "640(C)(1) PC - FAIL PAY PUB TRNST SYS PR (M) 66218",
     "stops": "61",
     "success": "9",
     "yield": "0.1475",
     "contraband_discoveries": "9"
-  },
-  {
-    "stop_reason": "23124(B) VC - USE CELL PH W/DRIV:UND 18 (I) 54567",
-    "stops": "61",
-    "success": "1",
-    "yield": "0.0164",
-    "contraband_discoveries": "1"
   },
   {
     "stop_reason": "24401 VC - HEADLAMP VIOL LOWER BEAM (I) 66413",
@@ -1771,18 +1708,25 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "640(D)(3) PC - URINATE/ETC:PUB TRANSIT (M) 66210",
+    "stop_reason": "10851(A) VC - TAKE VEH W/O OWNER CONSNT (M) 24067 | 10851(A) VC - TAKE VEH W/O OWNER CONSNT (M) 24067",
+    "stops": "60",
+    "success": "12",
+    "yield": "0.2",
+    "contraband_discoveries": "10"
+  },
+  {
+    "stop_reason": "22352(A) VC - EXCEED PRIMA FACIE SPEED (I) 54418",
     "stops": "60",
     "success": "2",
     "yield": "0.0333",
     "contraband_discoveries": "2"
   },
   {
-    "stop_reason": "23109(C) VC - AIDE/ABET SPEED EXHIBITN (M) 54218",
-    "stops": "59",
-    "success": "10",
-    "yield": "0.1695",
-    "contraband_discoveries": "5"
+    "stop_reason": "640(D)(3) PC - URINATE/ETC:PUB TRANSIT (M) 66210",
+    "stops": "60",
+    "success": "2",
+    "yield": "0.0333",
+    "contraband_discoveries": "2"
   },
   {
     "stop_reason": "415.5(A)(2) PC - LOUD/UNREAS NOISE UNV/ETC (M) 33029",
@@ -1799,18 +1743,25 @@
     "contraband_discoveries": "3"
   },
   {
-    "stop_reason": "242 PC - BATTERY (F) 13176",
-    "stops": "59",
-    "success": "2",
-    "yield": "0.0339",
-    "contraband_discoveries": "2"
-  },
-  {
-    "stop_reason": "21800(A) VC - FAIL YIELD INTERSECT:HWY (I) 54405",
+    "stop_reason": "23124(B) VC - USE CELL PH W/DRIV:UND 18 (I) 54567",
     "stops": "59",
     "success": "1",
     "yield": "0.0169",
-    "contraband_discoveries": "0"
+    "contraband_discoveries": "1"
+  },
+  {
+    "stop_reason": "23109(C) VC - AIDE/ABET SPEED EXHIBITN (M) 54218",
+    "stops": "58",
+    "success": "9",
+    "yield": "0.1552",
+    "contraband_discoveries": "5"
+  },
+  {
+    "stop_reason": "242 PC - BATTERY (F) 13176",
+    "stops": "58",
+    "success": "2",
+    "yield": "0.0345",
+    "contraband_discoveries": "2"
   },
   {
     "stop_reason": "594(A)(1) PC - VANDALISM:DEFACE PROPERTY (M) 29110 | 594(A)(1) PC - VANDALISM:DEFACE PROPERTY (M) 29110",
@@ -1820,25 +1771,11 @@
     "contraband_discoveries": "1"
   },
   {
-    "stop_reason": "11351 HS - POS/PUR F/SALE NARC/C/SUB (F) 35276",
-    "stops": "57",
-    "success": "27",
-    "yield": "0.4737",
-    "contraband_discoveries": "27"
-  },
-  {
     "stop_reason": "594(B)(1) PC - VANDALISM $400 OR MORE (F) 29143 | 594(B)(1) PC - VANDALISM $400 OR MORE (F) 29143",
     "stops": "57",
     "success": "13",
     "yield": "0.2281",
     "contraband_discoveries": "12"
-  },
-  {
-    "stop_reason": "21202(A) VC - FAIL RIDE BIKE:RT EDGE RD (I) 54019",
-    "stops": "57",
-    "success": "8",
-    "yield": "0.1404",
-    "contraband_discoveries": "8"
   },
   {
     "stop_reason": "602.8(A) PC - TRESPASS FENCED/PSTD LAND (I) 32136",
@@ -1862,18 +1799,11 @@
     "contraband_discoveries": "1"
   },
   {
-    "stop_reason": "25662(A) BP - MINOR POSSESS ALCOHOL (M) 41062",
+    "stop_reason": "11351 HS - POS/PUR F/SALE NARC/C/SUB (F) 35276",
     "stops": "56",
-    "success": "23",
-    "yield": "0.4107",
-    "contraband_discoveries": "22"
-  },
-  {
-    "stop_reason": "1551 PC - FUG JUST:WARRANT ARREST (F) 49052",
-    "stops": "56",
-    "success": "10",
-    "yield": "0.1786",
-    "contraband_discoveries": "7"
+    "success": "27",
+    "yield": "0.4821",
+    "contraband_discoveries": "27"
   },
   {
     "stop_reason": "853.8 PC - FAILURE TO APPEAR WARRANT (X) 50129",
@@ -1890,35 +1820,49 @@
     "contraband_discoveries": "3"
   },
   {
-    "stop_reason": "21809(A) VC - FAL CAUTION PASS EMGY VEH (I) 54583",
+    "stop_reason": "22526(A) VC - INTERSECT/ETC:NO CLEARNCE (I) 66958",
+    "stops": "56",
+    "success": "1",
+    "yield": "0.0179",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "21800(A) VC - FAIL YIELD INTERSECT:HWY (I) 54405",
+    "stops": "56",
+    "success": "1",
+    "yield": "0.0179",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "21806(A)(1) VC - FAIL YIELD/ETC:EMERG VEH (I) 66949",
     "stops": "56",
     "success": "0",
     "yield": "0.0",
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "16028(A) VC - FAIL PROVE FIN RSP:PO REQ (I) 54101",
+    "stop_reason": "21750(A) VC - OVERTAKE/LEFT PASS VIOL (I) 66945",
     "stops": "56",
     "success": "0",
     "yield": "0.0",
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "26101(B) VC - USE EQUIP MOD VEH DVC (I) 66521",
-    "stops": "56",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
+    "stop_reason": "25662(A) BP - MINOR POSSESS ALCOHOL (M) 41062",
+    "stops": "55",
+    "success": "23",
+    "yield": "0.4182",
+    "contraband_discoveries": "22"
+  },
+  {
+    "stop_reason": "21202(A) VC - FAIL RIDE BIKE:RT EDGE RD (I) 54019",
+    "stops": "55",
+    "success": "6",
+    "yield": "0.1091",
+    "contraband_discoveries": "6"
   },
   {
     "stop_reason": "24600(E) VC - TAILLAMP VIOL COLOR/VISIB (I) 66427",
-    "stops": "56",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "25950(A) VC - VEH LAMPS/ETC COLOR VIOL (I) 66973",
     "stops": "55",
     "success": "0",
     "yield": "0.0",
@@ -1932,25 +1876,18 @@
     "contraband_discoveries": "13"
   },
   {
-    "stop_reason": "28071 VC - VEHICLE BUMPER VIOLATION (I) 54223",
+    "stop_reason": "1551 PC - FUG JUST:WARRANT ARREST (F) 49052",
     "stops": "54",
-    "success": "1",
-    "yield": "0.0185",
-    "contraband_discoveries": "1"
+    "success": "10",
+    "yield": "0.1852",
+    "contraband_discoveries": "7"
   },
   {
-    "stop_reason": "22454(A) VC - FL STP SCHL BS RD LT FLSH (I) 66299",
-    "stops": "54",
-    "success": "1",
-    "yield": "0.0185",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "21663 VC - DRIVE ON SIDEWALK VIOL (I) 54360",
+    "stop_reason": "24409(B) VC - FAIL DIM BEAMS:FOLLOW VEH (I) 54154",
     "stops": "53",
-    "success": "5",
-    "yield": "0.0943",
-    "contraband_discoveries": "4"
+    "success": "2",
+    "yield": "0.0377",
+    "contraband_discoveries": "2"
   },
   {
     "stop_reason": "273A(B) PC - CHILD ABUSE W/O GBI/DTH (M) 38094",
@@ -1958,13 +1895,6 @@
     "success": "2",
     "yield": "0.0377",
     "contraband_discoveries": "2"
-  },
-  {
-    "stop_reason": "11352(A) HS - TRANSP/SELL NARC/CNTL SUB (F) 35154",
-    "stops": "52",
-    "success": "23",
-    "yield": "0.4423",
-    "contraband_discoveries": "23"
   },
   {
     "stop_reason": "496(A) PC - REC KNWN STOLN PROP (F) 28025",
@@ -1981,18 +1911,11 @@
     "contraband_discoveries": "4"
   },
   {
-    "stop_reason": "273.6(A) PC - VIOL CRT ORD DOM VIOLENCE (M) 50203 | 273.6(A) PC - VIOL CRT ORD DOM VIOLENCE (M) 50203",
+    "stop_reason": "25950(A) VC - VEH LAMPS/ETC COLOR VIOL (I) 66973",
     "stops": "52",
     "success": "0",
     "yield": "0.0",
     "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "484(A) PC - GRAND THEFT (F) 23091",
-    "stops": "51",
-    "success": "14",
-    "yield": "0.2745",
-    "contraband_discoveries": "14"
   },
   {
     "stop_reason": "14 4451(A) CA - CA REG:CAMPING VIOLATION (M) 62120",
@@ -2002,18 +1925,39 @@
     "contraband_discoveries": "2"
   },
   {
-    "stop_reason": "21655.8(A) VC - EXPRS:SOLID YEL LINES VIO (I) 54388",
+    "stop_reason": "28071 VC - VEHICLE BUMPER VIOLATION (I) 54223",
+    "stops": "51",
+    "success": "1",
+    "yield": "0.0196",
+    "contraband_discoveries": "1"
+  },
+  {
+    "stop_reason": "273.6(A) PC - VIOL CRT ORD DOM VIOLENCE (M) 50203 | 273.6(A) PC - VIOL CRT ORD DOM VIOLENCE (M) 50203",
     "stops": "51",
     "success": "0",
     "yield": "0.0",
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "207(A) PC - KIDNAPPING (F) 10016",
+    "stop_reason": "21655(B) VC - SPEC VEH:DRIVE WRONG LANE (I) 54363",
+    "stops": "51",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "484(A) PC - GRAND THEFT (F) 23091",
     "stops": "50",
-    "success": "6",
-    "yield": "0.12",
-    "contraband_discoveries": "6"
+    "success": "14",
+    "yield": "0.28",
+    "contraband_discoveries": "14"
+  },
+  {
+    "stop_reason": "21663 VC - DRIVE ON SIDEWALK VIOL (I) 54360",
+    "stops": "50",
+    "success": "5",
+    "yield": "0.1",
+    "contraband_discoveries": "4"
   },
   {
     "stop_reason": "14601.1(A) VC - DRIVE:LIC SUSPENDED/ETC (M) 54083",
@@ -2023,11 +1967,11 @@
     "contraband_discoveries": "2"
   },
   {
-    "stop_reason": "21802(A) VC - ENT THROUGH HWY:W/O YIELD (I) 54105",
+    "stop_reason": "16028(A) VC - FAIL PROVE FIN RSP:PO REQ (I) 54101",
     "stops": "50",
-    "success": "1",
-    "yield": "0.02",
-    "contraband_discoveries": "1"
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
   },
   {
     "stop_reason": "594(A)(2) PC - VANDALISM:DAMAGE PROPERTY (F) 29072",
@@ -2037,11 +1981,25 @@
     "contraband_discoveries": "2"
   },
   {
-    "stop_reason": "27803(A) VC - DRV/PASS WEAR APRV HELMET (I) 54606",
+    "stop_reason": "22454(A) VC - FL STP SCHL BS RD LT FLSH (I) 66299",
     "stops": "49",
     "success": "1",
     "yield": "0.0204",
-    "contraband_discoveries": "1"
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "26101(B) VC - USE EQUIP MOD VEH DVC (I) 66521",
+    "stops": "49",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "11352(A) HS - TRANSP/SELL NARC/CNTL SUB (F) 35154",
+    "stops": "48",
+    "success": "22",
+    "yield": "0.4583",
+    "contraband_discoveries": "22"
   },
   {
     "stop_reason": "602(A) PC - TRESP:DESTROY STAND TIMBR (M) 32023 | 602(A) PC - TRESP:DESTROY STAND TIMBR (M) 32023",
@@ -2058,34 +2016,6 @@
     "contraband_discoveries": "3"
   },
   {
-    "stop_reason": "26701(D) VC - WRONG COLOR:WINDO/ETC MAT (I) 54204",
-    "stops": "48",
-    "success": "2",
-    "yield": "0.0417",
-    "contraband_discoveries": "2"
-  },
-  {
-    "stop_reason": "21954(A) VC - PED NOT STOP:OUT CROSWALK (I) 54162",
-    "stops": "48",
-    "success": "2",
-    "yield": "0.0417",
-    "contraband_discoveries": "2"
-  },
-  {
-    "stop_reason": "24606(C) VC - BACKUP LAMPS LIGHTED VIOL (I) 66437",
-    "stops": "48",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "5201.1(A) VC - DVC OBSCURE LIC PLATE (I) 54789",
-    "stops": "48",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
     "stop_reason": "487(A) PC - GRDTHFT:MONEY/LABOR/PROP (F) 23132 | 487(A) PC - GRDTHFT:MONEY/LABOR/PROP (F) 23132",
     "stops": "47",
     "success": "23",
@@ -2100,11 +2030,11 @@
     "contraband_discoveries": "9"
   },
   {
-    "stop_reason": "23109(A) VC - ILLEGAL SPEED CONTEST (M) 54007",
+    "stop_reason": "207(A) PC - KIDNAPPING (F) 10016",
     "stops": "47",
     "success": "6",
     "yield": "0.1277",
-    "contraband_discoveries": "2"
+    "contraband_discoveries": "6"
   },
   {
     "stop_reason": "242 PC - BAT W/SERIOUS BODILY INJ (M) 13179",
@@ -2114,11 +2044,11 @@
     "contraband_discoveries": "1"
   },
   {
-    "stop_reason": "22451(A) VC - FAIL STOP/ETC:RR XING/ETC (I) 54203",
+    "stop_reason": "21954(A) VC - PED NOT STOP:OUT CROSWALK (I) 54162",
     "stops": "47",
-    "success": "1",
-    "yield": "0.0213",
-    "contraband_discoveries": "1"
+    "success": "2",
+    "yield": "0.0426",
+    "contraband_discoveries": "2"
   },
   {
     "stop_reason": "27007 VC - LOUD OUTSIDE VEH AMP SYS (I) 54164",
@@ -2128,32 +2058,32 @@
     "contraband_discoveries": "1"
   },
   {
+    "stop_reason": "24606(C) VC - BACKUP LAMPS LIGHTED VIOL (I) 66437",
+    "stops": "47",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "23109(A) VC - ILLEGAL SPEED CONTEST (M) 54007",
+    "stops": "46",
+    "success": "6",
+    "yield": "0.1304",
+    "contraband_discoveries": "2"
+  },
+  {
+    "stop_reason": "5201.1(A) VC - DVC OBSCURE LIC PLATE (I) 54789",
+    "stops": "46",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
     "stop_reason": "4463(A)(1) VC - FORGE/ALTER VEH REG/ETC (M) 25098",
-    "stops": "46",
+    "stops": "45",
     "success": "13",
-    "yield": "0.2826",
+    "yield": "0.2889",
     "contraband_discoveries": "11"
-  },
-  {
-    "stop_reason": "21655.1(A) VC - DRIVE VEHICLE IN BUS LANE (I) 54724",
-    "stops": "46",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "24003 VC - VEH WITH UNLAWFUL LAMPS (I) 54376",
-    "stops": "46",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "27803(B) VC - MOTORCYCLE/ETC:HELMET VIO (I) 54200",
-    "stops": "46",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
   },
   {
     "stop_reason": "23152(G) VC - DUI ALCOHOL AND DRUG (M) 42117",
@@ -2170,13 +2100,6 @@
     "contraband_discoveries": "10"
   },
   {
-    "stop_reason": "2800.2(A) VC - EVADE PO:DISREGARD SAFETY (F) 48101",
-    "stops": "45",
-    "success": "10",
-    "yield": "0.2222",
-    "contraband_discoveries": "8"
-  },
-  {
     "stop_reason": "26311(A) VC - SERVICE BRAKES VIOLATION (I) 54314",
     "stops": "45",
     "success": "4",
@@ -2191,11 +2114,18 @@
     "contraband_discoveries": "3"
   },
   {
-    "stop_reason": "27315(E) VC - PASNGR 16+ NO SAFETY BELT (I) 54111",
+    "stop_reason": "26701(D) VC - WRONG COLOR:WINDO/ETC MAT (I) 54204",
     "stops": "45",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
+    "success": "2",
+    "yield": "0.0444",
+    "contraband_discoveries": "2"
+  },
+  {
+    "stop_reason": "21802(A) VC - ENT THROUGH HWY:W/O YIELD (I) 54105",
+    "stops": "45",
+    "success": "1",
+    "yield": "0.0222",
+    "contraband_discoveries": "1"
   },
   {
     "stop_reason": "24600(D) VC - TAILLAMP VIOL LOCATION (I) 66426",
@@ -2226,11 +2156,11 @@
     "contraband_discoveries": "2"
   },
   {
-    "stop_reason": "22974.5 BP - FAIL TO DISPLAY LICENSE (M) 31255",
+    "stop_reason": "22451(A) VC - FAIL STOP/ETC:RR XING/ETC (I) 54203",
     "stops": "44",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
+    "success": "1",
+    "yield": "0.0227",
+    "contraband_discoveries": "1"
   },
   {
     "stop_reason": "602(D) PC - TRESPASS:SOIL REMOVAL (M) 32026",
@@ -2247,13 +2177,6 @@
     "contraband_discoveries": "5"
   },
   {
-    "stop_reason": "4000.4(A) VC - UNREG CA BASED VEHICLE (I) 54473",
-    "stops": "43",
-    "success": "1",
-    "yield": "0.0233",
-    "contraband_discoveries": "0"
-  },
-  {
     "stop_reason": "415.5(A)(1) PC - FIGHT/ETC AT SCH/UNIV/ETC (M) 33028",
     "stops": "43",
     "success": "0",
@@ -2268,11 +2191,11 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "243(D) PC - BATT W/SERIOUS BODILY INJ (F) 13084",
+    "stop_reason": "2800.2(A) VC - EVADE PO:DISREGARD SAFETY (F) 48101",
     "stops": "42",
-    "success": "5",
-    "yield": "0.119",
-    "contraband_discoveries": "4"
+    "success": "8",
+    "yield": "0.1905",
+    "contraband_discoveries": "6"
   },
   {
     "stop_reason": "21208(A) VC - FAIL TO RIDE IN BIKE LANE (I) 54592",
@@ -2282,18 +2205,18 @@
     "contraband_discoveries": "5"
   },
   {
-    "stop_reason": "29800(A)(1) PC - FELON/ETC POSS/ETC F/ARM (F) 52422",
-    "stops": "41",
-    "success": "12",
-    "yield": "0.2927",
-    "contraband_discoveries": "12"
-  },
-  {
     "stop_reason": "166(A)(4) PC - CONTEMPT:DISOBEY CRT ORDR (M) 50106 | 166(A)(4) PC - CONTEMPT:DISOBEY CRT ORDR (M) 50106",
     "stops": "41",
     "success": "6",
     "yield": "0.1463",
     "contraband_discoveries": "6"
+  },
+  {
+    "stop_reason": "243(D) PC - BATT W/SERIOUS BODILY INJ (F) 13084",
+    "stops": "41",
+    "success": "5",
+    "yield": "0.122",
+    "contraband_discoveries": "4"
   },
   {
     "stop_reason": "23103(B) VC - RECKLESS DRIVING:PARK LOT (M) 54087",
@@ -2310,18 +2233,39 @@
     "contraband_discoveries": "2"
   },
   {
-    "stop_reason": "288(A) PC - L&L W/CHILD UNDER 14 (F) 36055",
-    "stops": "41",
-    "success": "2",
-    "yield": "0.0488",
-    "contraband_discoveries": "2"
-  },
-  {
     "stop_reason": "368(C) PC - ELDER/DEP ADULT CRUELTY (M) 55226",
     "stops": "41",
     "success": "1",
     "yield": "0.0244",
     "contraband_discoveries": "1"
+  },
+  {
+    "stop_reason": "4000.4(A) VC - UNREG CA BASED VEHICLE (I) 54473",
+    "stops": "41",
+    "success": "1",
+    "yield": "0.0244",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "22974.5 BP - FAIL TO DISPLAY LICENSE (M) 31255",
+    "stops": "41",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "24003 VC - VEH WITH UNLAWFUL LAMPS (I) 54376",
+    "stops": "41",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "27803(B) VC - MOTORCYCLE/ETC:HELMET VIO (I) 54200",
+    "stops": "41",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
   },
   {
     "stop_reason": "245(A)(2) PC - ASLT W/FIREARM ON PERSON (F) 13095 | 245(A)(2) PC - ASLT W/FIREARM ON PERSON (F) 13095",
@@ -2338,20 +2282,6 @@
     "contraband_discoveries": "5"
   },
   {
-    "stop_reason": "246 PC - SHOOT:INHAB DWELL/VEH/ETC (F) 13106",
-    "stops": "40",
-    "success": "3",
-    "yield": "0.075",
-    "contraband_discoveries": "3"
-  },
-  {
-    "stop_reason": "21950(B) VC - PED IN XWALK STOP/ETC VEH (I) 54183",
-    "stops": "40",
-    "success": "2",
-    "yield": "0.05",
-    "contraband_discoveries": "2"
-  },
-  {
     "stop_reason": "243(E) PC - BATTERY:SPOUSE/ETC (M) 13187 | 243(E) PC - BATTERY:SPOUSE/ETC (M) 13187",
     "stops": "40",
     "success": "1",
@@ -2359,11 +2289,11 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "27153(A) VC - EXCESSIVE EXHAUST VIOL (I) 66984",
-    "stops": "40",
-    "success": "1",
-    "yield": "0.025",
-    "contraband_discoveries": "1"
+    "stop_reason": "29800(A)(1) PC - FELON/ETC POSS/ETC F/ARM (F) 52422",
+    "stops": "39",
+    "success": "12",
+    "yield": "0.3077",
+    "contraband_discoveries": "12"
   },
   {
     "stop_reason": "640(C)(1) PC - FAIL PAY:PUB TRANSIT SYS (I) 66208",
@@ -2387,6 +2317,13 @@
     "contraband_discoveries": "2"
   },
   {
+    "stop_reason": "21950(B) VC - PED IN XWALK STOP/ETC VEH (I) 54183",
+    "stops": "39",
+    "success": "2",
+    "yield": "0.0513",
+    "contraband_discoveries": "2"
+  },
+  {
     "stop_reason": "594(A)(2) PC - VANDALISM:DAMAGE PROPERTY (M) 29071",
     "stops": "39",
     "success": "2",
@@ -2401,11 +2338,25 @@
     "contraband_discoveries": "1"
   },
   {
-    "stop_reason": "11378 HS - POSS CNTL SUB FOR SALE (F) 35138",
-    "stops": "38",
-    "success": "23",
-    "yield": "0.6053",
-    "contraband_discoveries": "23"
+    "stop_reason": "27803(A) VC - DRV/PASS WEAR APRV HELMET (I) 54606",
+    "stops": "39",
+    "success": "1",
+    "yield": "0.0256",
+    "contraband_discoveries": "1"
+  },
+  {
+    "stop_reason": "27153(A) VC - EXCESSIVE EXHAUST VIOL (I) 66984",
+    "stops": "39",
+    "success": "1",
+    "yield": "0.0256",
+    "contraband_discoveries": "1"
+  },
+  {
+    "stop_reason": "21809(A) VC - FAL CAUTION PASS EMGY VEH (I) 54583",
+    "stops": "39",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
   },
   {
     "stop_reason": "22435.2(B) BP - POSS SHOP/LAUNDRY CART (M) 23115",
@@ -2422,11 +2373,25 @@
     "contraband_discoveries": "2"
   },
   {
-    "stop_reason": "24002 VC - UNLAWFUL OPERATION OF VEH (I) 54013",
+    "stop_reason": "288(A) PC - L&L W/CHILD UNDER 14 (F) 36055",
+    "stops": "38",
+    "success": "2",
+    "yield": "0.0526",
+    "contraband_discoveries": "2"
+  },
+  {
+    "stop_reason": "27315(E) VC - PASNGR 16+ NO SAFETY BELT (I) 54111",
     "stops": "38",
     "success": "0",
     "yield": "0.0",
     "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "11378 HS - POSS CNTL SUB FOR SALE (F) 35138",
+    "stops": "37",
+    "success": "22",
+    "yield": "0.5946",
+    "contraband_discoveries": "22"
   },
   {
     "stop_reason": "69(A) PC - OBSTRUCT/RESIST EXEC OFCR (F) 48161",
@@ -2436,13 +2401,6 @@
     "contraband_discoveries": "5"
   },
   {
-    "stop_reason": "21804(A) VC - FAIL YIELD TRAFIC:HWY ENT (I) 54299",
-    "stops": "37",
-    "success": "1",
-    "yield": "0.027",
-    "contraband_discoveries": "1"
-  },
-  {
     "stop_reason": "602.5(A) PC - UNAUTH ENTRY OF DWELLING (M) 32134",
     "stops": "37",
     "success": "1",
@@ -2450,14 +2408,7 @@
     "contraband_discoveries": "1"
   },
   {
-    "stop_reason": "5201(B) VC - TEMP LIC PLATE NOT RPLCED (I) 54688",
-    "stops": "37",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "24603(E) VC - STOPLAMPS VIOL:N/VISIBLE (I) 54518",
+    "stop_reason": "21655.1(A) VC - DRIVE VEHICLE IN BUS LANE (I) 54724",
     "stops": "37",
     "success": "0",
     "yield": "0.0",
@@ -2492,11 +2443,11 @@
     "contraband_discoveries": "4"
   },
   {
-    "stop_reason": "261(A)(2) PC - RAPE BY FORCE/FEAR/ETC (F) 11055",
+    "stop_reason": "246 PC - SHOOT:INHAB DWELL/VEH/ETC (F) 13106",
     "stops": "36",
-    "success": "4",
-    "yield": "0.1111",
-    "contraband_discoveries": "4"
+    "success": "3",
+    "yield": "0.0833",
+    "contraband_discoveries": "3"
   },
   {
     "stop_reason": "21803(A) VC - FAIL TO YIELD UNTIL SAFE (I) 54506",
@@ -2513,11 +2464,18 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "21456.1 VC - PED FL OBY TRFC CNTRL SIG (I) 54983",
+    "stop_reason": "21654(A) VC - SLOW VEH IN LEFT LANE (I) 54404",
+    "stops": "36",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "261(A)(2) PC - RAPE BY FORCE/FEAR/ETC (F) 11055",
     "stops": "35",
-    "success": "3",
-    "yield": "0.0857",
-    "contraband_discoveries": "3"
+    "success": "4",
+    "yield": "0.1143",
+    "contraband_discoveries": "4"
   },
   {
     "stop_reason": "22507.8(A) VC - PARK IN SPACE FOR DISABLE (I) 54221",
@@ -2539,6 +2497,13 @@
     "success": "1",
     "yield": "0.0286",
     "contraband_discoveries": "1"
+  },
+  {
+    "stop_reason": "24603(E) VC - STOPLAMPS VIOL:N/VISIBLE (I) 54518",
+    "stops": "35",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
   },
   {
     "stop_reason": "21800(B)(1) VC - FL YLD RIGHT OF WAY HWY (I) 66274",
@@ -2569,10 +2534,24 @@
     "contraband_discoveries": "2"
   },
   {
+    "stop_reason": "21456.1 VC - PED FL OBY TRFC CNTRL SIG (I) 54983",
+    "stops": "34",
+    "success": "2",
+    "yield": "0.0588",
+    "contraband_discoveries": "2"
+  },
+  {
     "stop_reason": "243.4(E)(1) PC - SEXUAL BATT:SEX AROUSAL (M) 11084",
     "stops": "34",
     "success": "2",
     "yield": "0.0588",
+    "contraband_discoveries": "1"
+  },
+  {
+    "stop_reason": "21804(A) VC - FAIL YIELD TRAFIC:HWY ENT (I) 54299",
+    "stops": "34",
+    "success": "1",
+    "yield": "0.0294",
     "contraband_discoveries": "1"
   },
   {
@@ -2590,13 +2569,6 @@
     "contraband_discoveries": "3"
   },
   {
-    "stop_reason": "27156(B) VC - NOT EQUIPED W/SMOG DEVICE (I) 54534",
-    "stops": "33",
-    "success": "2",
-    "yield": "0.0606",
-    "contraband_discoveries": "2"
-  },
-  {
     "stop_reason": "647C PC - OBSTRUCT MOVEMENT PUB PL (M) 53155",
     "stops": "33",
     "success": "1",
@@ -2604,32 +2576,11 @@
     "contraband_discoveries": "1"
   },
   {
-    "stop_reason": "27001(B) VC - MISUSE VEHICLE HORN (I) 66981",
+    "stop_reason": "5201(B) VC - TEMP LIC PLATE NOT RPLCED (I) 54688",
     "stops": "33",
     "success": "0",
     "yield": "0.0",
     "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "602(K) PC - TRESP INJ PROP/OBSTR BUS (M) 32138",
-    "stops": "33",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "245(A)(4) PC - ADW/FORCE:POSSIBLE GBI (M) 13218",
-    "stops": "33",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "211 PC - ROBBERY:FIRST DEGREE (F) 12017",
-    "stops": "32",
-    "success": "9",
-    "yield": "0.2812",
-    "contraband_discoveries": "9"
   },
   {
     "stop_reason": "25400(A)(1) PC - CCW IN VEHICLE (F) 52479",
@@ -2646,7 +2597,7 @@
     "contraband_discoveries": "2"
   },
   {
-    "stop_reason": "374.4(A) PC - LITER PUBLIC/PRIVATE PROP (I) 55207",
+    "stop_reason": "27156(B) VC - NOT EQUIPED W/SMOG DEVICE (I) 54534",
     "stops": "32",
     "success": "2",
     "yield": "0.0625",
@@ -2660,6 +2611,34 @@
     "contraband_discoveries": "0"
   },
   {
+    "stop_reason": "24002 VC - UNLAWFUL OPERATION OF VEH (I) 54013",
+    "stops": "32",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "602(K) PC - TRESP INJ PROP/OBSTR BUS (M) 32138",
+    "stops": "32",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "245(A)(4) PC - ADW/FORCE:POSSIBLE GBI (M) 13218",
+    "stops": "32",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "211 PC - ROBBERY:FIRST DEGREE (F) 12017",
+    "stops": "31",
+    "success": "9",
+    "yield": "0.2903",
+    "contraband_discoveries": "9"
+  },
+  {
     "stop_reason": "22514 VC - PARK/ETC BY FIRE HYDRANT (I) 54346",
     "stops": "31",
     "success": "4",
@@ -2667,28 +2646,14 @@
     "contraband_discoveries": "4"
   },
   {
-    "stop_reason": "24407(A) VC - HIGHBEAM PROJECT 350 FEET (I) 54544",
+    "stop_reason": "374.4(A) PC - LITER PUBLIC/PRIVATE PROP (I) 55207",
     "stops": "31",
     "success": "1",
     "yield": "0.0323",
     "contraband_discoveries": "1"
   },
   {
-    "stop_reason": "21804(B) VC - FAIL YEILD RIGHT-OF-WAY (I) 54578",
-    "stops": "31",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
     "stop_reason": "602.8(A) PC - TRESPASS POSTED LAND 3+ (M) 32146",
-    "stops": "30",
-    "success": "2",
-    "yield": "0.0667",
-    "contraband_discoveries": "2"
-  },
-  {
-    "stop_reason": "1551(A) PC - FUGITIVE FRM JUST:WAR ARR (F) 49059",
     "stops": "30",
     "success": "2",
     "yield": "0.0667",
@@ -2702,25 +2667,11 @@
     "contraband_discoveries": "2"
   },
   {
-    "stop_reason": "21700 VC - OBST DRIVER VIEW/CONTROL (I) 54552",
-    "stops": "30",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
     "stop_reason": "11173(C) HS - REP AS DR/ETC:GET C/SUB (F) 35150",
     "stops": "30",
     "success": "0",
     "yield": "0.0",
     "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "23152(A) VC - DUI ALCOHOL (M) 42104 | 23152(A) VC - DUI ALCOHOL (M) 42104 | 23152(A) VC - DUI ALCOHOL (M) 42104",
-    "stops": "29",
-    "success": "10",
-    "yield": "0.3448",
-    "contraband_discoveries": "4"
   },
   {
     "stop_reason": "23223(B) VC - PASSENGER:W/OPEN ALC CONT (I) 54582",
@@ -2730,13 +2681,6 @@
     "contraband_discoveries": "8"
   },
   {
-    "stop_reason": "25850(A) PC - CRRY LOAD F/ARM:PUB:S/CIR (F) 52624",
-    "stops": "29",
-    "success": "7",
-    "yield": "0.2414",
-    "contraband_discoveries": "6"
-  },
-  {
     "stop_reason": "484(A) PC - PETTY THEFT:$50- (I) 23160",
     "stops": "29",
     "success": "5",
@@ -2744,38 +2688,17 @@
     "contraband_discoveries": "5"
   },
   {
-    "stop_reason": "25850(A) PC - CRRY LOAD F/ARM PUB PLACE (M) 52436",
+    "stop_reason": "1551(A) PC - FUGITIVE FRM JUST:WAR ARR (F) 49059",
     "stops": "29",
-    "success": "5",
-    "yield": "0.1724",
-    "contraband_discoveries": "5"
-  },
-  {
-    "stop_reason": "246.3(A) PC - WIL DISCH F/ARM W/GRS NEG (F) 52387",
-    "stops": "29",
-    "success": "4",
-    "yield": "0.1379",
-    "contraband_discoveries": "4"
-  },
-  {
-    "stop_reason": "14 4310 CA - CA REG:LITTERING A UNIT (M) 62159",
-    "stops": "29",
-    "success": "3",
-    "yield": "0.1034",
-    "contraband_discoveries": "3"
+    "success": "2",
+    "yield": "0.069",
+    "contraband_discoveries": "2"
   },
   {
     "stop_reason": "242 PC - BAT AGAINST PEACE OFFICER (F) 13184",
     "stops": "29",
     "success": "1",
     "yield": "0.0345",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "22406(B) VC - EXCESS SPEED WHILE TOWING (I) 54616",
-    "stops": "29",
-    "success": "0",
-    "yield": "0.0",
     "contraband_discoveries": "0"
   },
   {
@@ -2793,11 +2716,25 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "22502(A) VC - PARALLEL PARKING VIOL (I) 66954",
+    "stop_reason": "21804(B) VC - FAIL YEILD RIGHT-OF-WAY (I) 54578",
+    "stops": "29",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "23152(A) VC - DUI ALCOHOL (M) 42104 | 23152(A) VC - DUI ALCOHOL (M) 42104 | 23152(A) VC - DUI ALCOHOL (M) 42104",
     "stops": "28",
-    "success": "8",
-    "yield": "0.2857",
-    "contraband_discoveries": "8"
+    "success": "9",
+    "yield": "0.3214",
+    "contraband_discoveries": "4"
+  },
+  {
+    "stop_reason": "25850(A) PC - CRRY LOAD F/ARM:PUB:S/CIR (F) 52624",
+    "stops": "28",
+    "success": "7",
+    "yield": "0.25",
+    "contraband_discoveries": "6"
   },
   {
     "stop_reason": "496(A) PC - REC KNWN STOLN PROP (M) 28024",
@@ -2807,21 +2744,14 @@
     "contraband_discoveries": "5"
   },
   {
+    "stop_reason": "246.3(A) PC - WIL DISCH F/ARM W/GRS NEG (F) 52387",
+    "stops": "28",
+    "success": "4",
+    "yield": "0.1429",
+    "contraband_discoveries": "4"
+  },
+  {
     "stop_reason": "26453 VC - BRAKE SYS CONDITION VIOL (I) 66976",
-    "stops": "28",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "27302 VC - VIOL SEATBELT CHP STAND (I) 66597",
-    "stops": "28",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "22109 VC - SUDDEN STOP:W/O SIGNALING (I) 54426",
     "stops": "28",
     "success": "0",
     "yield": "0.0",
@@ -2833,6 +2763,20 @@
     "success": "9",
     "yield": "0.3333",
     "contraband_discoveries": "8"
+  },
+  {
+    "stop_reason": "22502(A) VC - PARALLEL PARKING VIOL (I) 66954",
+    "stops": "27",
+    "success": "8",
+    "yield": "0.2963",
+    "contraband_discoveries": "8"
+  },
+  {
+    "stop_reason": "14 4310 CA - CA REG:LITTERING A UNIT (M) 62159",
+    "stops": "27",
+    "success": "3",
+    "yield": "0.1111",
+    "contraband_discoveries": "3"
   },
   {
     "stop_reason": "20002(A) VC - HIT AND RUN:PROP DAMAGE (M) 54038 | 20002(A) VC - HIT AND RUN:PROP DAMAGE (M) 54038",
@@ -2849,6 +2793,13 @@
     "contraband_discoveries": "2"
   },
   {
+    "stop_reason": "27001(B) VC - MISUSE VEHICLE HORN (I) 66981",
+    "stops": "27",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
     "stop_reason": "21800(C) VC - FL YLD RIGHT OF WAY RIGHT (I) 66275",
     "stops": "27",
     "success": "0",
@@ -2856,7 +2807,7 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "21756(A) VC - UNSAFE PASSING STREETCAR (I) 66266",
+    "stop_reason": "24407(A) VC - HIGHBEAM PROJECT 350 FEET (I) 54544",
     "stops": "27",
     "success": "0",
     "yield": "0.0",
@@ -2919,7 +2870,7 @@
     "contraband_discoveries": "1"
   },
   {
-    "stop_reason": "5201.1(B) VC - OPR VEH OBSCURED LIC PLT (I) 54790",
+    "stop_reason": "22109 VC - SUDDEN STOP:W/O SIGNALING (I) 54426",
     "stops": "26",
     "success": "0",
     "yield": "0.0",
@@ -2968,6 +2919,20 @@
     "contraband_discoveries": "0"
   },
   {
+    "stop_reason": "21756(A) VC - UNSAFE PASSING STREETCAR (I) 66266",
+    "stops": "25",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "25850(A) PC - CRRY LOAD F/ARM PUB PLACE (M) 52436",
+    "stops": "24",
+    "success": "5",
+    "yield": "0.2083",
+    "contraband_discoveries": "5"
+  },
+  {
     "stop_reason": "25400(A)(2) PC - CCW ON PERSON (M) 52476",
     "stops": "24",
     "success": "5",
@@ -2982,13 +2947,6 @@
     "contraband_discoveries": "1"
   },
   {
-    "stop_reason": "22103 VC - UNLAWFL UTURN:RESIDENTIAL (I) 54344",
-    "stops": "24",
-    "success": "1",
-    "yield": "0.0417",
-    "contraband_discoveries": "1"
-  },
-  {
     "stop_reason": "5 100013(K) CA - CA REG:URINAT/DEF UNV PRP (M) 66174",
     "stops": "24",
     "success": "1",
@@ -2996,11 +2954,18 @@
     "contraband_discoveries": "1"
   },
   {
-    "stop_reason": "Moving Violation",
+    "stop_reason": "27302 VC - VIOL SEATBELT CHP STAND (I) 66597",
     "stops": "24",
-    "success": "1",
-    "yield": "0.0417",
-    "contraband_discoveries": "1"
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "5201.1(B) VC - OPR VEH OBSCURED LIC PLT (I) 54790",
+    "stops": "24",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
   },
   {
     "stop_reason": "22504(A) VC - STOP/PARK ON ROADWAY (I) 54475",
@@ -3059,11 +3024,11 @@
     "contraband_discoveries": "2"
   },
   {
-    "stop_reason": "21201(C) VC - OPR UNSAFE BIKE ON HWY (I) 54943",
+    "stop_reason": "22103 VC - UNLAWFL UTURN:RESIDENTIAL (I) 54344",
     "stops": "23",
-    "success": "2",
-    "yield": "0.087",
-    "contraband_discoveries": "2"
+    "success": "1",
+    "yield": "0.0435",
+    "contraband_discoveries": "1"
   },
   {
     "stop_reason": "21462 VC - ALL TRAF/ETC OBEY SIGNALS (I) 54476",
@@ -3101,11 +3066,11 @@
     "contraband_discoveries": "7"
   },
   {
-    "stop_reason": "21720 VC - POCKET BIKES PROHIB AREA (I) 54613",
+    "stop_reason": "21201(C) VC - OPR UNSAFE BIKE ON HWY (I) 54943",
     "stops": "22",
-    "success": "4",
-    "yield": "0.1818",
-    "contraband_discoveries": "0"
+    "success": "2",
+    "yield": "0.0909",
+    "contraband_discoveries": "2"
   },
   {
     "stop_reason": "459 PC - BURGLARY:SECOND DEGREE (F) 22022",
@@ -3129,13 +3094,6 @@
     "contraband_discoveries": "1"
   },
   {
-    "stop_reason": "415(3) PC - OFFENSIVE WORDS:PUBLIC PL (M) 53074",
-    "stops": "22",
-    "success": "1",
-    "yield": "0.0455",
-    "contraband_discoveries": "1"
-  },
-  {
     "stop_reason": "647(A) PC - SOLICIT LEWD ACT IN PUBLC (M) 36328",
     "stops": "22",
     "success": "1",
@@ -3150,13 +3108,6 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "21210 VC - BIKE PARKING OR IMPEDE (I) 66939",
-    "stops": "22",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
     "stop_reason": "647E(A) PC - OPEN ALC BEV POSTED PREM (I) 41065",
     "stops": "22",
     "success": "0",
@@ -3164,21 +3115,28 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "21802(B) VC - YIELD TO VEH CROSS INTER (I) 66277",
+    "stop_reason": "21720 VC - POCKET BIKES PROHIB AREA (I) 54613",
+    "stops": "21",
+    "success": "4",
+    "yield": "0.1905",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "415(3) PC - OFFENSIVE WORDS:PUBLIC PL (M) 53074",
+    "stops": "21",
+    "success": "1",
+    "yield": "0.0476",
+    "contraband_discoveries": "1"
+  },
+  {
+    "stop_reason": "21700 VC - OBST DRIVER VIEW/CONTROL (I) 54552",
     "stops": "21",
     "success": "0",
     "yield": "0.0",
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "21212(A) VC - FAIL WEAR HELMET:BIKE:-18 (I) 54302",
-    "stops": "21",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "2800(A) VC - FAIL OBEY PO:LAWFUL ORDER (M) 48135",
+    "stop_reason": "21210 VC - BIKE PARKING OR IMPEDE (I) 66939",
     "stops": "21",
     "success": "0",
     "yield": "0.0",
@@ -3206,13 +3164,6 @@
     "contraband_discoveries": "1"
   },
   {
-    "stop_reason": "21718(A) VC - STOP/PARK VEH ON FREEWAY (I) 54517",
-    "stops": "20",
-    "success": "2",
-    "yield": "0.1",
-    "contraband_discoveries": "1"
-  },
-  {
     "stop_reason": "459 PC - BURGLARY:SECOND DEGREE (M) 22133",
     "stops": "20",
     "success": "2",
@@ -3220,21 +3171,7 @@
     "contraband_discoveries": "2"
   },
   {
-    "stop_reason": "24800 VC - DRIVE W/PARK LIGHTS ONLY (I) 54347",
-    "stops": "20",
-    "success": "1",
-    "yield": "0.05",
-    "contraband_discoveries": "1"
-  },
-  {
     "stop_reason": "594(B)(2)(A) PC - VANDALISM -$400 (M) 29144 | 594(B)(2)(A) PC - VANDALISM -$400 (M) 29144",
-    "stops": "20",
-    "success": "1",
-    "yield": "0.05",
-    "contraband_discoveries": "1"
-  },
-  {
-    "stop_reason": "23112(A) VC - TOSS/ETC MATTER:HWY/ETC (I) 66962",
     "stops": "20",
     "success": "1",
     "yield": "0.05",
@@ -3246,6 +3183,13 @@
     "success": "1",
     "yield": "0.05",
     "contraband_discoveries": "1"
+  },
+  {
+    "stop_reason": "21802(B) VC - YIELD TO VEH CROSS INTER (I) 66277",
+    "stops": "20",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
   },
   {
     "stop_reason": "273.5(F)(1) PC - CORP INJ SPOUSE/ETC W/PR (F) 38101",
@@ -3290,25 +3234,25 @@
     "contraband_discoveries": "5"
   },
   {
+    "stop_reason": "21718(A) VC - STOP/PARK VEH ON FREEWAY (I) 54517",
+    "stops": "19",
+    "success": "2",
+    "yield": "0.1053",
+    "contraband_discoveries": "1"
+  },
+  {
+    "stop_reason": "Moving Violation",
+    "stops": "19",
+    "success": "1",
+    "yield": "0.0526",
+    "contraband_discoveries": "1"
+  },
+  {
     "stop_reason": "22500(F) VC - PARKING VIOL PRTN SIDEWLK (I) 66307",
     "stops": "19",
     "success": "1",
     "yield": "0.0526",
     "contraband_discoveries": "1"
-  },
-  {
-    "stop_reason": "2818 VC - CROSS FLARE/CONE PATTERN (I) 54329",
-    "stops": "19",
-    "success": "1",
-    "yield": "0.0526",
-    "contraband_discoveries": "1"
-  },
-  {
-    "stop_reason": "602(E) PC - TRSPAS:REMOV SOIL PUB PRP (M) 32027",
-    "stops": "19",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
   },
   {
     "stop_reason": "1370.5(A) PC - ESC:MENTAL HEALTH FACILTY (M) 49081",
@@ -3325,14 +3269,14 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "21235(C) VC - OP MOTR SCOOTR W/O HELMET (I) 54460",
+    "stop_reason": "602(S) PC - TRESPASS:REF TO LV HOTEL (M) 32108",
     "stops": "19",
     "success": "0",
     "yield": "0.0",
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "602(S) PC - TRESPASS:REF TO LV HOTEL (M) 32108",
+    "stop_reason": "2800(A) VC - FAIL OBEY PO:LAWFUL ORDER (M) 48135",
     "stops": "19",
     "success": "0",
     "yield": "0.0",
@@ -3374,7 +3318,7 @@
     "contraband_discoveries": "2"
   },
   {
-    "stop_reason": "20001(A) VC - HIT AND RUN:DEATH/INJURY (F) 54069",
+    "stop_reason": "24800 VC - DRIVE W/PARK LIGHTS ONLY (I) 54347",
     "stops": "18",
     "success": "1",
     "yield": "0.0556",
@@ -3382,6 +3326,13 @@
   },
   {
     "stop_reason": "Equipment Violation",
+    "stops": "18",
+    "success": "1",
+    "yield": "0.0556",
+    "contraband_discoveries": "1"
+  },
+  {
+    "stop_reason": "23112(A) VC - TOSS/ETC MATTER:HWY/ETC (I) 66962",
     "stops": "18",
     "success": "1",
     "yield": "0.0556",
@@ -3409,6 +3360,20 @@
     "contraband_discoveries": "1"
   },
   {
+    "stop_reason": "2818 VC - CROSS FLARE/CONE PATTERN (I) 54329",
+    "stops": "18",
+    "success": "1",
+    "yield": "0.0556",
+    "contraband_discoveries": "1"
+  },
+  {
+    "stop_reason": "602(E) PC - TRSPAS:REMOV SOIL PUB PRP (M) 32027",
+    "stops": "18",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
     "stop_reason": "24607(A) VC - REAR VEH REFLECTOR VIOL (I) 54499",
     "stops": "18",
     "success": "0",
@@ -3423,32 +3388,11 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "24953(A) VC - TURN SIGNAL LAMP VIOL (I) 54387",
-    "stops": "18",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
     "stop_reason": "273A PC - WILLFUL CRUELTY TO CHILD (M) 38010",
     "stops": "18",
     "success": "0",
     "yield": "0.0",
     "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "27600 VC - SPEC VEH FENDER/ETC VIOL (I) 54214",
-    "stops": "18",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "30605(A) PC - ILL POSS ASSAULT WPN (F) 52510",
-    "stops": "17",
-    "success": "12",
-    "yield": "0.7059",
-    "contraband_discoveries": "12"
   },
   {
     "stop_reason": "20002(B) VC - HIT&RUN RNWY VEH:PROP DAM (M) 54063",
@@ -3508,6 +3452,13 @@
   },
   {
     "stop_reason": "11305(B) VC - FL RPRT ALTR ID/PLATE NUM (M) 54840",
+    "stops": "17",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "21212(A) VC - FAIL WEAR HELMET:BIKE:-18 (I) 54302",
     "stops": "17",
     "success": "0",
     "yield": "0.0",
@@ -3584,28 +3535,7 @@
     "contraband_discoveries": "6"
   },
   {
-    "stop_reason": "5202(A) VC - FOREIGN LIC PLT DISP VIOL (I) 66920",
-    "stops": "16",
-    "success": "2",
-    "yield": "0.125",
-    "contraband_discoveries": "2"
-  },
-  {
-    "stop_reason": "646.9(A) PC - STALKING (F) 16012",
-    "stops": "16",
-    "success": "2",
-    "yield": "0.125",
-    "contraband_discoveries": "1"
-  },
-  {
     "stop_reason": "21235(G) VC - OPR MOTR SCOOTER SIDEWALK (I) 54625",
-    "stops": "16",
-    "success": "2",
-    "yield": "0.125",
-    "contraband_discoveries": "2"
-  },
-  {
-    "stop_reason": "25950(B) VC - VEH LMP/ETC REAR CLR VIOL (I) 66515",
     "stops": "16",
     "success": "2",
     "yield": "0.125",
@@ -3647,20 +3577,6 @@
     "contraband_discoveries": "1"
   },
   {
-    "stop_reason": "24951(C) VC - TURN SIGNAL VIOLATION (I) 66449",
-    "stops": "16",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "12951(A) VC - DRIVE W/O VALID LICENSE (I) 54140",
-    "stops": "16",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
     "stop_reason": "14601.2(A) VC - DRIV:SUSP/ETC LIC:DUI:VIO (M) 54108",
     "stops": "16",
     "success": "0",
@@ -3689,6 +3605,13 @@
     "contraband_discoveries": "0"
   },
   {
+    "stop_reason": "24953(A) VC - TURN SIGNAL LAMP VIOL (I) 54387",
+    "stops": "16",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
     "stop_reason": "602.1(B) PC - OBST/ETC BUSNES:PUB AGNCY (M) 32080",
     "stops": "16",
     "success": "0",
@@ -3703,32 +3626,11 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "12500(B) VC - OPR M/CYCLE W/O PROPR LIC (I) 54113",
-    "stops": "16",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "14600(A) VC - FAIL NOTE DMV ADD CHG:CDL (I) 54305",
-    "stops": "16",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "245(C) PC - ADW NOT F/ARM:PO/FIRE:GBI (F) 13132",
-    "stops": "16",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "27360(A) VC - UNRSTRAINED TOT:PARNT:VEH (I) 54166",
-    "stops": "16",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
+    "stop_reason": "30605(A) PC - ILL POSS ASSAULT WPN (F) 52510",
+    "stops": "15",
+    "success": "10",
+    "yield": "0.6667",
+    "contraband_discoveries": "10"
   },
   {
     "stop_reason": "211 PC - ROBBERY (F) 12004 | 211 PC - ROBBERY (F) 12004 | 211 PC - ROBBERY (F) 12004",
@@ -3745,14 +3647,21 @@
     "contraband_discoveries": "2"
   },
   {
-    "stop_reason": "23152(B) VC - DUI 0.08 W/PR:PER 23550VC (F) 42099",
+    "stop_reason": "25950(B) VC - VEH LMP/ETC REAR CLR VIOL (I) 66515",
+    "stops": "15",
+    "success": "2",
+    "yield": "0.1333",
+    "contraband_discoveries": "2"
+  },
+  {
+    "stop_reason": "20001(A) VC - HIT AND RUN:DEATH/INJURY (F) 54069",
     "stops": "15",
     "success": "1",
     "yield": "0.0667",
     "contraband_discoveries": "1"
   },
   {
-    "stop_reason": "21754 VC - VEH:UNLAWFUL PASS RIGHT (I) 54180",
+    "stop_reason": "23152(B) VC - DUI 0.08 W/PR:PER 23550VC (F) 42099",
     "stops": "15",
     "success": "1",
     "yield": "0.0667",
@@ -3766,14 +3675,14 @@
     "contraband_discoveries": "1"
   },
   {
-    "stop_reason": "23125(A) VC - DRV SCHLBS USING CELL PHN (I) 66355",
+    "stop_reason": "24951(C) VC - TURN SIGNAL VIOLATION (I) 66449",
     "stops": "15",
     "success": "0",
     "yield": "0.0",
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "21455 VC - NON INTERSCTN SIGNAL VIOL (I) 54425",
+    "stop_reason": "23125(A) VC - DRV SCHLBS USING CELL PHN (I) 66355",
     "stops": "15",
     "success": "0",
     "yield": "0.0",
@@ -3787,14 +3696,7 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "27400 VC - HEADSET/ETC VIOL:VEH/BIKE (I) 54380",
-    "stops": "15",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "25250 VC - ILLEGAL FLASHING LIGHTS (I) 54612",
+    "stop_reason": "21235(C) VC - OP MOTR SCOOTR W/O HELMET (I) 54460",
     "stops": "15",
     "success": "0",
     "yield": "0.0",
@@ -3816,6 +3718,20 @@
   },
   {
     "stop_reason": "273.6(A) PC - VIOL CRT ORD DOM VIOLENCE (M) 50203 | 273.6(A) PC - VIOL CRT ORD DOM VIOLENCE (M) 50203 | 273.6(A) PC - VIOL CRT ORD DOM VIOLENCE (M) 50203",
+    "stops": "15",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "14600(A) VC - FAIL NOTE DMV ADD CHG:CDL (I) 54305",
+    "stops": "15",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "245(C) PC - ADW NOT F/ARM:PO/FIRE:GBI (F) 13132",
     "stops": "15",
     "success": "0",
     "yield": "0.0",
@@ -3878,20 +3794,6 @@
     "contraband_discoveries": "1"
   },
   {
-    "stop_reason": "21461.5 VC - PED FAIL OBEY TRAFIC SIGN (I) 54112",
-    "stops": "14",
-    "success": "1",
-    "yield": "0.0714",
-    "contraband_discoveries": "1"
-  },
-  {
-    "stop_reason": "21655.9(B) VC - HOV LANE W/O ISSUED DECAL (I) 54636",
-    "stops": "14",
-    "success": "1",
-    "yield": "0.0714",
-    "contraband_discoveries": "0"
-  },
-  {
     "stop_reason": "487(C) PC - GRAND THEFT FROM PERSON (F) 23133",
     "stops": "14",
     "success": "1",
@@ -3903,13 +3805,6 @@
     "stops": "14",
     "success": "1",
     "yield": "0.0714",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "22362 VC - VIOL SPD LMT SPEC WRK CRW (I) 66291",
-    "stops": "14",
-    "success": "0",
-    "yield": "0.0",
     "contraband_discoveries": "0"
   },
   {
@@ -3955,6 +3850,13 @@
     "contraband_discoveries": "0"
   },
   {
+    "stop_reason": "27360(A) VC - UNRSTRAINED TOT:PARNT:VEH (I) 54166",
+    "stops": "14",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
     "stop_reason": "21951 VC - OVRTAKE VEH STOPPED XWALK (I) 54603",
     "stops": "14",
     "success": "0",
@@ -3969,13 +3871,6 @@
     "contraband_discoveries": "6"
   },
   {
-    "stop_reason": "25400(A)(2) PC - CCW ON PERSON (F) 52475 | 25400(A)(2) PC - CCW ON PERSON (F) 52475",
-    "stops": "13",
-    "success": "4",
-    "yield": "0.3077",
-    "contraband_discoveries": "3"
-  },
-  {
     "stop_reason": "11150 HS - WRITE UNAUTH PRESCRIPTION (M) 35100",
     "stops": "13",
     "success": "3",
@@ -3988,6 +3883,13 @@
     "success": "3",
     "yield": "0.2308",
     "contraband_discoveries": "3"
+  },
+  {
+    "stop_reason": "5202(A) VC - FOREIGN LIC PLT DISP VIOL (I) 66920",
+    "stops": "13",
+    "success": "2",
+    "yield": "0.1538",
+    "contraband_discoveries": "2"
   },
   {
     "stop_reason": "273A(B) PC - CHILD ABUSE W/O GBI/DTH (M) 38094 | 273A(B) PC - CHILD ABUSE W/O GBI/DTH (M) 38094",
@@ -4018,14 +3920,14 @@
     "contraband_discoveries": "2"
   },
   {
-    "stop_reason": "38010(A) VC - OFF HWY VEH DISPLY ID PLT (I) 54580",
+    "stop_reason": "21461.5 VC - PED FAIL OBEY TRAFIC SIGN (I) 54112",
     "stops": "13",
     "success": "1",
     "yield": "0.0769",
-    "contraband_discoveries": "0"
+    "contraband_discoveries": "1"
   },
   {
-    "stop_reason": "23110(B) VC - THROW SUB AT VEH:INT:GBI (F) 13054",
+    "stop_reason": "646.9(A) PC - STALKING (F) 16012",
     "stops": "13",
     "success": "1",
     "yield": "0.0769",
@@ -4037,20 +3939,6 @@
     "success": "1",
     "yield": "0.0769",
     "contraband_discoveries": "1"
-  },
-  {
-    "stop_reason": "21460(C) VC - CROSS BRKN/SOLID WHI LINE (I) 54986",
-    "stops": "13",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "12500(A) VC - DRIVE W/O LICENSE (M) 54107",
-    "stops": "13",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
   },
   {
     "stop_reason": "485 PC - APPROPR LOST PROP (F) 23012",
@@ -4067,7 +3955,21 @@
     "contraband_discoveries": "0"
   },
   {
+    "stop_reason": "27400 VC - HEADSET/ETC VIOL:VEH/BIKE (I) 54380",
+    "stops": "13",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
     "stop_reason": "273.5 PC - INFLICT CRPL INJ SP/COHAB (F) 38025 | 273.5 PC - INFLICT CRPL INJ SP/COHAB (F) 38025 | 273.5 PC - INFLICT CRPL INJ SP/COHAB (F) 38025",
+    "stops": "13",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "25250 VC - ILLEGAL FLASHING LIGHTS (I) 54612",
     "stops": "13",
     "success": "0",
     "yield": "0.0",
@@ -4081,25 +3983,25 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "38355(A) VC - INADEQUATE BRAKE SYSTEM (I) 54618",
+    "stop_reason": "12500(B) VC - OPR M/CYCLE W/O PROPR LIC (I) 54113",
     "stops": "13",
     "success": "0",
     "yield": "0.0",
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "23221(A) VC - ALC/MARIJ IN VEH ON HWY (I) 42124",
-    "stops": "12",
-    "success": "9",
-    "yield": "0.75",
-    "contraband_discoveries": "9"
+    "stop_reason": "27600 VC - SPEC VEH FENDER/ETC VIOL (I) 54214",
+    "stops": "13",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "11379 HS - TRANSP/ETC CNTL SUB (F) 35139",
-    "stops": "12",
-    "success": "8",
-    "yield": "0.6667",
-    "contraband_discoveries": "8"
+    "stop_reason": "38355(A) VC - INADEQUATE BRAKE SYSTEM (I) 54618",
+    "stops": "13",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
   },
   {
     "stop_reason": "11532(A) HS - LOITR PUBLIC:ILL DRUG ACT (M) 35349 | 11532(A) HS - LOITR PUBLIC:ILL DRUG ACT (M) 35349 | 11532(A) HS - LOITR PUBLIC:ILL DRUG ACT (M) 35349",
@@ -4109,25 +4011,11 @@
     "contraband_discoveries": "8"
   },
   {
-    "stop_reason": "11351 HS - POS/PUR F/SALE NARC/C/SUB (F) 35276 | 11351 HS - POS/PUR F/SALE NARC/C/SUB (F) 35276",
-    "stops": "12",
-    "success": "7",
-    "yield": "0.5833",
-    "contraband_discoveries": "7"
-  },
-  {
     "stop_reason": "381(B) PC - POSS SIMILAR TOLUENE SUB (M) 35233",
     "stops": "12",
     "success": "7",
     "yield": "0.5833",
     "contraband_discoveries": "7"
-  },
-  {
-    "stop_reason": "11379(A) HS - TRANSP/ETC CNTL SUB (F) 35175",
-    "stops": "12",
-    "success": "6",
-    "yield": "0.5",
-    "contraband_discoveries": "6"
   },
   {
     "stop_reason": "594(A)(1) PC - VANDALISM:DEFACE PROPERTY (F) 29111 | 594(A)(1) PC - VANDALISM:DEFACE PROPERTY (F) 29111 | 594(A)(1) PC - VANDALISM:DEFACE PROPERTY (F) 29111",
@@ -4137,25 +4025,18 @@
     "contraband_discoveries": "4"
   },
   {
+    "stop_reason": "25400(A)(2) PC - CCW ON PERSON (F) 52475 | 25400(A)(2) PC - CCW ON PERSON (F) 52475",
+    "stops": "12",
+    "success": "4",
+    "yield": "0.3333",
+    "contraband_discoveries": "3"
+  },
+  {
     "stop_reason": "23223(A) VC - DRIVER POSS OPEN ALC CONT (I) 54581",
     "stops": "12",
     "success": "3",
     "yield": "0.25",
     "contraband_discoveries": "3"
-  },
-  {
-    "stop_reason": "182(A)(1) PC - CONSPIRACY:COMMIT CRIME (F) 46028",
-    "stops": "12",
-    "success": "3",
-    "yield": "0.25",
-    "contraband_discoveries": "3"
-  },
-  {
-    "stop_reason": "3056 PC - VIOLATION OF PAROLE:FEL (F) 50075 | 3056 PC - VIOLATION OF PAROLE:FEL (F) 50075",
-    "stops": "12",
-    "success": "2",
-    "yield": "0.1667",
-    "contraband_discoveries": "2"
   },
   {
     "stop_reason": "594(B)(1) PC - VANDALISM $400 OR MORE (F) 29143 | 594(B)(1) PC - VANDALISM $400 OR MORE (F) 29143 | 594(B)(1) PC - VANDALISM $400 OR MORE (F) 29143",
@@ -4193,21 +4074,14 @@
     "contraband_discoveries": "1"
   },
   {
-    "stop_reason": "422(A) PC - THRTN CRIME:INT:TERRORIZE (M) 16048 | 422(A) PC - THRTN CRIME:INT:TERRORIZE (M) 16048",
-    "stops": "12",
-    "success": "1",
-    "yield": "0.0833",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "24002(B) VC - OPR VEH NOT EQUIPPED REQ (I) 66375",
+    "stop_reason": "646.9(A) PC - STALKING (M) 16005 | 646.9(A) PC - STALKING (M) 16005",
     "stops": "12",
     "success": "1",
     "yield": "0.0833",
     "contraband_discoveries": "1"
   },
   {
-    "stop_reason": "646.9(A) PC - STALKING (M) 16005 | 646.9(A) PC - STALKING (M) 16005",
+    "stop_reason": "23110(B) VC - THROW SUB AT VEH:INT:GBI (F) 13054",
     "stops": "12",
     "success": "1",
     "yield": "0.0833",
@@ -4235,20 +4109,6 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "21367(C) VC - FAIL OBEY WARNING DEVICE (I) 54505",
-    "stops": "12",
-    "success": "1",
-    "yield": "0.0833",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "653.23(A)(2) PC - RECEIVE PROCEED:PROSTITUT (M) 40048",
-    "stops": "12",
-    "success": "1",
-    "yield": "0.0833",
-    "contraband_discoveries": "1"
-  },
-  {
     "stop_reason": "16028(C) VC - NO PROOF $ RESP:ACCIDENT (I) 54354",
     "stops": "12",
     "success": "0",
@@ -4263,6 +4123,13 @@
     "contraband_discoveries": "0"
   },
   {
+    "stop_reason": "21460(C) VC - CROSS BRKN/SOLID WHI LINE (I) 54986",
+    "stops": "12",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
     "stop_reason": "537(A) PC - DEFRAUD INNKEEPER -$950 (M) 26726",
     "stops": "12",
     "success": "0",
@@ -4270,21 +4137,7 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "22110(B) VC - INOP SIGNL LAMP:ARM SIGNL (I) 54493",
-    "stops": "12",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
     "stop_reason": "26451(A) VC - INADEQUATE PARKING BRAKE (I) 54720",
-    "stops": "12",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "166(C)(4) PC - VIO PROT ORDER:DOMES:W/PR (M) 50125",
     "stops": "12",
     "success": "0",
     "yield": "0.0",
@@ -4305,18 +4158,32 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "647(B)(2) PC - PROSTITUTION PRVD COMPNS (M) 40053",
+    "stop_reason": "24603(F) VC - STOPLAMPS VIOL: VISIBLTY (I) 66431",
     "stops": "12",
     "success": "0",
     "yield": "0.0",
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "24603(F) VC - STOPLAMPS VIOL: VISIBLTY (I) 66431",
-    "stops": "12",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
+    "stop_reason": "11379 HS - TRANSP/ETC CNTL SUB (F) 35139",
+    "stops": "11",
+    "success": "7",
+    "yield": "0.6364",
+    "contraband_discoveries": "7"
+  },
+  {
+    "stop_reason": "11351 HS - POS/PUR F/SALE NARC/C/SUB (F) 35276 | 11351 HS - POS/PUR F/SALE NARC/C/SUB (F) 35276",
+    "stops": "11",
+    "success": "7",
+    "yield": "0.6364",
+    "contraband_discoveries": "7"
+  },
+  {
+    "stop_reason": "11379(A) HS - TRANSP/ETC CNTL SUB (F) 35175",
+    "stops": "11",
+    "success": "6",
+    "yield": "0.5455",
+    "contraband_discoveries": "6"
   },
   {
     "stop_reason": "23153(A) VC - DUI ALCOHOL:CAUSE BOD INJ (F) 42107",
@@ -4333,13 +4200,6 @@
     "contraband_discoveries": "3"
   },
   {
-    "stop_reason": "653.23(A)(1) PC - SUPV/ETC PROSTITUTION (M) 40036",
-    "stops": "11",
-    "success": "3",
-    "yield": "0.2727",
-    "contraband_discoveries": "3"
-  },
-  {
     "stop_reason": "496D(A) PC - POSS STOLEN VEH/VES/ETC (M) 28036",
     "stops": "11",
     "success": "3",
@@ -4347,11 +4207,18 @@
     "contraband_discoveries": "3"
   },
   {
-    "stop_reason": "26709(A)(1) VC - REARVIEW MIRROR VIOLATION (I) 66980",
+    "stop_reason": "182(A)(1) PC - CONSPIRACY:COMMIT CRIME (F) 46028",
+    "stops": "11",
+    "success": "3",
+    "yield": "0.2727",
+    "contraband_discoveries": "3"
+  },
+  {
+    "stop_reason": "3056 PC - VIOLATION OF PAROLE:FEL (F) 50075 | 3056 PC - VIOLATION OF PAROLE:FEL (F) 50075",
     "stops": "11",
     "success": "2",
     "yield": "0.1818",
-    "contraband_discoveries": "0"
+    "contraband_discoveries": "2"
   },
   {
     "stop_reason": "484(A) PC - GRAND THEFT (F) 23091 | 484(A) PC - GRAND THEFT (F) 23091",
@@ -4389,7 +4256,7 @@
     "contraband_discoveries": "1"
   },
   {
-    "stop_reason": "21452(B) VC - PED FAIL RESPOND SIGNAL (I) 54593",
+    "stop_reason": "24002(B) VC - OPR VEH NOT EQUIPPED REQ (I) 66375",
     "stops": "11",
     "success": "1",
     "yield": "0.0909",
@@ -4410,6 +4277,13 @@
     "contraband_discoveries": "1"
   },
   {
+    "stop_reason": "21367(C) VC - FAIL OBEY WARNING DEVICE (I) 54505",
+    "stops": "11",
+    "success": "1",
+    "yield": "0.0909",
+    "contraband_discoveries": "0"
+  },
+  {
     "stop_reason": "978.5 PC - BENCH WARRANT:FTA:MISD (M) 66100 | 978.5 PC - BENCH WARRANT:FTA:MISD (M) 66100",
     "stops": "11",
     "success": "1",
@@ -4424,7 +4298,28 @@
     "contraband_discoveries": "0"
   },
   {
+    "stop_reason": "12951(A) VC - DRIVE W/O VALID LICENSE (I) 54140",
+    "stops": "11",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
     "stop_reason": "242 PC - BATTERY (F) 13176 | 242 PC - BATTERY (F) 13176",
+    "stops": "11",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "422(A) PC - THRTN CRIME:INT:TERRORIZE (M) 16048 | 422(A) PC - THRTN CRIME:INT:TERRORIZE (M) 16048",
+    "stops": "11",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "22110(B) VC - INOP SIGNL LAMP:ARM SIGNL (I) 54493",
     "stops": "11",
     "success": "0",
     "yield": "0.0",
@@ -4438,7 +4333,21 @@
     "contraband_discoveries": "0"
   },
   {
+    "stop_reason": "166(C)(4) PC - VIO PROT ORDER:DOMES:W/PR (M) 50125",
+    "stops": "11",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
     "stop_reason": "4462(A) VC - FAIL PROVIDE VEH REG:PO (I) 54148",
+    "stops": "11",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "647(B)(2) PC - PROSTITUTION PRVD COMPNS (M) 40053",
     "stops": "11",
     "success": "0",
     "yield": "0.0",
@@ -4466,7 +4375,14 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "21753 VC - FL YIELD OVERTAKING VEH (I) 66265",
+    "stop_reason": "12500(A) VC - DRIVE W/O LICENSE (M) 54107",
+    "stops": "11",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "22362 VC - VIOL SPD LMT SPEC WRK CRW (I) 66291",
     "stops": "11",
     "success": "0",
     "yield": "0.0",
@@ -4478,13 +4394,6 @@
     "success": "5",
     "yield": "0.5",
     "contraband_discoveries": "5"
-  },
-  {
-    "stop_reason": "530.5(A) PC - GET CREDIT/ETC OTHER'S ID (F) 44050",
-    "stops": "10",
-    "success": "4",
-    "yield": "0.4",
-    "contraband_discoveries": "4"
   },
   {
     "stop_reason": "11377(A) HS - POSS CONTROLLED SUBSTANCE (F) 35172 | 11377(A) HS - POSS CONTROLLED SUBSTANCE (F) 35172",
@@ -4501,13 +4410,6 @@
     "contraband_discoveries": "3"
   },
   {
-    "stop_reason": "530 PC - PERSONATE GET MONEY/PROP (F) 44014",
-    "stops": "10",
-    "success": "3",
-    "yield": "0.3",
-    "contraband_discoveries": "3"
-  },
-  {
     "stop_reason": "10852 VC - TAMPER WITH VEHICLE (M) 29050 | 10852 VC - TAMPER WITH VEHICLE (M) 29050 | 10852 VC - TAMPER WITH VEHICLE (M) 29050",
     "stops": "10",
     "success": "3",
@@ -4515,18 +4417,18 @@
     "contraband_discoveries": "3"
   },
   {
-    "stop_reason": "496D(A) PC - POSS STOLEN VEH/VES/ETC (F) 28035 | 496D(A) PC - POSS STOLEN VEH/VES/ETC (F) 28035",
-    "stops": "10",
-    "success": "3",
-    "yield": "0.3",
-    "contraband_discoveries": "2"
-  },
-  {
     "stop_reason": "148.9(A) PC - GIVE FALSE ID TO PO (M) 47014",
     "stops": "10",
     "success": "2",
     "yield": "0.2",
     "contraband_discoveries": "1"
+  },
+  {
+    "stop_reason": "26709(A)(1) VC - REARVIEW MIRROR VIOLATION (I) 66980",
+    "stops": "10",
+    "success": "2",
+    "yield": "0.2",
+    "contraband_discoveries": "0"
   },
   {
     "stop_reason": "5008.10 PR - SMOKE ON STATE BEACH/PARK (I) 66231",
@@ -4550,13 +4452,6 @@
     "contraband_discoveries": "2"
   },
   {
-    "stop_reason": "2800.1(A) VC - EVADING PEACE OFFICER (M) 48102",
-    "stops": "10",
-    "success": "2",
-    "yield": "0.2",
-    "contraband_discoveries": "0"
-  },
-  {
     "stop_reason": "11550(A) HS - UNDER INFLUENCE CNTL SUB (M) 35212 | 11550(A) HS - UNDER INFLUENCE CNTL SUB (M) 35212 | 11550(A) HS - UNDER INFLUENCE CNTL SUB (M) 35212",
     "stops": "10",
     "success": "2",
@@ -4564,7 +4459,21 @@
     "contraband_discoveries": "2"
   },
   {
+    "stop_reason": "38010(A) VC - OFF HWY VEH DISPLY ID PLT (I) 54580",
+    "stops": "10",
+    "success": "1",
+    "yield": "0.1",
+    "contraband_discoveries": "0"
+  },
+  {
     "stop_reason": "288(A) PC - L&L W/CHILD UNDER 14 (F) 36055 | 288(A) PC - L&L W/CHILD UNDER 14 (F) 36055",
+    "stops": "10",
+    "success": "1",
+    "yield": "0.1",
+    "contraband_discoveries": "1"
+  },
+  {
+    "stop_reason": "21754 VC - VEH:UNLAWFUL PASS RIGHT (I) 54180",
     "stops": "10",
     "success": "1",
     "yield": "0.1",
@@ -4576,13 +4485,6 @@
     "success": "1",
     "yield": "0.1",
     "contraband_discoveries": "1"
-  },
-  {
-    "stop_reason": "21966 VC - PEDESTRIAN IN BIKE LANE (I) 54514",
-    "stops": "10",
-    "success": "1",
-    "yield": "0.1",
-    "contraband_discoveries": "0"
   },
   {
     "stop_reason": "38301.5 VC - VIOL LOCAL ORD 38301 (M) 66887 | 38301.5 VC - VIOL LOCAL ORD 38301 (M) 66887",
@@ -4597,13 +4499,6 @@
     "success": "1",
     "yield": "0.1",
     "contraband_discoveries": "1"
-  },
-  {
-    "stop_reason": "266H(A) PC - PIMPING (F) 40030",
-    "stops": "10",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
   },
   {
     "stop_reason": "166(B)(1) PC - CNTEMPT OF COURT:PR 646.9 (M) 50166",
@@ -4621,6 +4516,13 @@
   },
   {
     "stop_reason": "290.018(G) PC - 290 VIOL TRAN 30 DY UPDTE (M) 36210",
+    "stops": "10",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "21655.8(A) VC - EXPRS:SOLID YEL LINES VIO (I) 54388",
     "stops": "10",
     "success": "0",
     "yield": "0.0",
@@ -4669,20 +4571,6 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "33211.6(C) PR - VIOLATION OF POSTED COND (M) 66188",
-    "stops": "10",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "21752(A) VC - DRIVE LEFT SIDE VIOLATION (I) 66946",
-    "stops": "10",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
     "stop_reason": "Matched suspect description",
     "stops": "10",
     "success": "0",
@@ -4697,6 +4585,13 @@
     "contraband_discoveries": "0"
   },
   {
+    "stop_reason": "23221(A) VC - ALC/MARIJ IN VEH ON HWY (I) 42124",
+    "stops": "9",
+    "success": "7",
+    "yield": "0.7778",
+    "contraband_discoveries": "7"
+  },
+  {
     "stop_reason": "487(A) PC - GRDTHFT:MONEY/LABOR/PROP (F) 23132 | 487(A) PC - GRDTHFT:MONEY/LABOR/PROP (F) 23132 | 487(A) PC - GRDTHFT:MONEY/LABOR/PROP (F) 23132",
     "stops": "9",
     "success": "6",
@@ -4709,6 +4604,13 @@
     "success": "5",
     "yield": "0.5556",
     "contraband_discoveries": "5"
+  },
+  {
+    "stop_reason": "530.5(A) PC - GET CREDIT/ETC OTHER'S ID (F) 44050",
+    "stops": "9",
+    "success": "4",
+    "yield": "0.4444",
+    "contraband_discoveries": "4"
   },
   {
     "stop_reason": "602(A) PC - TRESP:DESTROY STAND TIMBR (M) 32023 | 602(A) PC - TRESP:DESTROY STAND TIMBR (M) 32023 | 602(A) PC - TRESP:DESTROY STAND TIMBR (M) 32023",
@@ -4746,7 +4648,7 @@
     "contraband_discoveries": "2"
   },
   {
-    "stop_reason": "11360(A) HS - SELL/TRNSP/ETC MARIJUANA (F) 35448",
+    "stop_reason": "496D(A) PC - POSS STOLEN VEH/VES/ETC (F) 28035 | 496D(A) PC - POSS STOLEN VEH/VES/ETC (F) 28035",
     "stops": "9",
     "success": "2",
     "yield": "0.2222",
@@ -4788,7 +4690,28 @@
     "contraband_discoveries": "1"
   },
   {
+    "stop_reason": "21966 VC - PEDESTRIAN IN BIKE LANE (I) 54514",
+    "stops": "9",
+    "success": "1",
+    "yield": "0.1111",
+    "contraband_discoveries": "0"
+  },
+  {
     "stop_reason": "594(A)(2) PC - VANDALISM:DAMAGE PROPERTY (M) 29071 | 594(A)(2) PC - VANDALISM:DAMAGE PROPERTY (M) 29071",
+    "stops": "9",
+    "success": "1",
+    "yield": "0.1111",
+    "contraband_discoveries": "1"
+  },
+  {
+    "stop_reason": "2800.1(A) VC - EVADING PEACE OFFICER (M) 48102",
+    "stops": "9",
+    "success": "1",
+    "yield": "0.1111",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "653.23(A)(2) PC - RECEIVE PROCEED:PROSTITUT (M) 40048",
     "stops": "9",
     "success": "1",
     "yield": "0.1111",
@@ -4816,6 +4739,13 @@
     "contraband_discoveries": "0"
   },
   {
+    "stop_reason": "21455 VC - NON INTERSCTN SIGNAL VIOL (I) 54425",
+    "stops": "9",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
     "stop_reason": "21456.2(B) VC - FAIL OBEY BIKE SIGNALS (I) 54984",
     "stops": "9",
     "success": "0",
@@ -4823,7 +4753,21 @@
     "contraband_discoveries": "0"
   },
   {
+    "stop_reason": "22406(B) VC - EXCESS SPEED WHILE TOWING (I) 54616",
+    "stops": "9",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
     "stop_reason": "22435.1 BP - TAKE MARKD CART:RETL ESTB (M) 23140",
+    "stops": "9",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "21452(B) VC - PED FAIL RESPOND SIGNAL (I) 54593",
     "stops": "9",
     "success": "0",
     "yield": "0.0",
@@ -4851,20 +4795,6 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "14607 VC - ALLOW UNLIC MNR TO DRIVE (I) 54325",
-    "stops": "9",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "647(B)(1) PC - SOLICT/ENGAG PROSTITUTION (M) 40060 | 647(B)(1) PC - SOLICT/ENGAG PROSTITUTION (M) 40060",
-    "stops": "9",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
     "stop_reason": "4458 VC - FL NTFY PLATES LOST/STOLN (I) 54776",
     "stops": "9",
     "success": "0",
@@ -4872,7 +4802,7 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "647B PC - LOITR ADLT SCH:MOLST PUPL (M) 33025",
+    "stop_reason": "33211.6(C) PR - VIOLATION OF POSTED COND (M) 66188",
     "stops": "9",
     "success": "0",
     "yield": "0.0",
@@ -4893,14 +4823,14 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "24411 VC - AUX LMPS NOT COVERD W/DRV (I) 54672",
+    "stop_reason": "69(A) PC - OBSTRUCT/RESIST EXEC OFCR (F) 48161 | 69(A) PC - OBSTRUCT/RESIST EXEC OFCR (F) 48161",
     "stops": "9",
     "success": "0",
     "yield": "0.0",
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "69(A) PC - OBSTRUCT/RESIST EXEC OFCR (F) 48161 | 69(A) PC - OBSTRUCT/RESIST EXEC OFCR (F) 48161",
+    "stop_reason": "21753 VC - FL YIELD OVERTAKING VEH (I) 66265",
     "stops": "9",
     "success": "0",
     "yield": "0.0",
@@ -5033,13 +4963,6 @@
     "contraband_discoveries": "1"
   },
   {
-    "stop_reason": "23221(B) VC - ALC/MARIJ AS PASSENGR HWY (I) 42125",
-    "stops": "8",
-    "success": "1",
-    "yield": "0.125",
-    "contraband_discoveries": "1"
-  },
-  {
     "stop_reason": "11362.3(A)(7) HS - SMOKE MARIJ WHILE DRIVING (M) 55291",
     "stops": "8",
     "success": "1",
@@ -5068,11 +4991,25 @@
     "contraband_discoveries": "1"
   },
   {
+    "stop_reason": "11360(A) HS - SELL/TRNSP/ETC MARIJUANA (F) 35448",
+    "stops": "8",
+    "success": "1",
+    "yield": "0.125",
+    "contraband_discoveries": "1"
+  },
+  {
     "stop_reason": "314(1) PC - INDECENT EXPOSURE (M) 36343 | 314(1) PC - INDECENT EXPOSURE (M) 36343 | 314(1) PC - INDECENT EXPOSURE (M) 36343",
     "stops": "8",
     "success": "1",
     "yield": "0.125",
     "contraband_discoveries": "1"
+  },
+  {
+    "stop_reason": "266H(A) PC - PIMPING (F) 40030",
+    "stops": "8",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
   },
   {
     "stop_reason": "415(3) PC - OFFENSIVE WORDS IN PUB PL (I) 53151 | 415(3) PC - OFFENSIVE WORDS IN PUB PL (I) 53151",
@@ -5187,6 +5124,20 @@
     "contraband_discoveries": "0"
   },
   {
+    "stop_reason": "14607 VC - ALLOW UNLIC MNR TO DRIVE (I) 54325",
+    "stops": "8",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "647(B)(1) PC - SOLICT/ENGAG PROSTITUTION (M) 40060 | 647(B)(1) PC - SOLICT/ENGAG PROSTITUTION (M) 40060",
+    "stops": "8",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
     "stop_reason": "21070 VC - UNSAFE OPR VEH INJ GBI (I) 54941",
     "stops": "8",
     "success": "0",
@@ -5201,6 +5152,13 @@
     "contraband_discoveries": "0"
   },
   {
+    "stop_reason": "21752(A) VC - DRIVE LEFT SIDE VIOLATION (I) 66946",
+    "stops": "8",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
     "stop_reason": "23152(A) VC - DUI W/PRIORS:PER 23550 VC (F) 42100",
     "stops": "8",
     "success": "0",
@@ -5209,13 +5167,6 @@
   },
   {
     "stop_reason": "243.3 PC - BAT:TRNSPORT PRSNL/PASNGR (M) 13166",
-    "stops": "8",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "21100.3 VC - FAIL OBEY TRAFIC REGULATR (I) 54137",
     "stops": "8",
     "success": "0",
     "yield": "0.0",
@@ -5244,6 +5195,13 @@
   },
   {
     "stop_reason": "466 PC - POSSESS BURGLARY TOOLS (M) 22012",
+    "stops": "7",
+    "success": "3",
+    "yield": "0.4286",
+    "contraband_discoveries": "3"
+  },
+  {
+    "stop_reason": "530 PC - PERSONATE GET MONEY/PROP (F) 44014",
     "stops": "7",
     "success": "3",
     "yield": "0.4286",
@@ -5292,6 +5250,13 @@
     "contraband_discoveries": "1"
   },
   {
+    "stop_reason": "23221(B) VC - ALC/MARIJ AS PASSENGR HWY (I) 42125",
+    "stops": "7",
+    "success": "1",
+    "yield": "0.1429",
+    "contraband_discoveries": "1"
+  },
+  {
     "stop_reason": "496(A) PC - REC KNWN STOLN PROP (F) 28025 | 496(A) PC - REC KNWN STOLN PROP (F) 28025",
     "stops": "7",
     "success": "1",
@@ -5327,24 +5292,10 @@
     "contraband_discoveries": "1"
   },
   {
-    "stop_reason": "10851(A) VC - TAKE VEH W/O OWNER CONSNT (M) 24067 | 10851(A) VC - TAKE VEH W/O OWNER CONSNT (M) 24067 | 10851(A) VC - TAKE VEH W/O OWNER CONSNT (M) 24067",
-    "stops": "7",
-    "success": "1",
-    "yield": "0.1429",
-    "contraband_discoveries": "1"
-  },
-  {
     "stop_reason": "20002(A) VC - HIT AND RUN:PROP DAMAGE (M) 54038 | 20002(A) VC - HIT AND RUN:PROP DAMAGE (M) 54038 | 20002(A) VC - HIT AND RUN:PROP DAMAGE (M) 54038",
     "stops": "7",
     "success": "1",
     "yield": "0.1429",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "38330 VC - OPR VEH UNSAFE CONDITION (I) 66891",
-    "stops": "7",
-    "success": "0",
-    "yield": "0.0",
     "contraband_discoveries": "0"
   },
   {
@@ -5356,13 +5307,6 @@
   },
   {
     "stop_reason": "558 PC - TRESPASS:CERTAIN UC LAND (M) 33007",
-    "stops": "7",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "266E PC - PAY FOR PROSTITUTION/ETC (F) 40007",
     "stops": "7",
     "success": "0",
     "yield": "0.0",
@@ -5397,21 +5341,7 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "21758 VC - UNSAFE PASSING ON GRADES (I) 66270",
-    "stops": "7",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
     "stop_reason": "25252 VC - WRNING LMP EMERG VEH VIOL (I) 66473",
-    "stops": "7",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "27000(A) VC - VEHICLE HORN VIOLATION (I) 54451",
     "stops": "7",
     "success": "0",
     "yield": "0.0",
@@ -5474,6 +5404,13 @@
     "contraband_discoveries": "0"
   },
   {
+    "stop_reason": "647B PC - LOITR ADLT SCH:MOLST PUPL (M) 33025",
+    "stops": "7",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
     "stop_reason": "12950(A) VC - FAIL SIGN DRIVER LIC (I) 54891",
     "stops": "7",
     "success": "0",
@@ -5482,13 +5419,6 @@
   },
   {
     "stop_reason": "65000 ZZ - LOCAL ORDINANCE VIOL (M) 65000 | 65000 ZZ - LOCAL ORDINANCE VIOL (M) 65000 | 65000 ZZ - LOCAL ORDINANCE VIOL (M) 65000",
-    "stops": "7",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "23117(A) VC - TRNSPRT OF ANM W/O RSTRNT (I) 66963",
     "stops": "7",
     "success": "0",
     "yield": "0.0",
@@ -5516,6 +5446,13 @@
     "contraband_discoveries": "0"
   },
   {
+    "stop_reason": "21100.3 VC - FAIL OBEY TRAFIC REGULATR (I) 54137",
+    "stops": "7",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
     "stop_reason": "21706 VC - FOLOW TOO CLOSE:EMERG VEH (I) 54232",
     "stops": "7",
     "success": "0",
@@ -5530,13 +5467,6 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "29800(A)(1) PC - FELON/ETC POSS/ETC F/ARM (F) 52422 | 29800(A)(1) PC - FELON/ETC POSS/ETC F/ARM (F) 52422",
-    "stops": "6",
-    "success": "5",
-    "yield": "0.8333",
-    "contraband_discoveries": "5"
-  },
-  {
     "stop_reason": "212.5 PC - ROBBERY (F) 12032",
     "stops": "6",
     "success": "4",
@@ -5545,13 +5475,6 @@
   },
   {
     "stop_reason": "32 PC - ACCESSORY AFTER THE FACT (F) 46052",
-    "stops": "6",
-    "success": "4",
-    "yield": "0.6667",
-    "contraband_discoveries": "4"
-  },
-  {
-    "stop_reason": "245(A)(2) PC - ASLT W/FIREARM ON PERSON (M) 13201 | 245(A)(2) PC - ASLT W/FIREARM ON PERSON (M) 13201",
     "stops": "6",
     "success": "4",
     "yield": "0.6667",
@@ -5747,11 +5670,11 @@
     "contraband_discoveries": "1"
   },
   {
-    "stop_reason": "278 PC - CHILD STEALING (F) 10008",
+    "stop_reason": "21655.9(B) VC - HOV LANE W/O ISSUED DECAL (I) 54636",
     "stops": "6",
     "success": "1",
     "yield": "0.1667",
-    "contraband_discoveries": "1"
+    "contraband_discoveries": "0"
   },
   {
     "stop_reason": "452(C) PC - CAUSE FIRE OF STRUC/FORES (F) 20024",
@@ -5762,13 +5685,6 @@
   },
   {
     "stop_reason": "166(A)(4) PC - CONTEMPT:DISOBEY CRT ORDR (M) 50106 | 166(A)(4) PC - CONTEMPT:DISOBEY CRT ORDR (M) 50106 | 166(A)(4) PC - CONTEMPT:DISOBEY CRT ORDR (M) 50106",
-    "stops": "6",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "261(A)(2) PC - RAPE BY FORCE/FEAR/ETC (F) 11055 | 261(A)(2) PC - RAPE BY FORCE/FEAR/ETC (F) 11055",
     "stops": "6",
     "success": "0",
     "yield": "0.0",
@@ -5845,7 +5761,7 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "26454(A) VC - BRAKE CNTRL/STOP VIOL (I) 66533",
+    "stop_reason": "21758 VC - UNSAFE PASSING ON GRADES (I) 66270",
     "stops": "6",
     "success": "0",
     "yield": "0.0",
@@ -5859,7 +5775,7 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "21260(A) VC - ILL OPR LOW SPEED VEHICLE (I) 54967",
+    "stop_reason": "38330 VC - OPR VEH UNSAFE CONDITION (I) 66891",
     "stops": "6",
     "success": "0",
     "yield": "0.0",
@@ -5880,7 +5796,7 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "27153(B) VC - EXCESSIVE EXHAUST VIOL (I) 66580",
+    "stop_reason": "27000(A) VC - VEHICLE HORN VIOLATION (I) 54451",
     "stops": "6",
     "success": "0",
     "yield": "0.0",
@@ -5922,6 +5838,20 @@
     "contraband_discoveries": "0"
   },
   {
+    "stop_reason": "24411 VC - AUX LMPS NOT COVERD W/DRV (I) 54672",
+    "stops": "6",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "23117(A) VC - TRNSPRT OF ANM W/O RSTRNT (I) 66963",
+    "stops": "6",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
     "stop_reason": "21712(A) VC - ALLOW UNLAWF RIDE/ETC:VEH (I) 54434",
     "stops": "6",
     "success": "0",
@@ -5936,20 +5866,6 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "21963 VC - FAIL YIELD:BLIND PEDESTRN (M) 54121",
-    "stops": "6",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "24600(F) VC - TAILLMP VIOL LOC AFT 1969 (I) 66428",
-    "stops": "6",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
     "stop_reason": "243.25 PC - BATT:ELDER/DEP ADULT (M) 13203",
     "stops": "6",
     "success": "0",
@@ -5957,21 +5873,7 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "7145 FG - FAIL POS/ETC LIC:FISH/ETC (I) 62064",
-    "stops": "6",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
     "stop_reason": "602.8(A) PC - TRESPASS FENCED/PSTD LAND (I) 32136 | 602.8(A) PC - TRESPASS FENCED/PSTD LAND (I) 32136",
-    "stops": "6",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "23114(A) VC - IMPROP VEH:SPILL/ETC:HWY (M) 55206",
     "stops": "6",
     "success": "0",
     "yield": "0.0",
@@ -6027,18 +5929,18 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "243.4(A) PC - SEXUAL BATT BY RESTRAINT (F) 11109",
+    "stop_reason": "594.1(D) PC - POSS SPRAY PAINT:POSTED (M) 29100",
     "stops": "6",
     "success": "0",
     "yield": "0.0",
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "594.1(D) PC - POSS SPRAY PAINT:POSTED (M) 29100",
-    "stops": "6",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
+    "stop_reason": "245(A)(2) PC - ASLT W/FIREARM ON PERSON (M) 13201 | 245(A)(2) PC - ASLT W/FIREARM ON PERSON (M) 13201",
+    "stops": "5",
+    "success": "4",
+    "yield": "0.8",
+    "contraband_discoveries": "4"
   },
   {
     "stop_reason": "00IN CUSTODY ARR ZZ - IN CUSTODY ARREST (X) 3 | 00IN CUSTODY ARR ZZ - IN CUSTODY ARREST (X) 3 | 00IN CUSTODY ARR ZZ - IN CUSTODY ARREST (X) 3",
@@ -6216,6 +6118,13 @@
     "contraband_discoveries": "1"
   },
   {
+    "stop_reason": "278 PC - CHILD STEALING (F) 10008",
+    "stops": "5",
+    "success": "1",
+    "yield": "0.2",
+    "contraband_discoveries": "1"
+  },
+  {
     "stop_reason": "10851(A) VC - VEHICLE THEFT (F) 24054 | 10851(A) VC - VEHICLE THEFT (F) 24054 | 10851(A) VC - VEHICLE THEFT (F) 24054 | 10851(A) VC - VEHICLE THEFT (F) 24054",
     "stops": "5",
     "success": "1",
@@ -6251,6 +6160,13 @@
     "contraband_discoveries": "0"
   },
   {
+    "stop_reason": "261(A)(2) PC - RAPE BY FORCE/FEAR/ETC (F) 11055 | 261(A)(2) PC - RAPE BY FORCE/FEAR/ETC (F) 11055",
+    "stops": "5",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
     "stop_reason": "246 PC - SHOOT:INHAB DWELL/VEH/ETC (M) 13193",
     "stops": "5",
     "success": "0",
@@ -6258,7 +6174,7 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "401(A) PC - AID/ADVISE/ETC SUICIDE (F) 55325 | 401(A) PC - AID/ADVISE/ETC SUICIDE (F) 55325",
+    "stop_reason": "266E PC - PAY FOR PROSTITUTION/ETC (F) 40007",
     "stops": "5",
     "success": "0",
     "yield": "0.0",
@@ -6279,13 +6195,6 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "11361(A) HS - SELL MARIJUANA TO MINOR (F) 35167",
-    "stops": "5",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
     "stop_reason": "30305(A)(1) PC - PROHIB OWN/ETC AMMO/ETC (F) 52504 | 30305(A)(1) PC - PROHIB OWN/ETC AMMO/ETC (F) 52504",
     "stops": "5",
     "success": "0",
@@ -6294,13 +6203,6 @@
   },
   {
     "stop_reason": "5 100007 CA - CA REG:VIOLATE CURFEW (M) 66164 | 5 100007 CA - CA REG:VIOLATE CURFEW (M) 66164",
-    "stops": "5",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "23116(A) VC - CARRY PERSON:BACK:TRUCK (I) 54188",
     "stops": "5",
     "success": "0",
     "yield": "0.0",
@@ -6335,6 +6237,13 @@
     "contraband_discoveries": "0"
   },
   {
+    "stop_reason": "21260(A) VC - ILL OPR LOW SPEED VEHICLE (I) 54967",
+    "stops": "5",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
     "stop_reason": "415.5(A)(1) PC - FIGHT/ETC AT SCH/UNIV/ETC (M) 33028 | 415.5(A)(1) PC - FIGHT/ETC AT SCH/UNIV/ETC (M) 33028",
     "stops": "5",
     "success": "0",
@@ -6342,7 +6251,7 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "21656 VC - DRV BLW NRMAL SPD 5+BHND (I) 54664",
+    "stop_reason": "27153(B) VC - EXCESSIVE EXHAUST VIOL (I) 66580",
     "stops": "5",
     "success": "0",
     "yield": "0.0",
@@ -6350,13 +6259,6 @@
   },
   {
     "stop_reason": "21950(C) VC - DRVR YIELD RIGHT WY X-WLK (I) 66283",
-    "stops": "5",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "24606 VC - BACKUP LAMPS VIOLATION (I) 54307",
     "stops": "5",
     "success": "0",
     "yield": "0.0",
@@ -6371,13 +6273,6 @@
   },
   {
     "stop_reason": "487(C) PC - GRAND THEFT FROM PERSON (M) 23165",
-    "stops": "5",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "21655.8(B) VC - FL EXIT PREF LN EMERG VEH (I) 54996",
     "stops": "5",
     "success": "0",
     "yield": "0.0",
@@ -6406,13 +6301,6 @@
   },
   {
     "stop_reason": "27174.2 SH - CLIMB/TRESPASS BRIDGE/ETC (M) 32065",
-    "stops": "5",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "24002(D) VC - OPR VEH W/O SECURE CARGO (I) 66377",
     "stops": "5",
     "success": "0",
     "yield": "0.0",
@@ -6475,13 +6363,6 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "27803(C) VC - MTRCYCL PASSENG HLMT VIOL (I) 66648",
-    "stops": "5",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
     "stop_reason": "27150.3(B) VC - OPR EXHAUST WHISTLETIP (I) 66578",
     "stops": "5",
     "success": "0",
@@ -6504,6 +6385,13 @@
   },
   {
     "stop_reason": "314(2) PC - ASSIST INDECENT EXPOSURE (M) 36344",
+    "stops": "5",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "21963 VC - FAIL YIELD:BLIND PEDESTRN (M) 54121",
     "stops": "5",
     "success": "0",
     "yield": "0.0",
@@ -6552,6 +6440,13 @@
     "contraband_discoveries": "0"
   },
   {
+    "stop_reason": "243.4(A) PC - SEXUAL BATT BY RESTRAINT (F) 11109",
+    "stops": "5",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
     "stop_reason": "594(B)(2)(A) PC - VANDALISM -$400 (M) 29144 | 594(B)(2)(A) PC - VANDALISM -$400 (M) 29144 | 594(B)(2)(A) PC - VANDALISM -$400 (M) 29144",
     "stops": "4",
     "success": "4",
@@ -6587,21 +6482,7 @@
     "contraband_discoveries": "2"
   },
   {
-    "stop_reason": "25650 VC - MOTORCYC H/LAMP:1REQ/2PRM (I) 54605",
-    "stops": "4",
-    "success": "2",
-    "yield": "0.5",
-    "contraband_discoveries": "0"
-  },
-  {
     "stop_reason": "498(B)(1) PC - THEFT UTIL SRVS DIVERTS (M) 23253 | 498(B)(1) PC - THEFT UTIL SRVS DIVERTS (M) 23253",
-    "stops": "4",
-    "success": "2",
-    "yield": "0.5",
-    "contraband_discoveries": "2"
-  },
-  {
-    "stop_reason": "245(B) PC - ASLT PRSN:SEMIAUTO F/ARM (F) 13163",
     "stops": "4",
     "success": "2",
     "yield": "0.5",
@@ -6664,25 +6545,11 @@
     "contraband_discoveries": "1"
   },
   {
-    "stop_reason": "10 886 US - AWOL:ABSENT PLACE OF DUTY (X) 2053",
-    "stops": "4",
-    "success": "1",
-    "yield": "0.25",
-    "contraband_discoveries": "0"
-  },
-  {
     "stop_reason": "597(A) PC - INT CRUELTY TO ANML/KILL (M) 34136 | 597(A) PC - INT CRUELTY TO ANML/KILL (M) 34136 | 597(A) PC - INT CRUELTY TO ANML/KILL (M) 34136",
     "stops": "4",
     "success": "1",
     "yield": "0.25",
     "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "27314.5(A)(1) VC - SEATBLT LFT DOOR WRN VIOL (I) 66602",
-    "stops": "4",
-    "success": "1",
-    "yield": "0.25",
-    "contraband_discoveries": "1"
   },
   {
     "stop_reason": "12500(A) VC - DRIVE W/O LICENSE (I) 42127 | 12500(A) VC - DRIVE W/O LICENSE (I) 42127",
@@ -6693,13 +6560,6 @@
   },
   {
     "stop_reason": "23152(F) VC - DUI ANY DRUG W/PR (F) 66362",
-    "stops": "4",
-    "success": "1",
-    "yield": "0.25",
-    "contraband_discoveries": "1"
-  },
-  {
-    "stop_reason": "27606(A) VC - OPR VEH LT BAR RESMBL LAW (I) 66645",
     "stops": "4",
     "success": "1",
     "yield": "0.25",
@@ -6804,14 +6664,14 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "646.9(B) PC - STALKNG:TEMP RESTRAIN ORD (F) 16006",
+    "stop_reason": "401(A) PC - AID/ADVISE/ETC SUICIDE (F) 55325 | 401(A) PC - AID/ADVISE/ETC SUICIDE (F) 55325",
     "stops": "4",
     "success": "0",
     "yield": "0.0",
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "21211(A) VC - ILL IMPD BCYCL LN ST/STND (I) 54948",
+    "stop_reason": "646.9(B) PC - STALKNG:TEMP RESTRAIN ORD (F) 16006",
     "stops": "4",
     "success": "0",
     "yield": "0.0",
@@ -6840,6 +6700,13 @@
   },
   {
     "stop_reason": "247.5 PC - DISCH LASER:OCC AIRCRAFT (M) 13189",
+    "stops": "4",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "26454(A) VC - BRAKE CNTRL/STOP VIOL (I) 66533",
     "stops": "4",
     "success": "0",
     "yield": "0.0",
@@ -6895,7 +6762,21 @@
     "contraband_discoveries": "0"
   },
   {
+    "stop_reason": "21656 VC - DRV BLW NRMAL SPD 5+BHND (I) 54664",
+    "stops": "4",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
     "stop_reason": "602.9(A) PC - POSS RESIDENT W/O CONSENT (M) 32114",
+    "stops": "4",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "24606 VC - BACKUP LAMPS VIOLATION (I) 54307",
     "stops": "4",
     "success": "0",
     "yield": "0.0",
@@ -6910,6 +6791,13 @@
   },
   {
     "stop_reason": "602(L)(2) PC - TRESP DMG/DEST POSTD SIGN (M) 32140 | 602(L)(2) PC - TRESP DMG/DEST POSTD SIGN (M) 32140",
+    "stops": "4",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "24002(D) VC - OPR VEH W/O SECURE CARGO (I) 66377",
     "stops": "4",
     "success": "0",
     "yield": "0.0",
@@ -6944,6 +6832,13 @@
     "contraband_discoveries": "0"
   },
   {
+    "stop_reason": "10851(A) VC - TAKE VEH W/O OWNER CONSNT (M) 24067 | 10851(A) VC - TAKE VEH W/O OWNER CONSNT (M) 24067 | 10851(A) VC - TAKE VEH W/O OWNER CONSNT (M) 24067",
+    "stops": "4",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
     "stop_reason": "602(O) PC - TRESPAS:REFUSE LEAVE PROP (M) 32102 | 602(O) PC - TRESPAS:REFUSE LEAVE PROP (M) 32102 | 602(O) PC - TRESPAS:REFUSE LEAVE PROP (M) 32102 | 602(O) PC - TRESPAS:REFUSE LEAVE PROP (M) 32102",
     "stops": "4",
     "success": "0",
@@ -6952,13 +6847,6 @@
   },
   {
     "stop_reason": "273(D) PC - PARENT RCV MULT BEN ADPTN (M) 38092",
-    "stops": "4",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "24402(A) VC - AUXILIARY DRIVE LAMP VIOL (I) 54222",
     "stops": "4",
     "success": "0",
     "yield": "0.0",
@@ -6993,7 +6881,7 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "22520.5(A) VC - VEND ON/NEAR FREEWAY:W/PR (M) 66956",
+    "stop_reason": "24600(F) VC - TAILLMP VIOL LOC AFT 1969 (I) 66428",
     "stops": "4",
     "success": "0",
     "yield": "0.0",
@@ -7015,13 +6903,6 @@
   },
   {
     "stop_reason": "261(A)(3) PC - RAPE BY USE OF DRUGS (F) 11110",
-    "stops": "4",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "22405(A) VC - UNSAFE SPEED ON BRIDGE (I) 54532",
     "stops": "4",
     "success": "0",
     "yield": "0.0",
@@ -7077,6 +6958,13 @@
     "contraband_discoveries": "0"
   },
   {
+    "stop_reason": "23116(A) VC - CARRY PERSON:BACK:TRUCK (I) 54188",
+    "stops": "4",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
     "stop_reason": "166(C)(1) PC - CONTEMPT:VIOL PROTECT ORD (M) 50112 | 166(C)(1) PC - CONTEMPT:VIOL PROTECT ORD (M) 50112 | 166(C)(1) PC - CONTEMPT:VIOL PROTECT ORD (M) 50112",
     "stops": "4",
     "success": "0",
@@ -7091,7 +6979,7 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "38320(B) VC - ILLEGAL DUMPING (M) 54561",
+    "stop_reason": "23114(A) VC - IMPROP VEH:SPILL/ETC:HWY (M) 55206",
     "stops": "4",
     "success": "0",
     "yield": "0.0",
@@ -7120,13 +7008,6 @@
   },
   {
     "stop_reason": "273.5(A) PC - CRPL INJ:SPOUS/COHAB/DATE (F) 38080 | 273.5(A) PC - CRPL INJ:SPOUS/COHAB/DATE (F) 38080 | 273.5(A) PC - CRPL INJ:SPOUS/COHAB/DATE (F) 38080 | 273.5(A) PC - CRPL INJ:SPOUS/COHAB/DATE (F) 38080",
-    "stops": "4",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "26701(A) VC - VEH SFTY GLZ MAT REQ VIOL (I) 66558",
     "stops": "4",
     "success": "0",
     "yield": "0.0",
@@ -7259,6 +7140,13 @@
     "contraband_discoveries": "2"
   },
   {
+    "stop_reason": "653.23(A)(1) PC - SUPV/ETC PROSTITUTION (M) 40036",
+    "stops": "3",
+    "success": "2",
+    "yield": "0.6667",
+    "contraband_discoveries": "2"
+  },
+  {
     "stop_reason": "11366 HS - KEP PLACE:SEL/ETC N/C/SUB (F) 35337 | 11366 HS - KEP PLACE:SEL/ETC N/C/SUB (F) 35337",
     "stops": "3",
     "success": "2",
@@ -7287,13 +7175,6 @@
     "contraband_discoveries": "2"
   },
   {
-    "stop_reason": "11379(A) HS - TRANSP/ETC CNTL SUB (F) 35175 | 11379(A) HS - TRANSP/ETC CNTL SUB (F) 35175",
-    "stops": "3",
-    "success": "2",
-    "yield": "0.6667",
-    "contraband_discoveries": "2"
-  },
-  {
     "stop_reason": "530.5(C)(1) PC - POSS PRSNL ID WIT DEFRAUD (M) 44067",
     "stops": "3",
     "success": "2",
@@ -7315,7 +7196,21 @@
     "contraband_discoveries": "0"
   },
   {
+    "stop_reason": "29800(A)(1) PC - FELON/ETC POSS/ETC F/ARM (F) 52422 | 29800(A)(1) PC - FELON/ETC POSS/ETC F/ARM (F) 52422",
+    "stops": "3",
+    "success": "2",
+    "yield": "0.6667",
+    "contraband_discoveries": "2"
+  },
+  {
     "stop_reason": "22974.3(A)(3) BP - SEIZD UNSTMPD CIGRETTS/20 (M) 31254",
+    "stops": "3",
+    "success": "2",
+    "yield": "0.6667",
+    "contraband_discoveries": "2"
+  },
+  {
+    "stop_reason": "245(B) PC - ASLT PRSN:SEMIAUTO F/ARM (F) 13163",
     "stops": "3",
     "success": "2",
     "yield": "0.6667",
@@ -7455,6 +7350,13 @@
     "contraband_discoveries": "1"
   },
   {
+    "stop_reason": "10 886 US - AWOL:ABSENT PLACE OF DUTY (X) 2053",
+    "stops": "3",
+    "success": "1",
+    "yield": "0.3333",
+    "contraband_discoveries": "0"
+  },
+  {
     "stop_reason": "647(J)(1) PC - PEEK BEDROOM/ETC INV PRIV (M) 57087",
     "stops": "3",
     "success": "1",
@@ -7463,6 +7365,13 @@
   },
   {
     "stop_reason": "640.6(B)(1) PC - GRAFITI:DAMAGE -$250:W/PR (M) 66151 | 640.6(B)(1) PC - GRAFITI:DAMAGE -$250:W/PR (M) 66151",
+    "stops": "3",
+    "success": "1",
+    "yield": "0.3333",
+    "contraband_discoveries": "1"
+  },
+  {
+    "stop_reason": "27606(A) VC - OPR VEH LT BAR RESMBL LAW (I) 66645",
     "stops": "3",
     "success": "1",
     "yield": "0.3333",
@@ -7504,6 +7413,13 @@
     "contraband_discoveries": "1"
   },
   {
+    "stop_reason": "27314.5(A)(1) VC - SEATBLT LFT DOOR WRN VIOL (I) 66602",
+    "stops": "3",
+    "success": "1",
+    "yield": "0.3333",
+    "contraband_discoveries": "1"
+  },
+  {
     "stop_reason": "243(D) PC - BATT W/SERIOUS BODILY INJ (F) 13084 | 243(D) PC - BATT W/SERIOUS BODILY INJ (F) 13084 | 243(D) PC - BATT W/SERIOUS BODILY INJ (F) 13084",
     "stops": "3",
     "success": "0",
@@ -7512,13 +7428,6 @@
   },
   {
     "stop_reason": "22526(C) VC - BLOCK RR/RAIL TRANSIT X (I) 66336",
-    "stops": "3",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "4463.5(A) VC - MFG/ETC FAK/ETC LIC PLATE (M) 25080",
     "stops": "3",
     "success": "0",
     "yield": "0.0",
@@ -7560,13 +7469,6 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "22348(C) VC - SPEC VEH:WRONG PASS LANE (I) 54422",
-    "stops": "3",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
     "stop_reason": "166(B)(1) PC - CNTEMPT OF COURT:PR 646.9 (M) 50166 | 166(B)(1) PC - CNTEMPT OF COURT:PR 646.9 (M) 50166 | 166(B)(1) PC - CNTEMPT OF COURT:PR 646.9 (M) 50166",
     "stops": "3",
     "success": "0",
@@ -7574,7 +7476,14 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "21466 VC - LITE IMPAIR VIEW OF DVC (I) 54994",
+    "stop_reason": "11361(A) HS - SELL MARIJUANA TO MINOR (F) 35167",
+    "stops": "3",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "21211(A) VC - ILL IMPD BCYCL LN ST/STND (I) 54948",
     "stops": "3",
     "success": "0",
     "yield": "0.0",
@@ -7714,27 +7623,6 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "5201(E)(1) VC - LIC PLT:LVSTCK TRLR VIOL (I) 54726",
-    "stops": "3",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "22406.1(A) VC - COMM VEH EXCEED MAX SPEED (I) 66951",
-    "stops": "3",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "24604(A) VC - NO LAMP/FLAG/ETC EXT LOAD (I) 66971",
-    "stops": "3",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
     "stop_reason": "11713(J) VC - DLR MISUSE/ETC:SPEC PLATE (M) 26552",
     "stops": "3",
     "success": "0",
@@ -7798,6 +7686,13 @@
     "contraband_discoveries": "0"
   },
   {
+    "stop_reason": "24402(A) VC - AUXILIARY DRIVE LAMP VIOL (I) 54222",
+    "stops": "3",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
     "stop_reason": "24602(B) VC - FOG TAILLAMPS VIOL (I) 66429",
     "stops": "3",
     "success": "0",
@@ -7827,6 +7722,20 @@
   },
   {
     "stop_reason": "23136(A) VC - DUI:UNDR 21YR W/BA.01 (I) 42095",
+    "stops": "3",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "22520.5(A) VC - VEND ON/NEAR FREEWAY:W/PR (M) 66956",
+    "stops": "3",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "7145 FG - FAIL POS/ETC LIC:FISH/ETC (I) 62064",
     "stops": "3",
     "success": "0",
     "yield": "0.0",
@@ -7868,6 +7777,13 @@
     "contraband_discoveries": "0"
   },
   {
+    "stop_reason": "27803(C) VC - MTRCYCL PASSENG HLMT VIOL (I) 66648",
+    "stops": "3",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
     "stop_reason": "21106(B) VC - CROS IN XWALK:PROHIB SIGN (I) 54317",
     "stops": "3",
     "success": "0",
@@ -7883,13 +7799,6 @@
   },
   {
     "stop_reason": "4461(A) VC - IMPROP USE/ETC REG:UNAUTH (M) 26545",
-    "stops": "3",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "29004(A)(2) VC - TOW SFTY CHAIN NOT SECURE (I) 66679",
     "stops": "3",
     "success": "0",
     "yield": "0.0",
@@ -8022,13 +7931,6 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "14604(A) VC - OWN LET UNLICENSD OPR VEH (M) 54017",
-    "stops": "3",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
     "stop_reason": "34016(E) BP - VIOLATION MARIJUANA TAX (M) 31296",
     "stops": "3",
     "success": "0",
@@ -8127,14 +8029,14 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "35252(B) VC - VERT CLEAR MSR DVC HAZARD (I) 66817",
+    "stop_reason": "38320(B) VC - ILLEGAL DUMPING (M) 54561",
     "stops": "3",
     "success": "0",
     "yield": "0.0",
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "23114(E)(1) VC - TRNSP AGGREGTE UNCVRD:HWY (M) 54508",
+    "stop_reason": "26701(A) VC - VEH SFTY GLZ MAT REQ VIOL (I) 66558",
     "stops": "3",
     "success": "0",
     "yield": "0.0",
@@ -8177,20 +8079,6 @@
   },
   {
     "stop_reason": "10801 VC - OWN/ETC CHOP SHOP (F) 26306",
-    "stops": "3",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "21367(B) VC - FAIL CONSTRUCTN TRAF CNTL (I) 54224",
-    "stops": "3",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "21664 VC - UNLAW FREEWAY ENTRY (I) 66244",
     "stops": "3",
     "success": "0",
     "yield": "0.0",
@@ -8272,6 +8160,13 @@
     "success": "2",
     "yield": "1.0",
     "contraband_discoveries": "1"
+  },
+  {
+    "stop_reason": "11379(A) HS - TRANSP/ETC CNTL SUB (F) 35175 | 11379(A) HS - TRANSP/ETC CNTL SUB (F) 35175",
+    "stops": "2",
+    "success": "2",
+    "yield": "1.0",
+    "contraband_discoveries": "2"
   },
   {
     "stop_reason": "381(B) PC - POSS SIMILAR TOLUENE SUB (M) 35233 | 381(B) PC - POSS SIMILAR TOLUENE SUB (M) 35233",
@@ -8394,13 +8289,6 @@
   },
   {
     "stop_reason": "11364.5(A) HS - SELL/ETC DRUG PARAPH:-18 (M) 35309 | 11364.5(A) HS - SELL/ETC DRUG PARAPH:-18 (M) 35309",
-    "stops": "2",
-    "success": "1",
-    "yield": "0.5",
-    "contraband_discoveries": "1"
-  },
-  {
-    "stop_reason": "2800.2(A) VC - DISREGARD SAFETY:EVADE PO (M) 48128",
     "stops": "2",
     "success": "1",
     "yield": "0.5",
@@ -8638,13 +8526,6 @@
     "contraband_discoveries": "1"
   },
   {
-    "stop_reason": "13002(A) HS - THROW FLAME SUB FROM VEH (M) 55062",
-    "stops": "2",
-    "success": "1",
-    "yield": "0.5",
-    "contraband_discoveries": "1"
-  },
-  {
     "stop_reason": "244 PC - ASSLT THROWING ACID/ETC (F) 13234",
     "stops": "2",
     "success": "1",
@@ -8743,6 +8624,20 @@
     "contraband_discoveries": "0"
   },
   {
+    "stop_reason": "22348(C) VC - SPEC VEH:WRONG PASS LANE (I) 54422",
+    "stops": "2",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "21466 VC - LITE IMPAIR VIEW OF DVC (I) 54994",
+    "stops": "2",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
     "stop_reason": "647C PC - OBSTRUCT MOVEMENT PUB PL (M) 53155 | 647C PC - OBSTRUCT MOVEMENT PUB PL (M) 53155",
     "stops": "2",
     "success": "0",
@@ -8751,13 +8646,6 @@
   },
   {
     "stop_reason": "15620(A) VC - CHILD 6- ALONE IN VEHICLE (I) 54545",
-    "stops": "2",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "21752(D) VC - DRIVE LEFT SIDE VIOLATION (I) 66264",
     "stops": "2",
     "success": "0",
     "yield": "0.0",
@@ -8793,13 +8681,6 @@
   },
   {
     "stop_reason": "538F PC - IMP PUBLIC UTILITY EMP (M) 44059",
-    "stops": "2",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "21716 VC - DRIVE GOLF CART ON HWY (I) 66260",
     "stops": "2",
     "success": "0",
     "yield": "0.0",
@@ -8989,6 +8870,20 @@
   },
   {
     "stop_reason": "647(H) PC - LOITER/ETC PRIVATE PROP (M) 32082 | 647(H) PC - LOITER/ETC PRIVATE PROP (M) 32082 | 647(H) PC - LOITER/ETC PRIVATE PROP (M) 32082 | 647(H) PC - LOITER/ETC PRIVATE PROP (M) 32082",
+    "stops": "2",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "22406.1(A) VC - COMM VEH EXCEED MAX SPEED (I) 66951",
+    "stops": "2",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "24604(A) VC - NO LAMP/FLAG/ETC EXT LOAD (I) 66971",
     "stops": "2",
     "success": "0",
     "yield": "0.0",
@@ -9191,13 +9086,6 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "21655.9(C) VC - DRIVE AUTO W/0 HOV DECAL (M) 54637",
-    "stops": "2",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
     "stop_reason": "14 4357 CA - OPERATE VEHICLE W/O LIC (I) 62206",
     "stops": "2",
     "success": "0",
@@ -9289,6 +9177,13 @@
     "contraband_discoveries": "0"
   },
   {
+    "stop_reason": "29004(A)(2) VC - TOW SFTY CHAIN NOT SECURE (I) 66679",
+    "stops": "2",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
     "stop_reason": "241/243 PC - ASLT/BATT PEACE OFR/ETC (M) 13077 | 241/243 PC - ASLT/BATT PEACE OFR/ETC (M) 13077",
     "stops": "2",
     "success": "0",
@@ -9360,6 +9255,13 @@
   },
   {
     "stop_reason": "14 4658 CA - CA:OPR BOAT EXCESS SPEED (M) 62161",
+    "stops": "2",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "22405(A) VC - UNSAFE SPEED ON BRIDGE (I) 54532",
     "stops": "2",
     "success": "0",
     "yield": "0.0",
@@ -9709,13 +9611,6 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "21215(A) VC - PEDICAB FL FOLLOW REQ (I) 54953",
-    "stops": "2",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
     "stop_reason": "166(A)(5) PC - CONTEMPT:RESIST ORDER/ETC (M) 50107",
     "stops": "2",
     "success": "0",
@@ -9772,14 +9667,14 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "20010 VC - VEH PASSENGER FL RPRT ACC (I) 54939",
+    "stop_reason": "14604(A) VC - OWN LET UNLICENSD OPR VEH (M) 54017",
     "stops": "2",
     "success": "0",
     "yield": "0.0",
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "496E PC - BUY/REC STOLEN FIREHYDRNT (M) 28042",
+    "stop_reason": "20010 VC - VEH PASSENGER FL RPRT ACC (I) 54939",
     "stops": "2",
     "success": "0",
     "yield": "0.0",
@@ -10003,6 +9898,13 @@
     "contraband_discoveries": "0"
   },
   {
+    "stop_reason": "21367(B) VC - FAIL CONSTRUCTN TRAF CNTL (I) 54224",
+    "stops": "2",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
     "stop_reason": "777 WI - MOD COURT ORD:COMMIT/PROB (X) 8023 | 777 WI - MOD COURT ORD:COMMIT/PROB (X) 8023",
     "stops": "2",
     "success": "0",
@@ -10018,6 +9920,13 @@
   },
   {
     "stop_reason": "148.10(A) PC - RESIST PO:CAUSE DEATH/SBI (M) 48138",
+    "stops": "2",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "4463.5(A) VC - MFG/ETC FAK/ETC LIC PLATE (M) 25080",
     "stops": "2",
     "success": "0",
     "yield": "0.0",
@@ -10367,13 +10276,6 @@
     "contraband_discoveries": "1"
   },
   {
-    "stop_reason": "487(C) PC - GRAND THEFT FROM PERSON (F) 23133 | 487(C) PC - GRAND THEFT FROM PERSON (F) 23133 | 487(C) PC - GRAND THEFT FROM PERSON (F) 23133",
-    "stops": "1",
-    "success": "1",
-    "yield": "1.0",
-    "contraband_discoveries": "1"
-  },
-  {
     "stop_reason": "11395(B)(1) HS - POSS CNTL SUB W/2+PRS (F) 35030",
     "stops": "1",
     "success": "1",
@@ -10396,6 +10298,13 @@
   },
   {
     "stop_reason": "25400(A)(1) CC - FLS APPRNC EFF TRANS (F) 26407",
+    "stops": "1",
+    "success": "1",
+    "yield": "1.0",
+    "contraband_discoveries": "1"
+  },
+  {
+    "stop_reason": "13002(A) HS - THROW FLAME SUB FROM VEH (M) 55062",
     "stops": "1",
     "success": "1",
     "yield": "1.0",
@@ -10941,14 +10850,14 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "3454 PC - PRCS:FLASH INCARCERATION (X) 50178",
+    "stop_reason": "21752(D) VC - DRIVE LEFT SIDE VIOLATION (I) 66264",
     "stops": "1",
     "success": "0",
     "yield": "0.0",
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "23270(B) VC - EXCEED MAX TOWING FEE (I) 66366",
+    "stop_reason": "3454 PC - PRCS:FLASH INCARCERATION (X) 50178",
     "stops": "1",
     "success": "0",
     "yield": "0.0",
@@ -10977,13 +10886,6 @@
   },
   {
     "stop_reason": "261(A)(5) PC - RAPE UNDER BELIEF KNOWN (F) 11126",
-    "stops": "1",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "2800.3 VC - EVADE PO:CAUSE SBI/DEATH (F) 48081",
     "stops": "1",
     "success": "0",
     "yield": "0.0",
@@ -11019,6 +10921,13 @@
   },
   {
     "stop_reason": "21756(B) VC - UNSF PASSING STRTCR INTER (I) 66267",
+    "stops": "1",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "21716 VC - DRIVE GOLF CART ON HWY (I) 66260",
     "stops": "1",
     "success": "0",
     "yield": "0.0",
@@ -11228,13 +11137,6 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "5017 VC - NO ID CERT FOR ID PLATES (I) 66919",
-    "stops": "1",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
     "stop_reason": "23152(A) VC - DUI W/PRIORS:PER 23550 VC (F) 42100 | 23152(A) VC - DUI W/PRIORS:PER 23550 VC (F) 42100",
     "stops": "1",
     "success": "0",
@@ -11319,13 +11221,6 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "21806(A)(2) VC - FL EXT EXCLSV LN EMRG VEH (I) 66281",
-    "stops": "1",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
     "stop_reason": "337A(A)(5) PC - PERMIT GAMBLING PREMISES (M) 39316",
     "stops": "1",
     "success": "0",
@@ -11333,14 +11228,14 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "5411 PU - CHRTR-PRTY CARIER EMP VIO (M) 31268",
+    "stop_reason": "5201(E)(1) VC - LIC PLT:LVSTCK TRLR VIOL (I) 54726",
     "stops": "1",
     "success": "0",
     "yield": "0.0",
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "278 PC - CHILD STEALING (F) 10008 | 278 PC - CHILD STEALING (F) 10008",
+    "stop_reason": "5411 PU - CHRTR-PRTY CARIER EMP VIO (M) 31268",
     "stops": "1",
     "success": "0",
     "yield": "0.0",
@@ -11732,6 +11627,13 @@
     "contraband_discoveries": "0"
   },
   {
+    "stop_reason": "21655.9(C) VC - DRIVE AUTO W/0 HOV DECAL (M) 54637",
+    "stops": "1",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
     "stop_reason": "20150(A) PC - ALTER/ETC IMITATION F/ARM (M) 52481",
     "stops": "1",
     "success": "0",
@@ -11781,6 +11683,13 @@
     "contraband_discoveries": "0"
   },
   {
+    "stop_reason": "2800.2(A) VC - DISREGARD SAFETY:EVADE PO (M) 48128",
+    "stops": "1",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
     "stop_reason": "593D(A)(3) PC - MAKE/ETC MODIFIED CBL DVC (M) 29194",
     "stops": "1",
     "success": "0",
@@ -11796,13 +11705,6 @@
   },
   {
     "stop_reason": "148.1(A) PC - FALSE BOMB/ETC REP:PO/ETC (F) 53081",
-    "stops": "1",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "21235(D) VC - OP MOTR SCOOTR W/O LICNSE (I) 54624",
     "stops": "1",
     "success": "0",
     "yield": "0.0",
@@ -11893,13 +11795,6 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "21960(A) VC - PEDESTRIAN/ETC ON FREEWAY (I) 54590 | 21960(A) VC - PEDESTRIAN/ETC ON FREEWAY (I) 54590 | 21960(A) VC - PEDESTRIAN/ETC ON FREEWAY (I) 54590",
-    "stops": "1",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
     "stop_reason": "565 PC - USE/ETC DAIRY REG -$400 (M) 26129 | 565 PC - USE/ETC DAIRY REG -$400 (M) 26129",
     "stops": "1",
     "success": "0",
@@ -11963,6 +11858,13 @@
     "contraband_discoveries": "0"
   },
   {
+    "stop_reason": "25650 VC - MOTORCYC H/LAMP:1REQ/2PRM (I) 54605",
+    "stops": "1",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
     "stop_reason": "25140(A) PC - H/GUN ILLGL STORED IN VEH (I) 52824 | 25140(A) PC - H/GUN ILLGL STORED IN VEH (I) 52824 | 25140(A) PC - H/GUN ILLGL STORED IN VEH (I) 52824",
     "stops": "1",
     "success": "0",
@@ -11978,13 +11880,6 @@
   },
   {
     "stop_reason": "27315(D)(4) VC - TAXICAB SEATBELT VIOL (I) 66606",
-    "stops": "1",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "30310(A) PC - CARRY AMMO SCHOOL GROUNDS (M) 52815",
     "stops": "1",
     "success": "0",
     "yield": "0.0",
@@ -12076,13 +11971,6 @@
   },
   {
     "stop_reason": "245(A)(1) PC - ADW NOT FIREARM (M) 13220 | 245(A)(1) PC - ADW NOT FIREARM (M) 13220 | 245(A)(1) PC - ADW NOT FIREARM (M) 13220 | 245(A)(1) PC - ADW NOT FIREARM (M) 13220",
-    "stops": "1",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "9400.1(F)(4) VC - CMV WT FEES DUE (I) 66924",
     "stops": "1",
     "success": "0",
     "yield": "0.0",
@@ -12782,6 +12670,13 @@
     "contraband_discoveries": "0"
   },
   {
+    "stop_reason": "21655.8(B) VC - FL EXIT PREF LN EMERG VEH (I) 54996",
+    "stops": "1",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
     "stop_reason": "148.1(C) PC - FALSE BOMB REPORT (F) 53103 | 148.1(C) PC - FALSE BOMB REPORT (F) 53103",
     "stops": "1",
     "success": "0",
@@ -13139,13 +13034,6 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "21 846 US - ATTEMPT/CONSPIRACY:DRUGS (X) 46037",
-    "stops": "1",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
     "stop_reason": "166(C)(4) PC - VIO PROT ORD:DOMSTIC W/PR (F) 50124 | 166(C)(4) PC - VIO PROT ORD:DOMSTIC W/PR (F) 50124",
     "stops": "1",
     "success": "0",
@@ -13217,13 +13105,6 @@
   },
   {
     "stop_reason": "653M(A) PC - ANNOYING PHONE CALLS (M) 53078 | 653M(A) PC - ANNOYING PHONE CALLS (M) 53078 | 653M(A) PC - ANNOYING PHONE CALLS (M) 53078",
-    "stops": "1",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "23270(A) VC - UNAUTH TOWING ON BRIDGE (I) 66365",
     "stops": "1",
     "success": "0",
     "yield": "0.0",
@@ -13322,13 +13203,6 @@
   },
   {
     "stop_reason": "5037(A) VC - MTRZD BK W/O PLATE 1981+ (I) 54785",
-    "stops": "1",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "20001(A) VC - HIT AND RUN:DEATH/INJURY (F) 54069 | 20001(A) VC - HIT AND RUN:DEATH/INJURY (F) 54069",
     "stops": "1",
     "success": "0",
     "yield": "0.0",
@@ -13510,6 +13384,13 @@
     "contraband_discoveries": "0"
   },
   {
+    "stop_reason": "496E PC - BUY/REC STOLEN FIREHYDRNT (M) 28042",
+    "stops": "1",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
     "stop_reason": "206 PC - TORTURE (F) 13142 | 206 PC - TORTURE (F) 13142 | 206 PC - TORTURE (F) 13142",
     "stops": "1",
     "success": "0",
@@ -13644,13 +13525,6 @@
   },
   {
     "stop_reason": "468 PC - BUY/SELL SNIPERSCOPE (M) 52006",
-    "stops": "1",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "23302(A)(2) VC - UNAUTH PLC TOLL TRANSPNDR (I) 66367",
     "stops": "1",
     "success": "0",
     "yield": "0.0",
@@ -13895,13 +13769,6 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "22406.1 VC - COMM VEH XCEED MAX SPEED (M) 54502",
-    "stops": "1",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
     "stop_reason": "36 4.14(B) US - FR:O/CONTAINER ALC IN MV (M) 4033 | 36 4.14(B) US - FR:O/CONTAINER ALC IN MV (M) 4033",
     "stops": "1",
     "success": "0",
@@ -14119,13 +13986,6 @@
     "contraband_discoveries": "0"
   },
   {
-    "stop_reason": "602.8(A) PC - TRESPASS POSTED LAND 3+ (M) 32146 | 602.8(A) PC - TRESPASS POSTED LAND 3+ (M) 32146",
-    "stops": "1",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
     "stop_reason": "148.10(A) PC - RESIST PO:CAUSE DEATH/SBI (M) 48138 | 148.10(A) PC - RESIST PO:CAUSE DEATH/SBI (M) 48138 | 148.10(A) PC - RESIST PO:CAUSE DEATH/SBI (M) 48138",
     "stops": "1",
     "success": "0",
@@ -14134,13 +13994,6 @@
   },
   {
     "stop_reason": "36 4.21(C) US - FR:OPR VEH EXCESS SPEED (M) 4042",
-    "stops": "1",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "459.5(A) PC - SHOPLIFTING AFTR SPEC OFF (F) 23274 | 459.5(A) PC - SHOPLIFTING AFTR SPEC OFF (F) 23274",
     "stops": "1",
     "success": "0",
     "yield": "0.0",
@@ -14211,6 +14064,13 @@
   },
   {
     "stop_reason": "26451(B) VC - INADEQUATE PARKING BRAKE (I) 66531",
+    "stops": "1",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "21215(A) VC - PEDICAB FL FOLLOW REQ (I) 54953",
     "stops": "1",
     "success": "0",
     "yield": "0.0",
@@ -14519,6 +14379,13 @@
   },
   {
     "stop_reason": "36 261.54(D) US - FR:OPR VEH:VIOL SPEED ETC (M) 54599",
+    "stops": "1",
+    "success": "0",
+    "yield": "0.0",
+    "contraband_discoveries": "0"
+  },
+  {
+    "stop_reason": "21664 VC - UNLAW FREEWAY ENTRY (I) 66244",
     "stops": "1",
     "success": "0",
     "yield": "0.0",
@@ -14918,13 +14785,6 @@
   },
   {
     "stop_reason": "25612.5(C)(3) BP - NO ALC BEV CONSMD:RTL EST (M) 41071",
-    "stops": "1",
-    "success": "0",
-    "yield": "0.0",
-    "contraband_discoveries": "0"
-  },
-  {
-    "stop_reason": "278 PC - CHILD STEALING (M) 10030 | 278 PC - CHILD STEALING (M) 10030",
     "stops": "1",
     "success": "0",
     "yield": "0.0",

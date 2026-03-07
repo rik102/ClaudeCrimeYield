@@ -1,2 +1,2 @@
-total_stops,stops_with_enforcement_outcome,contraband_discoveries,overall_yield
-213131,12894,11618,0.0605
+total_stops,stops_with_enforcement_outcome,contraband_discoveries,overall_yield,excluded_unknown_beats
+195088,12621,11380,0.0647,18043
