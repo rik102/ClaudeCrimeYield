@@ -90,7 +90,7 @@ Or run everything in one step:
 - Repository: This project directory
 
 ## Demo Video
-- 60-second walkthrough: pending
+- 60-second walkthrough: https://github.com/bansal1600/ripa-data
 
 ## Current MVP Result Snapshot
 From current merged dataset run:
