@@ -4,11 +4,16 @@
 Impact Yield Analyzer
 
 ## Team Members
-- Rikro - Data engineering, analysis pipeline, frontend dashboard
-- Codex assistant - API scaffolding, visualization UI, reporting automation
+- Riksean Rosholt - Data engineering, analysis pipeline, frontend dashboard
+- 
+- 
+- Jerry Hall, Civic advocate, criminal-legal and behavioral health systems advocacy  
 
 ## Problem Statement
-Cities can measure how much policing occurs, but they often do not measure whether those actions produce meaningful enforcement outcomes.
+By better understanding police activities, California law enforcement are required to collect and publish officer reports of every stop, pedestrian, traffic, or other means.  
+Now, residents can view, browse, query, and even use a chat function to query this data. Now, we can understand not only officer activities, we can learn more about issues and gaps our neighborhoods are experiencing, ideally to focus solutions to help eliminate the need for future law enforcement. 
+
+The tool also illustrates through a map, visualizations, and data a variety of stop-related data including race, reason for the stop, searches, contraband, and if the individual was warned, cited, or arrested.  
 
 This project quantifies **stop yield** across San Diego geographies and stop contexts to identify where stop activity is high but outcomes are low.
 
