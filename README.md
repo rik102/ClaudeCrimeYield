@@ -5,8 +5,8 @@ Impact Yield Analyzer
 
 ## Team Members
 - Riksean Rosholt - Data engineering, analysis pipeline, frontend dashboard
-- 
-- 
+- Shikha Gupta
+- Gaurav Bansal
 - Jerry Hall, Civic advocate, criminal-legal and behavioral health systems advocacy  
 
 ## Problem Statement
