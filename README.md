@@ -57,6 +57,10 @@ It then serves an interactive dashboard with filters for minimum volume threshol
 - Search-yield table
 - Narrative insight panel for presentation/demo
 
+5. **Claude integration approach**
+- **How Claude was used to build it:** Claude was used during development to iterate on metric logic, improve data-processing scripts, and speed up dashboard/map implementation and deployment fixes.
+- **How Claude is used inside the app:** The deployed MVP is a static data dashboard and does not make live Claude API calls at runtime. Claude-assisted narrative summaries are produced from computed tables and saved to `output/insight_report.md`.
+
 ## How To Run
 1. Generate analysis outputs:
 
