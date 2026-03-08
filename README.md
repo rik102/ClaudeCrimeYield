@@ -18,6 +18,8 @@ The tool also illustrates through a map, visualizations, and data a variety of s
 
 This project quantifies **stop yield** across San Diego geographies and stop contexts to identify where stop activity is high but outcomes are low.
 
+This project was a submission at the Anthropic 'Claude Impact Lab` (`https://luma.com/6ok9h92y`) event hosted by Max Krueger from `Backland Labs` (`https://github.com/Backland-Labs/city-of-sd-hackathon`)
+
 ## What It Does
 The app ingests a merged RIPA dataset and computes:
 - Total stops
