@@ -11,6 +11,7 @@ Impact Yield Analyzer
 
 ## Problem Statement
 By better understanding police activities, California law enforcement are required to collect and publish officer reports of every stop, pedestrian, traffic, or other means.  
+
 Now, residents can view, browse, query, and even use a chat function to query this data. Now, we can understand not only officer activities, we can learn more about issues and gaps our neighborhoods are experiencing, ideally to focus solutions to help eliminate the need for future law enforcement. 
 
 The tool also illustrates through a map, visualizations, and data a variety of stop-related data including race, reason for the stop, searches, contraband, and if the individual was warned, cited, or arrested.  
